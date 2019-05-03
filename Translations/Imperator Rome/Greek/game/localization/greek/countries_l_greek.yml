@@ -315,7 +315,7 @@
  IBR_ADJ:0 "Iberian"
  COL:0 "Colchis"
  COL_ADJ:0 "Colchisian"
- 
+
  AMARDI:1 "Amardia"
  AMARDI_ADJ:0 "Amardian"
  ANARIACAE:1 "Anariacia"
@@ -1605,14 +1605,14 @@
  QUINQUEGENTIANI_ADJ:0 "Quinquegentianian"
  MUSULAMII:0 "Musulamia"
  MUSULAMII_ADJ:0 "Musulamian"
- # North Africa # 
+ # North Africa #
  PSYLII:0 "Psylia"
  PSYLII_ADJ:0 "Psylian"
  LAGUATANI:0 "Laguatania"
  LAGUATANI_ADJ:0 "Laguatanian"
  MESHWESH:0 "Meshwesh"
  MESHWESH_ADJ:0 "Meshweshian"
- # Baltic # 
+ # Baltic #
  SITONES:0 "Sitonia"
  SITONES_ADJ:0 "Sitonian"
  FENNI:0 "Fennia"
@@ -1640,7 +1640,7 @@
  TERICI_ADJ:0 "Terician"
  TRIXAE:0 "Trixaea"
  TRIXAE_ADJ:0 "Trixaean"
- # Illyrians # 
+ # Illyrians #
  BARIDUSTAE:0 "Baridustaea"
  BARIDUSTAE_ADJ:0 "Baridustaean"
  TARIOTES:0 "Tarotia"
@@ -1677,7 +1677,7 @@
  CHELIDONI_ADJ:0 "Chelidonian"
  BATHIATAE:0 "Bathiatia"
  BATHIATAE_ADJ:0 "Bathiatian"
- # Thracians # 
+ # Thracians #
  MAEDI:0 "Maedia"
  MAEDI_ADJ:0 "Maedian"
  PAETI:0 "Paetia"
@@ -1719,7 +1719,7 @@
  SITTACENI_ADJ:0 "Sittacenian"
  ASPURGIANI:0 "Aspurgiania"
  ASPURGIANI_ADJ:0 "Aspurgianian"
- # Bactrians # 
+ # Bactrians #
  DREPSIANOI:0 "Drepsiania"
  DREPSIANOI_ADJ:0 "Drepsianian"
  CHORASMIOI:0 "Chorasmia"
@@ -1810,7 +1810,7 @@
  AGRAIOI_ADJ:0 "Agraian"
  EPIMARANITAE:0 "Epimaranita"
  EPIMARANITAE_ADJ:0 "Epimaranitan"
- # Arabian # 
+ # Arabian #
  THANOUITAE:0 "Thanoutia"
  THANOUITAE_ADJ:0 "Thanoutian"
  KATANITAE:0 "Katanita"
