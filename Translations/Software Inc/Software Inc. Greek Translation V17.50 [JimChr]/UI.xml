@@ -1,0 +1,2476 @@
+<UI>
+	<Months>
+		<Item Name="January">Ιανουάριος</Item>
+		<Item Name="February">Φεβρουάριος</Item>
+		<Item Name="March">Μάρτιος</Item>bxfbv
+		<Item Name="April">Απρίλιος</Item>awfwaf
+		<Item Name="May">Μάιος</Item>
+		<Item Name="June">Ιούνιος</Item>
+		<Item Name="July">Ιούλιος</Item>
+		<Item Name="August">Αύγουστος</Item>
+		<Item Name="September">Σεπτέμβριος</Item>
+		<Item Name="October">Οκτώβριος</Item>
+		<Item Name="November">Νοέμβριος</Item>
+		<Item Name="December">Δεκέμβριος</Item>
+	</Months>
+	<MainMenu>
+		<Item Name="New Game">Νέο παιχνίδι</Item>
+		<Item Name="Options">Ρυθμίσεις</Item>
+		<Item Name="Continue">Συνέχισε</Item>
+		<Item Name="Load Game">Φόρτωσε το παιχνίδι</Item>
+		<Item Name="Quit">Έξοδος</Item>
+		<Item Name="Credits">Συντελεστές</Item>
+	</MainMenu>
+	<Customization>
+		<Item Name="Company Name Here">Όνομα εταιρείας εδώ</Item>
+		<Item Name="Founder">Ιδρυτής</Item>
+		<Item Name="FounderName">Όνομα του ιδρυτή</Item>
+		<Item Name="Colors">Χρώματα</Item>
+		<Item Name="Gender">Γένος</Item>
+		<Item Name="Male">Αρσενικό</Item>
+		<Item Name="Female">Θηλικό</Item>
+		<Item Name="Style">Στυλ</Item>
+		<Item Name="Hair">Μαλιά</Item>
+		<Item Name="Skin">Δέρμα</Item>
+		<Item Name="Face">Πρόσωπο</Item>
+		<Item Name="Upper body">Πάνω μέρος του σώματος</Item>
+		<Item Name="Lower body">Κάτω μέρος του σώματος</Item>
+		<Item Name="Personality">Προσωπικότητα</Item>
+		<Item Name="Mods">Mods</Item>
+		<Item Name="Scenario">Σενάριο</Item>
+		<Item Name="Freeplay">Ελεύθερο παιχνίδι</Item>
+		<Item Name="Starting money">Αρχικά χρήματα</Item>
+		<Item Name="Starting year">Έτος έναρξης</Item>
+		<Item Name="Simulation enabled">Η προσομοίωση είναι ενεργοποιημένη</Item>
+		<Item Name="Goals">Στόχοι</Item>
+		<Item Name="Start game">Έναρξη παιχνιδιού</Item>
+	</Customization>
+	<GenericDialog>
+		<Item Name="OK">ΟΚ</Item>
+		<Item Name="Cancel">Άκυρο</Item>
+		<Item Name="Yes">Ναι</Item>
+		<Item Name="No">Όχι</Item>
+		<Item Name="Don't ask again">Μην με ξαναρωτήσεις</Item>
+		<Item Name="Not now">Όχι τώρα</Item>
+		<Item Name="Never">Ποτέ</Item>
+		<Item Name="Disable all">Απενεργοποίηση όλων</Item>
+		<Item Name="Error">Σφάλμα</Item>
+	</GenericDialog>
+	<MainPanel>
+		<Item Name="HR">Προσωπικό</Item>
+		<Item Name="Finance">Χρηματοδότηση</Item>
+		<Item Name="Marketplace">Αγορά</Item>
+		<Item Name="MainDevSoft">Σχέδιο</Item>
+		<Item Name="MainDevSoftDesc">Αναπτύσσει και κατασκευάζει το δικό της λογισμικό.</Item>
+		<Item Name="MainPlayerRelease">τα προϊόντα σας</Item>
+		<Item Name="MainPlayerReleaseDesc">Δείτε μια λίστα με τα προϊόντα σας.</Item>
+		<Item Name="MainContract">Συμβάσεις</Item>
+		<Item Name="MainContractDesc">Πάρτε το έργο στο πλαίσιο της σύμβασης. Η ανάπτυξη λογισμικού μπορεί να είναι δαπανηρή, οι εργασίες για τη σύμβαση επιτρέπει να κερδίσετε λίγα χρήματα γρύγορα.</Item>
+		<Item Name="MainServer">Διακομιστές</Item>
+		<Item Name="MainServerDesc">Διαχειριστείτε τους διακομιστές σας.</Item>
+		<Item Name="MainEmployees">Διαχείριση υπαλλήλων</Item>
+		<Item Name="MainEmployeesDesc">Δείτε μια λίστα με τους υπαλλήλους σας.</Item>
+		<Item Name="MainHire">Πρόσληψη Υπαλλήλων</Item>
+		<Item Name="MainHireDesc">Δείτε τις συνεντεύξεις και την πρόσληψη νέων εργαζομένων.</Item>
+		<Item Name="MainTeam">Διαχείριση ομάδων</Item>
+		<Item Name="MainTeamDesc">Διαχειριστείτε τις ομάδες σας, το ωράριο εργασίας και την ανάθεση αρμοδιοτήτων.</Item>
+		<Item Name="MainStaff">Διαχείριση προσωπικού</Item>
+		<Item Name="MainStaffDesc">Καλέστε ή προσλάβετε προσωπικό, αν είστε σίγουροι ότι οι εγκαταστάσεις σας βρίσκονται στο υψηλότερο επίπεδο.</Item>
+		<Item Name="MainStock">Μερίδιο</Item>
+		<Item Name="MainStockDesc">Αγοράστε και πωλήστε μετοχές, υπάρχουν πολλά χρήματα που μπορείτε να παρετε από εδώ.</Item>
+		<Item Name="MainLoan">Δάνεια</Item>
+		<Item Name="MainLoanDesc">Εάν αντιμετωπίζετε προβλήματα, ίσως να θέλετε να λάβετε ένα δάνειο.</Item>
+		<Item Name="MainRelease">Όλα τα λογισμικά</Item>
+		<Item Name="MainReleaseDesc">δείτε μια λίστα με όλα το λογισμικά που κυκλοφόρησαν ποτέ</Item>
+		<Item Name="MainCompany">Όλες οι εταιρείες</Item>
+		<Item Name="MainCompanyDesc">Ελέγξτε τους ανταγωνιστές σας</Item>
+		<Item Name="MainNews">Νεα Λογισμικων</Item>
+		<Item Name="MainNewsDesc">Κρατήστε τον εαυτό σας ενημερωμένο σχετικά με τα τρέχοντα γεγονότα και κριτικές προϊόντων.</Item>
+		<Item Name="MainDistribution">Κανάλια διανομής</Item>
+		<Item Name="MainDistributionDesc">Διαχειριστείτε τον τρόπο με τον οποίο θέλετε να διανείμετε το λογισμικό σας.</Item>
+		<Item Name="Settings">Επιλογές</Item>
+		<Item Name="LowerWalls">Εναλλαγή των τοιχών (On/Off)</Item>
+		<Item Name="LowerWallsDesc">λειτουργία προβολής διακόπτη
+
+των τοιχών</Item>
+		<Item Name="HideLamps">Εμφάνισης των λαμπτήρων (On/Off)</Item>
+		<Item Name="HideLampsDesc">Εναλλαγή όλων των επίπλων που έχουν κολλήσει στην οροφή.</Item>
+		<Item Name="RoomLabels">Ετικέτες δωματίου</Item>
+		<Item Name="RoomLabelsDesc">Εναλλάξτε ετικετες σε δωμάτια, προσδιορίζοντας την ομάδα στην οποία ανήκουν και ποιοι περιορισμοί χρήσης ισχύουν.</Item>
+		<Item Name="WireMode">Σε λειτουργία διακομιστή (On/off)</Item>
+		<Item Name="WireModeDesc">Χρησιμοποιήστε το για να συνδέσετε τους διακομιστές (servers) σας.</Item>
+		<Item Name="Dataoverlay">Επικάλυψη δεδομένων</Item>
+		<Item Name="DataoverlayDesc">Κάντε κλικ εδώ για να χρωματίσετε τα δωμάτια.</Item>
+		<Item Name="BuildMode">Λειτουργία κτισήματος</Item>
+		<Item Name="BuildModeDesc">Κάντε κλικ εδώ για να αλλάξετε τον τρόπο κατασκευής, στον οποίο μπορείτε να κατασκευάσετε και να προμηθευτείτε τα γραφεία σας και να χτίσετε δρόμους και χώρους στάθμευσης.</Item>
+		<Item Name="Monthly profits">Μηνιαία κέρδη</Item>
+		<Item Name="SkipTime">Παράλειψη χρόνου αχρησίας</Item>
+		<Item Name="SkipTimeDesc">Εάν κανείς δεν είναι γύρω, μπορείτε να παραλείψετε το χρόνο μέχρι να φτάσει κάποιος.</Item>
+		<Item Name="Contruct">Κατασκευάστε</Item>
+		<Item Name="ContructHint">Κατασκευάστε δωμάτια, πόρτες, ανελκυστήρες και παράθυρα.</Item>
+		<Item Name="Furnish">Επιπλώστε</Item>
+		<Item Name="FurnishHint">Τοποθετήστε διάφορα έπιπλα στα δωμάτιά σας για να τα κάνετε ωραία ατμόσφαιρα.</Item>
+		<Item Name="Roads">Δρόμοι</Item>
+		<Item Name="RoadsHint">Κατασκευάστε δρόμους και χώρους στάθμευσης για να κάνετε τη μεταφορά των υπαλλήλων πιο εύκολη.</Item>
+	</MainPanel>
+	<Columns>
+		<Item Name="Name">Όνομα</Item>
+		<Item Name="Role">Ρόλος</Item>
+		<Item Name="Status">Κατάσταση</Item>
+		<Item Name="Team">Ομάδα</Item>
+		<Item Name="Salary">Μισθός</Item>
+		<Item Name="Effectiveness">Αποτελεσματικότητα</Item>
+		<Item Name="Team Compatibility">Συμβατότητα ομάδας</Item>
+		<Item Name="Satisfaction">Ικανοποίηση</Item>
+		<Item Name="Aptitude">Δεξιότητα</Item>
+		<Item Name="Leadership">Ηγεσία</Item>
+		<Item Name="Diligence">Επιμέλεια</Item>
+		<Item Name="Years">Χρόνια εργασίας</Item>
+		<Item Name="Lead skill">Ηγετική ικανότητα</Item>
+		<Item Name="Code skill">Κωδικοποιητική ικανότητα</Item>
+		<Item Name="Design skill">Σχεδιαστική ικανότητα</Item>
+		<Item Name="Art skill">καλλιτεχνική δεξιότητα</Item>
+		<Item Name="Marketing skill">Μάρκετινγκ ικανότητα</Item>
+		<Item Name="Tier">Κερκίδα</Item>
+		<Item Name="Scope">κάλυψη</Item>
+		<Item Name="Company">Εταιρία</Item>
+		<Item Name="Release">Κυκλοφόρηση</Item>
+		<Item Name="Quality">Ποιότητα</Item>
+		<Item Name="Popularity">Δημοτικότητα</Item>
+		<Item Name="License">Άδεια</Item>
+		<Item Name="Profit">Κέρδος</Item>
+		<Item Name="Open source">Ανοιχτή πηγή (Open source)</Item>
+		<Item Name="Loss">απώλεια</Item>
+		<Item Name="Market">Αγορά</Item>
+		<Item Name="Details">Λεπτομέριες</Item>
+		<Item Name="Worth">Αξία</Item>
+		<Item Name="Reputation">Φήμη</Item>
+		<Item Name="Bankrupt">Χρεωκοπεία</Item>
+		<Item Name="Founded">Ιδρύθηκε</Item>
+		<Item Name="Products">Προϊόντα</Item>
+		<Item Name="Chart">Διάγραμμα</Item>
+		<Item Name="Stock">Μετοχή</Item>
+		<Item Name="Products">Προϊόντα</Item>
+		<Item Name="Owner">Ιδιοκτήτης</Item>
+		<Item Name="Share">Μερίδιο</Item>
+		<Item Name="Change">Αλλαγή</Item>
+		<Item Name="Worth">Αξία</Item>
+		<Item Name="Cost">κόστος</Item>
+		<Item Name="Sell">Πώληση</Item>
+		<Item Name="Buy">Αγορά</Item>
+		<Item Name="Count">Υπολογισμός</Item>
+		<Item Name="Compatibility">συμβατότητα</Item>
+		<Item Name="Work">Εργασία</Item>
+		<Item Name="Employees">Εργαζόμενοι</Item>
+		<Item Name="Arrival">Άφιξη</Item>
+		<Item Name="+">+</Item>
+		<Item Name="-">-</Item>
+		<Item Name="Departure">Αναχώρηση</Item>
+		<Item Name="Disband">Απόλυση</Item>
+		<Item Name="Automation">Αυτοματοποίηση</Item>
+		<Item Name="Type">Τύπος</Item>
+		<Item Name="Dismiss">Παράβλεψη</Item>
+		<Item Name="Tier">Κερκίδα</Item>
+		<Item Name="Progress">Πρόοδος</Item>
+		<Item Name="Contract">Σύμβαση</Item>
+		<Item Name="Months">Μήνες</Item>
+		<Item Name="Income">Εισόδημα</Item>
+		<Item Name="Total">Σύνολο</Item>
+		<Item Name="Monthly">Μηνιαίο</Item>
+		<Item Name="Months">Μήνες διωρίας</Item>
+		<Item Name="Payout">πληρωμή</Item>
+		<Item Name="Age">Χρονών</Item>
+		<Item Name="Score">Σκορ</Item>
+		<Item Name="Salary">Μισθός</Item>
+		<Item Name="Hire">Πρόσληψη</Item>
+		<Item Name="Game date">Η ημερομηνία του παιχνιδιού</Item>
+		<Item Name="Date">Ημερομηνία</Item>
+		<Item Name="Money">Χρήματα</Item>
+		<Item Name="Products">προϊόντα</Item>
+		<Item Name="Employees">Προσωπικό</Item>
+		<Item Name="Enabled">Ενεργοποίηση διαχείρισης 'Ανθρωπίνων Πόρων' ΑΠ (HR)</Item>
+		<Item Name="Toggle">On / Off</Item>
+		<Item Name="Active">Ενεργό</Item>
+		<Item Name="Physical store">Υλικό κατάστημα</Item>
+		<Item Name="Popularity">Δημοτικότητα</Item>
+		<Item Name="Release cost">Κόστος κυκλοφορίας</Item>
+		<Item Name="Revenue cut">ποσοστά κατανομής</Item>
+		<Item Name="Contracts">Συμβάσεις</Item>
+		<Item Name="Power">Iσχύς</Item>
+		<Item Name="Server count">Αριθμός των διακομιστών (servers)</Item>
+		<Item Name="Load">φορτίο</Item>
+		<Item Name="Processes">Διαδικασίες</Item>
+		<Item Name="Required power">Απαιτούμενη ισχύς</Item>
+	</Columns>
+	<WindowTitles>
+		<Item Name="Design document">Σχεδιασμός εγγράφου</Item>
+		<Item Name="Products">Προϊόντα</Item>
+		<Item Name="Finances">Οικονομικά</Item>
+		<Item Name="Companies">Εταιρίες</Item>
+		<Item Name="Contract work">Συμβασιακές εργασίες</Item>
+		<Item Name="Automation">Αυτοματοποίηση</Item>
+		<Item Name="Teams">Ομάδες</Item>
+		<Item Name="Look for hire">Ψάξε για πρόσληψη</Item>
+		<Item Name="Hire">Πρόσληψη</Item>
+		<Item Name="Distribution channels">Κανάλια διανομής</Item>
+		<Item Name="Wage negotiations">Διαπραγματεύσεις μισθών</Item>
+		<Item Name="Stocks">Αποθέματα</Item>
+		<Item Name="Insurance">Ασφάληση</Item>
+		<Item Name="Save games">Αποθηκευμένα παιχνίδια</Item>
+		<Item Name="Staff">Προσωπικό</Item>
+		<Item Name="Marketing">Μάρκετινγκ</Item>
+		<Item Name="Servers">Διακομιστές (Servers)</Item>
+		<Item Name="Education">Εκπαίδευση</Item>
+		<Item Name="Materials">Материалы</Item>
+		<Item Name="Marketing">Μάρκετινγκ</Item>
+		<Item Name="Save games">Αποθηκευμένα παιχνίδια</Item>
+		<Item Name="EULA">EULA</Item>
+	</WindowTitles>
+	<DesignWindow>
+		<Item Name="Action">Δράση</Item>
+		<Item Name="In-house">Για την εταιρία</Item>
+		<Item Name="Add">Προσθήκη</Item>
+		<Item Name="Remove">Αφαίρεση</Item>
+		<Item Name="Nothing selected">Τίποτα Επιλεγμένο</Item>
+		<Item Name="Server">Διακομιστές (Servers)</Item>
+		<Item Name="SCM">ΔΠΠ</Item>
+		<Item Name="SCMLong">Διαχείριση πλάνων πηγής</Item>
+		<Item Name="SCMDesc">Όλοι οι κώδικες θα συγχρονίζονται σε ένα μέρος, θα μειώσει τον αριθμό των λαθών και τη βελτίωση της ποιότητας του κώδικα κατά τη διάρκεια της φάσης άλφα. οι διακομιστές είναι απαραίτητοι.</Item>
+		<Item Name="Information">Πληροφορίες</Item>
+		<Item Name="Dependencies">Εξαρτήσεις</Item>
+		<Item Name="Operating system">Λειτουργικό σύστημα</Item>
+		<Item Name="Specializations">Ειδικότητες</Item>
+		<Item Name="Develop">Ανάπτυξη</Item>
+		<Item Name="NoIP">Απροσδιόριστο</Item>
+		<Item Name="SelectIPButton">Αρχηκό προϊόν</Item>
+		<Item Name="IPButtonTip">Κάντε αυτό το προϊόν να είναι μια επέκταση ενός παρόμοιου αρχικού προϊόντος.</Item>
+		<Item Name="NameGenTip">Κάντε κλικ για να επιλέξετε ένα τυχαίο όνομα.</Item>
+		<Item Name="OpenSourceTip">Αφήστε το προϊόν δωρεάν για να κερδίσει δημοτικότητα.</Item>
+		<Item Name="InHouseTip">Αφήστε το προϊόν μέσα στην εταιρεία, οι ανταγωνιστές σας δεν θα είναι σε θέση να το χρησιμοποιήσουν</Item>
+		<Item Name="StandardProductName">Όνομα Προϊόντος</Item>
+		<Item Name="DevTime1">Λιγότερο από 1 χρόνο</Item>
+		<Item Name="DevTime2">Περισσότερο από 1 χρόνο</Item>
+		<Item Name="DevTime3">Περίπου. {0} έτοι</Item>
+		<Item Name="BalanceAmount1">Πολύ χαμηλός</Item>
+		<Item Name="BalanceAmount2">Χαμηλός</Item>
+		<Item Name="BalanceAmount3">Μεσαίος</Item>
+		<Item Name="BalanceAmount4">Μεγάλος</Item>
+		<Item Name="BalanceAmount5">Πολύ μεγάλος</Item>
+		<Item Name="ScopeTier1">Μικρό</Item>
+		<Item Name="ScopeTier2">Μεσαίος</Item>
+		<Item Name="ScopeTier3">Μεγάλο</Item>
+		<Item Name="QualityAmount1">Φρικτή</Item>
+		<Item Name="QualityAmount2">Κακή</Item>
+		<Item Name="QualityAmount3">Μέτρια</Item>
+		<Item Name="QualityAmount4">Καλή</Item>
+		<Item Name="QualityAmount5">Τέλεια</Item>
+		<Item Name="QualityAmount6">Εξαιρετική</Item>
+		<Item Name="PerceptionAmount1">Ξεχασμένο</Item>
+		<Item Name="PerceptionAmount2">Ανιαρό</Item>
+		<Item Name="PerceptionAmount3">Κόσμιο</Item>
+		<Item Name="PerceptionAmount4">Συναρπαστικό</Item>
+		<Item Name="PerceptionAmount5">Συμαντικό</Item>
+		<Item Name="PerceptionAmount6">Περίφημο</Item>
+		<Item Name="AwarenessAmount1">δυσνόητος</Item>
+		<Item Name="AwarenessAmount2">Ασήμαντο</Item>
+		<Item Name="AwarenessAmount3">Ενδιαφέρων</Item>
+		<Item Name="AwarenessAmount4">Μοντέρνο</Item>
+		<Item Name="AwarenessAmount5">Δημοφιλές</Item>
+	</DesignWindow>
+	<AutoWindow>
+		<Item Name="Project management">Διαχείριση πρότζεκτ</Item>
+		<Item Name="ProjectManagementHint">Για να γίνει αυτό, ο επικεφαλής της ομάδας πρέπει να έχει παρακολουθήσει μαθήματα 'διαχείρισης του προγράμματος' μέσω του εκπαιδευτικού προγράμματος</Item>
+		<Item Name="HR management">Διαχείριση ανθρώπινων πόρων</Item>
+		<Item Name="HRManagementHint">Για να ενεργοποιήσετε αυτό, ο επικεφαλής της ομάδας πρέπει να λάβει ένα μάθημα για τη 'διαχείριση ανθρώπινων πόρων ΑΠ (HR)' στο πλαίσιο του προγράμματος εκπαίδευσης</Item>
+		<Item Name="Dev budget">Προϋπολογισμός</Item>
+		<Item Name="Marketing budget">Προϋπολογισμός μάρκετινγκ</Item>
+		<Item Name="Pre-marketing">Πρίν την κυκλοφορία-Μάρκετινγκ</Item>
+		<Item Name="Post-marketing">Μετά την κυκλοφορία-Μάρκετινγκ</Item>
+		<Item Name="Support">Υποστήριξη</Item>
+		<Item Name="Dev team">Ομάδα Ανάπτηξης</Item>
+		<Item Name="Marketing team">Ομάδα Μάρκετινγκ</Item>
+		<Item Name="Support team">Ομάδα Υποστήριξης</Item>
+		<Item Name="Primary role">Πρωταρχικός ρόλος</Item>
+		<Item Name="Secondary role">δευτερεύον ρόλος</Item>
+		<Item Name="Budget">Προϋπολογισμός (Budjet)</Item>
+	</AutoWindow>
+	<ServerWindow>
+		<Item Name="ServerRename">Όνομα του διακομιστή (Server)...</Item>
+		<Item Name="Rename">Μετονομασία</Item>
+		<Item Name="Redelegate selected">Επαναλάβετε την επιλογή</Item>
+		<Item Name="UnsupportedProc">Προβολή διαδικασιών που δεν υποστηρίζονται</Item>
+		<Item Name="Processes">Διεργασία</Item>
+	</ServerWindow>
+	<HireWindows>
+		<Item Name="Begin looking">Ξεκινήστε την αναζήτηση</Item>
+		<Item Name="Remove 10">Αφαιρέστε 10</Item>
+		<Item Name="Interview">Συνέντευξη</Item>
+	</HireWindows>
+	<EducationWindow>
+		<Item Name="Start education">Ξεκινήστε την εκπαίδευση</Item>
+		<Item Name="ProjectCourseDesc">Η διαχείριση του πρότζεκτ επιτρέπει σε έναν ηγέτη να αναλάβει έναν κύκλο ανάπτυξης, σχεδιάζοντας αυτόματα νέα προϊόντα και αναθέτοντας εργασίες σε συγκεκριμένες ομάδες.</Item>
+		<Item Name="HRCourseDesc">Η διοίκηση ανθρώπινου δυναμικού επιτρέπει σε έναν ηγέτη να αναλάβει τις ευθύνες του ανθρώπινου δυναμικού, όπως η πρόσληψη, η εκτόξευση, η επίλυση διαφορών, η αύξηση και η εκπαίδευση.</Item>
+	</EducationWindow>
+	<DistributionWindow>
+		<Item Name="Make Deal">Κάνε συμφωνία</Item>
+		<Item Name="Take offline">Διακοπή υποστηρίξης</Item>
+		<Item Name="Popularity history">Ιστορία δημοτικότητας</Item>
+		<Item Name="Your distribution channel">Το κανάλι διανομής σας</Item>
+		<Item Name="Cut">Μερίδιο</Item>
+		<Item Name="Open">Ανοιχτό</Item>
+		<Item Name="StoreName">Όνομα του καταστήματος...</Item>
+	</DistributionWindow>
+	<WageWindow>
+		<Item Name="Employee request">Αίτηση υπαλλήλου</Item>
+		<Item Name="Accept">Αποδοχή</Item>
+		<Item Name="Close">Κοντά</Item>
+	</WageWindow>
+	<LoanWindow>
+		<Item Name="Amount">Ποσό</Item>
+		<Item Name="Interest">Ενδιαφέρον</Item>
+		<Item Name="Period">Περίοδος</Item>
+		<Item Name="Current loans">Τρέχοντα δάνεια</Item>
+		<Item Name="Take loan">Πάρτε δάνειο</Item>
+	</LoanWindow>
+	<InsuranceWindow>
+		<Item Name="Deposit">Κατάθεση</Item>
+		<Item Name="Withdraw">Απόσυρση</Item>
+		<Item Name="PerEmployee">Ανά υπάλληλο</Item>
+	</InsuranceWindow>
+	<StockWindow>
+		<Item Name="SharesIn">Μετοχές στην εταιρεία:</Item>
+		<Item Name="SharesOut">Ιδιοκτήτες μετοχών:</Item>
+	</StockWindow>
+	<StaffWindow>
+		<Item Name="Permanent">Μόνημα</Item>
+		<Item Name="Temporary">Προσωρινά</Item>
+		<Item Name="Call janitor">Φωνάξτε Επισκευ.</Item>
+		<Item Name="Call cleaning">Φωνάξτε Καθαριστή</Item>
+		<Item Name="Call IT-support">Φωνάξτε ΤΥ (ΙΤ)</Item>
+		<Item Name="Hire janitor">Προσλ. Επισκευ.</Item>
+		<Item Name="Hire cleaning">Προσλ. Καθαρ.</Item>
+		<Item Name="Hire IT-support">προσλάβετε ΤΥ (IT)</Item>
+		<Item Name="PerHour">Ανά ώρα</Item>
+		<Item Name="PerMonth">Ανά μήνα</Item>
+		<Item Name="ITPayment">Τόσο {0}
+{0} ανά επισκευή</Item>	</StaffWindow>
+	<Newspaper>
+		<Item Name="Review section">Τμήμα Αναθεώρησης</Item>
+		<Item Name="Business section">Τμήμα Επιχειρήσεων</Item>
+		<Item Name="Industry section">Τμήμα Βιομηχανίας</Item>
+		<Item Name="Player section">Εσύ</Item>
+	</Newspaper>
+	<Pause>
+		<Item Name="Resume">Συνέχεια</Item>
+		<Item Name="Save game">Αποθήκευση Παιχνιδιού</Item>
+		<Item Name="Save game as">Αποθηκεύστε το παιχνίδι ως ...</Item>
+		<Item Name="Load game">Φόρτωσε το παιχνίδι</Item>
+		<Item Name="Quit to menu">Έξοδος στο Μενού</Item>
+		<Item Name="Quit to desktop">Έξοδος στο Desktop</Item>
+	</Pause>
+	<Marketing>
+		<Item Name="Interwebs">Διασυνδέσεις</Item>
+		<Item Name="Radio">Ραδιόφωνο</Item>
+		<Item Name="Newspapers">Εφημερίδες</Item>
+		<Item Name="Television">Τηλεόραση</Item>
+		<Item Name="Start campaign">Εκκίνηση Kαμπάνιας</Item>
+	</Marketing>
+	<OptionsWindow>
+		<Item Name="Auto-skip day">Αυτόματη Παράλειψη ημέρας</Item>
+		<Item Name="AutoSkipHint">Θα μεταβεί αυτόματα στην επόμενη άφιξη ενός υπαλλήλου, αν δεν υπάρχει κανένας παρών</Item>
+		<Item Name="Currency">Νόμισμα</Item>
+		<Item Name="Difficulty">Δυσκολία</Item>
+		<Item Name="Run in background">Εκτέλεση στο παρασκήνιο</Item>
+		<Item Name="Auto-save">Αυτόματη Αποθήκευση</Item>
+		<Item Name="AutoSaveHint">Αποθηκεύει μία φορά το μήνα χωρίς να αντικαθιστά το κύριο αρχείο αποθήκευσης</Item>
+		<Item Name="Tutorials">Εκπαιδευτικά Προγράμματα</Item>
+		<Item Name="AM/PM">ΠΜ/ΜΜ</Item>
+		<Item Name="Celsius">Κελσίου</Item>
+		<Item Name="Mouse edge scrolling">Μετακίνηση με άκρη του ποντικιού</Item>
+		<Item Name="MouseEdgeHint">Θα στρέψει την κάμερα όταν το ποντίκι κάθεται στην άκρη της οθόνης</Item>
+		<Item Name="Scroll speed">Ταχύτητα Κύλισης</Item>
+		<Item Name="Zoom speed">Ταχύτητα Ζουμ</Item>
+		<Item Name="Rotation speed">Ταχύτητα Περιστροφής</Item>
+		<Item Name="Easy">Εύκολο</Item>
+		<Item Name="Medium">Μεσαίο</Item>
+		<Item Name="Hard">Δύσκολο</Item>
+		<Item Name="Gameplay">Παιχνίδι (Gameplay)</Item>
+		<Item Name="Graphics">Γραφικά</Item>
+		<Item Name="Audio">Ήχος</Item>
+		<Item Name="Keys">Πλήκτρα</Item>
+		<Item Name="Resolution">Ανάλυση</Item>
+		<Item Name="Fullscreen">Πλήρης Οθόνη</Item>
+		<Item Name="Antialias type">Τύπος Anti-alias</Item>
+		<Item Name="AntialiasHint">Μαλακώστε τα ακανθωτά άκρα</Item>
+		<Item Name="VSync">VSync</Item>
+		<Item Name="VSyncHint">Περιμένει να εμφανιστεί ο ρυθμός ανανέωσης της οθόνης. Καταργεί το σχίσιμο της οθόνης και αποφεύγει την υπερθέρμανση.</Item>
+		<Item Name="1 frame">1 καρέ</Item>
+		<Item Name="2 frames">2 καρέ</Item>
+		<Item Name="Shadows">Σκιές</Item>
+		<Item Name="ShadowsHint">Το εξωτερικό περιβάλλον τοποθετεί σκιές με βάση τη θέση του ήλιου</Item>
+		<Item Name="More shadows">Περισσότερες Σκιές</Item>
+		<Item Name="MoreShadowsHint">Κάθε φως στο παιχνίδι ρίχνει σκιές (Απαιτεί μια κάρτα γραφικών υψηλού επιπέδου)</Item>
+		<Item Name="Texture quality">Ποιότητα Ύφανσης (Texture)</Item>
+		<Item Name="Ambient occlusion">Περιφράξεις Περιβάλλοντος</Item>
+		<Item Name="AmbientOcclusionHint">Προσθέτει σκιές σε γωνίες και σχισμές</Item>
+		<Item Name="Tilt shift">Μετατόπιση Κλίσης</Item>
+		<Item Name="TiltShiftHint">Διαστρέβει το επάνω και το κάτω μέρος της οθόνης για να δώσει ένα μικροσκοπικό αποτέλεσμα</Item>
+		<Item Name="Bloom">Άνθηση</Item>
+		<Item Name="BloomHint">Προσθέτει μια ελαφριά λάμψη και αυξάνει την ισχύ του χρώματος</Item>
+		<Item Name="FPS">FPS</Item>
+		<Item Name="Music">Μουσική</Item>
+		<Item Name="SFX">SFX</Item>
+		<Item Name="User Interface">Διασύνδεση Χρήστη (User Interface)</Item>
+		<Item Name="Toggle lights">Εναλλαγή Φώτων</Item>
+		<Item Name="Toggle walls">Εναλλαγή Τοίχων</Item>
+		<Item Name="Move camera forward">Μετακινήστε τη κάμερα προς τα εμπρός</Item>
+		<Item Name="Move camera backward">Μετακινήστε τη κάμερα προς τα πίσο</Item>
+		<Item Name="Move camera left">Μετακινήστε τη κάμερα προς τα αριστερά</Item>
+		<Item Name="Move camera right">Μετακινήστε τη κάμερα προς τα δεξιά</Item>
+		<Item Name="Rotate camera up">Περιστρέψτε την κάμερα προς τα επάνω</Item>
+		<Item Name="Rotate camera down">Περιστρέψτε την κάμερα προς τα κάτω</Item>
+		<Item Name="Rotate camera left">Περιστρέψτε την κάμερα αριστερά</Item>
+		<Item Name="Rotate camera right">Περιστρέψτε την κάμερα δεξιά</Item>
+		<Item Name="Zoom in">Μεγέθυνση</Item>
+		<Item Name="Zoom out">Σμίκρυνση</Item>
+		<Item Name="Move up one floor">Μετακινηθέιτε έναν όροφο πάνω</Item>
+		<Item Name="Move down one floor">Μετακινηθέιτε έναν όροφο κάτω</Item>
+		<Item Name="Pause game">Παύση Παιχνιδιού</Item>
+		<Item Name="Normal game speed">Κανονική Ταχύτητα Παιχνιδιού</Item>
+		<Item Name="Faster game speed">Ταχύτερη Ταχύτητα Παιχνιδιού</Item>
+		<Item Name="Fastest game speed">Ταχύτατη Ταχύτητα Παιχνιδιού</Item>
+		<Item Name="Toggle camera mode">Εναλλαγή λειτουργίας κάμερας</Item>
+		<Item Name="Hide HUD">Απόκρυψη HUD</Item>
+		<Item Name="Go to employee">Πηγαίνετε στον υπάλληλο</Item>
+		<Item Name="Destroy selected">Πώληση/Απόλυση/Εξανάγκαση του επιλεγμένου</Item>
+		<Item Name="Toggle Build Mode">Εναλλαγή λειτουργίας κατασκευής</Item>
+	</OptionsWindow>
+	<AI>
+		<Item Name="Idle">Τεμπελιάζει</Item>
+		<Item Name="Looking for computer">Ψάχνει για υπολογιστή</Item>
+		<Item Name="Going home">Πηγαίνει σπίτι</Item>
+		<Item Name="Working">Δουλεύει</Item>
+		<Item Name="Going to get food">Πάει να πάρει φαγητό</Item>
+		<Item Name="Going to get coffee">Πάει να πάρει καφέ</Item>
+		<Item Name="Making coffee">Φτιάχνει καφέ</Item>
+		<Item Name="Getting food">παίρνει φαγητό</Item>
+		<Item Name="Going to meeting">Πάει σε συνάντηση</Item>
+		<Item Name="In meeting">Σε συνάντηση</Item>
+		<Item Name="Going to toilet">Πάει στην τουαλέτα</Item>
+		<Item Name="Pooping">Κάνει την ανάγκη του</Item>
+		<Item Name="Looking for broken stuff">Ψάχνει για σπασμένα πράγματα</Item>
+		<Item Name="Going to repair something">Πάει να επιδιορθώσει κάτι</Item>
+		<Item Name="Repairing">Επιδιορθώνει</Item>
+		<Item Name="Looking for dirty room">Ψάχνει για βρώμικο δωμάτιο</Item>
+		<Item Name="Going to clean room">Πάει να καθαρίσει ένα δωμάτιο</Item>
+		<Item Name="Cleaning">καθαρίζει</Item>
+		<Item Name="Looking for dirt">Ψάχνει βρωμιές</Item>
+		<Item Name="In class">Στην τάξη</Item>
+		<Item Name="Dismissed">Απορρίφθηκε</Item>
+		<Item Name="At work">Στη δουλειά</Item>
+		<Item Name="At home">Στο σπίτι</Item>
+		<Item Name="Retired">Αποσύρθηκε</Item>
+		<Item Name="Vacation">Διακοπές</Item>
+		<Item Name="Sick">Άρρωστος</Item>
+		<Item Name="Dead">Νεκρός</Item>
+		<Item Name="Hospitalized">Νοσηλευόμενος</Item>
+	</AI>
+	<Thoughts>
+		<Item Name="NoLikeWorker">Δεν μου αρέσει το {0}</Item>
+		<Item Name="LikeWorker">Πραγματικά μου αρέσει το {0}</Item>
+		<Item Name="WornOut">Είμαι εντελώς φθαρμένος</Item>
+		<Item Name="MeetingGreat">Αυτή η συνάντηση είναι τέλεια!</Item>
+		<Item Name="LoveWork">Μου αρέσει να δουλεύω</Item>
+		<Item Name="TooManyJobs">Έχω πάρα πολλές δουλειές ταυτόχρονα</Item>
+		<Item Name="BadWageNeg">Δεν είμαι ικανοποιημένος με το πώς πέρασαν οι τελευταίες μισθολογικές διαπραγματεύσεις</Item>
+		<Item Name="GoodSalary">Είμαι πολύ ευχαριστημένος με το μισθό μου</Item>
+		<Item Name="IsFreezing">Ξεπαγιάζω</Item>
+		<Item Name="IsBurning">Καίγομαι</Item>
+		<Item Name="NoSee">Δεν βλέπω τίποτα</Item>
+		<Item Name="RoomDirty">Αυτό το μέρος είναι βρώμικο</Item>
+		<Item Name="RoomNotDirty">Αυτό το μέρος είανι ωραίο</Item>
+		<Item Name="UncomfortableFurniture">Αυτά τα έπιπλα είναι άβολα</Item>
+		<Item Name="ComputerGood">Ο υπολογιστής μου λειτουργεί πολύ καλά</Item>
+		<Item Name="ComputerBad">Ο υπολογιστής μου είναι χάλια</Item>
+		<Item Name="NoiseComplaint">Υπάρχει πολύς θόρυβος σε αυτό το δωμάτιο</Item>
+		<Item Name="NoNoiseGood">Το δωμάτιο είναι ωραίο και ήσυχο</Item>
+		<Item Name="BasementComplaint">Η εργασία στο υπόγειο είναι χάλια</Item>
+		<Item Name="OtherTeamComplaint">Δεν μπορώ να συγκεντρωθώ με άλλες ομάδες γύρω μου όλη την ώρα</Item>
+		<Item Name="Starving">Πεθαίνω της πείνας</Item>
+		<Item Name="HasToPee">Πραγματικά πρέπει να κατουρήσω</Item>
+		<Item Name="LowerSalaryComplaint">Δεν έλαβα το μισθό που ήθελα</Item>
+		<Item Name="HigherSalary">Πείρα μόνο αύξηση!</Item>
+		<Item Name="SalaryCutComplaint">Ο μισθός μου κόπηκε</Item>
+	</Thoughts>
+	<Warnings>
+		<Item Name="UnsatisfiedEmployeesWarning">Μερικοί υπάλληλοι είναι δυσαρεστημένοι με τη δουλειά τους</Item>
+		<Item Name="StarvingWarning">Ένας υπάλληλος πεινάει και δυσκολεύεται να δουλέψει</Item>
+		<Item Name="HasToPeeWarning">Ένας υπάλληλος πρέπει να κατουρίσει και έχει πρόβλημα στη δουλειά του</Item>
+		<Item Name="WornOutWarning">Ένας υπάλληλος είναι κουρασμένος και δεν μπορεί να λειτουργήσει</Item>
+		<Item Name="FreezingWarning">Ένας υπάλληλος παγώνει</Item>
+		<Item Name="BurningWarning">Ένας υπάλληλος είναι ζεστός</Item>
+		<Item Name="NoSeeWarning">Ένας υπάλληλος σκοντάφτει στο σκοτάδι.Φτιάξτε περισσότερες λάμπες και παράθηρα</Item>
+		<Item Name="RoomDirtyWarning">Ένας υπάλληλος αποζημιώνεται από το γραφείο του</Item>
+		<Item Name="RoomDirtyWarning2">Ένα δωμάτιο είναι βρώμικο και χρειάζεται καθαρισμό</Item>
+		<Item Name="ComputerBadWarning">Ένας υπάλληλος διαμαρτύρεται για έναν αργό υπολογιστή. Βεβαιωθείτε ότι οι υπολογιστές είναι σε άριστη κατάσταση με την πρόσληψη 'Τεχνικής Υποστήριξης' (ΤΥ).</Item>
+		<Item Name="NoiseWarning">Ένας εργαζόμενος δυσκολεύεται να συγκεντρωθεί λόγω θορύβου. Μειώστε όλες τις πηγές θορύβου σε ένα δωμάτιο ή κατασκευάστε ηχομονωτές</Item>
+		<Item Name="OtherTeamWarning">Υπάρχουν πολλές ομάδες σε ένα από τα δωμάτιά σας. Βεβαιωθείτε ότι οι εργαζόμενοι δεν χρειάζεται να περπατήσουν μέσα σε δωμάτια άλλων ομάδων.</Item>
+		<Item Name="CannotAfford">Δεν μπορείτε να το αντέξετε οικονομικά</Item>
+		<Item Name="BusFullWarning">Τα λεωφορεία γεμίζουν, σκεφτείτε το χτίσιμο πάρκινγκ</Item>
+		<Item Name="Click and drag">Κάντε κλικ και σύρετε</Item>
+		<Item Name="RoomClosedOff">Δεν υπάρχει τρόπος να μπείτε σε αυτό το δωμάτιο. Προσθέστε πόρτες ή ανελκυστήρες</Item>
+		<Item Name="PublicToiletWarning">Οι υπάλληλοι δεν χρησιμοποιούν τις τουαλέτες στο κοινό Ξεχωρίστε τις τουαλέτες από άλλους χώρους ή αφαιρέστε μεγάλα παράθυρα και ανοίγματα</Item>
+		<Item Name="RoomOvercrowdWarning">Υπάρχουν πολλά υπολογιστές σε αυτό το δωμάτιο. Τα υπερπλήρη δωμάτια μπορούν να αποσπούν την προσοχή των εργαζομένων</Item>
+		<Item Name="RoomLighingWaning">Δεν υπάρχει αρκετό φως εδώ. Προσθέστε παράθυρα ή λάμπες</Item>
+		<Item Name="FurnitureBrokeWarning">Ορισμένα αποθέματα έσπασαν και χρειάζονται συντήρηση</Item>
+		<Item Name="UnsupportedStructure">Η δομή δεν υποστηρίζεται</Item>
+		<Item Name="RoomOnRoad">Δεν μπορείτε να χτίσετε πάνω από τους δρόμους</Item>
+		<Item Name="RoomInRoom">Δεν μπορείτε να χτίσετε μέσα σε άλλα δωμάτια.Αν θέλετε να χωρίσετε ένα δωμάτιο πρέπει να χτίσετε από τοίχο σε τοίχο.</Item>
+		<Item Name="RoomOutOfPlot">Πρέπει να οικοδομήσετε μέσα στα όρια του οικοπέδου σας</Item>
+		<Item Name="RoomTooSmall">Τα δωμάτιά σας πρέπει να είναι τουλάχιστον 2x2</Item>
+		<Item Name="CannotReplaceDuplicateSegment">Δεν είναι δυνατή η αντικατάσταση {0} με {0}</Item>
+		<Item Name="SegmentOnBoundary">Πρέπει να τοποθετήσετε αυτό σε ένα δωμάτιο</Item>
+		<Item Name="FurnitureInRoom">Πρέπει να τοποθετήσετε έπιπλα μέσα στα δωμάτιά σας</Item>
+		<Item Name="FurnitureOnWall">Πρέπει να το τοποθετήσετε ενάντια σε έναν τοίχο</Item>
+		<Item Name="FurnitureOnTable">Πρέπει να το τοποθετήσετε σε ένα άδιο τραπέζι</Item>
+		<Item Name="FurnitureOccupied">Αυτός ο χώρος είναι ήδη κατειλημμένος</Item>
+		<Item Name="FurnitureAtTable">Πρέπει να το τοποθετήσετε σε ένα τραπέζι</Item>
+	</Warnings>
+	<Affectors>
+		<Item Name="Hunger">Πείνα</Item>
+		<Item Name="Energy">Ενέργεια</Item>
+		<Item Name="Bladder">Κύστη (τουαλέτα)</Item>
+		<Item Name="Job satisfaction">Εργασιακή Ικανοποίηση</Item>
+		<Item Name="Fired">Καμένο</Item>
+		<Item Name="Temperature">Θερμοκρασία</Item>
+		<Item Name="Environment">Περιβάλλον</Item>
+		<Item Name="Comfort">Άνεση</Item>
+		<Item Name="Computer">Υπολογιστής</Item>
+		<Item Name="Noise">Θόρυβος</Item>
+		<Item Name="Lighting">Φωτισμός</Item>
+		<Item Name="Basement">Υπόγειο</Item>
+		<Item Name="Other teams">Άλλες Ομάδες</Item>
+	</Affectors>
+	<Dialogs>
+		<Item Name="EmployeeQuitTitle">Ο/Η {0} θέλει να παραιτηθεί</Item>
+		<Item Name="AndSeperator"> και </Item>
+		<Item Name="OrSeperator"> ή </Item>
+		<Item Name="EmployeeQuitRaise">Αύξηση μισθού από {0}</Item>
+		<Item Name="DemoWarning">Αυτή η λειτουργία δεν είναι διαθέσιμη στο demo</Item>
+		<Item Name="DemoFloorWarning">Μπορείτε μόνο να χτίσετε τους 2 πρώτους ορόφους στο Demo</Item>
+		<Item Name="OverwriteConfirmMsg">Είστε βέβαιος/η ότι θέλετε να το αντικαταστήσετε;</Item>
+		<Item Name="OverwriteConfirmTitle">Επιβεβαίωση</Item>
+		<Item Name="DismissTitle">Απολύεσε</Item>
+		<Item Name="DismissMsg">Είστε βέβαιος/η ότι θέλετε να απολύσετε {0} εργαζομένους;</Item>
+		<Item Name="DismissMsg2">Απολύετε {0} εργαζομένους</Item>
+		<Item Name="SellTitle">Πώληση</Item>
+		<Item Name="SellMsg">Είστε βέβαιος/η ότι θέλετε να πουλήσετε {0} έπιπλα;</Item>
+		<Item Name="SellMsg2">Πουλάτε {0} έπιπλα</Item>
+		<Item Name="BulldozeTitle">Μπουλντόζα</Item>
+		<Item Name="BulldozeMsg">Είστε βέβαιος/η ότι θέλετε να κατεδαφίσετε {0} δωμάτια;</Item>
+		<Item Name="BulldozeMsg2">Κατεδαφίστε {0} δωμάτια</Item>
+		<Item Name="CannotBulldozeSupport">Ένα ή περισσότερα δωμάτια χρησιμοποιούνται και δεν μπορούν να καταστραφούν</Item>
+		<Item Name="MissingSaveContinue">Πρέπει να έχετε αποθηκεύσει ένα παιχνίδι για να μπορέσετε να συνεχίσετε</Item>
+		<Item Name="SaveGameSuccess">Το παιχνίδι αποθηκεύτηκε</Item>
+		<Item Name="SaveGameSuccessTitle">Επιτυχία</Item>
+		<Item Name="NoStockInterest">Κανείς δεν ενδιαφέρεται για αυτό το απόθεμα</Item>
+		<Item Name="NoStockInterestTitle">Συγνώμη</Item>
+		<Item Name="StockWatError">Δεν μπορείτε να πουλήσετε ολόκληρη την εταιρεία σας, γιατί αυτό θα σας κάνει να χάσετε.</Item>
+		<Item Name="StockRepLow">Η φήμη σας είναι πολύ χαμηλή για να ανταλλάσσετε αποθέματα αυτού του ποσού</Item>
+		<Item Name="HRNoRooms">Έχετε ενεργοποιήσει τη διαχείριση ανθρώπινου δυναμικού για μια ομάδα που δεν διαθέτει δωμάτια.
+Ορίστε τουλάχιστον ένα δωμάτιο για αυτήν την ομάδα.</Item>
+		<Item Name="DesignProductNameError">Ένα προϊόν με αυτό το όνομα υπάρχει ήδη</Item>
+		<Item Name="ProductOSError">Επιλέξτε ένα ή περισσότερα λειτουργικά συστήματα</Item>
+		<Item Name="ProductNeedError">Επιλέξτε ένα προϊόν για κάθε ανάγκη</Item>
+		<Item Name="DesignProductNameHint">Δεν έχετε επιλέξει ένα όνομα για το λογισμικό σας, είστε βέβαιος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="DesignProductTeamSizeHint">Το μέγεθος της ομάδας που έχετε επιλέξει είναι πολύ μικρό για ένα έργο αυτού του μεγέθους.
+Εισαι σίγουρος/η οτι θέλετε να συνεχισεις;</Item>
+		<Item Name="ProductLicenseError">Δεν μπορείτε να αντέξετε οικονομικά το κόστος της άδειας.</Item>
+		<Item Name="DistributionNameError">Αυτό το όνομα έχει ήδη ληφθεί</Item>
+		<Item Name="DistributionServerError">Επιλέξτε έναν διακομιστή</Item>
+		<Item Name="DistributionNameWarning">Είστε βέβαιος/η ότι θέλετε να ανοίξετε ένα κανάλι διανομής που ονομάζεται {0}; Δεν θα μπορείτε να αλλάξετε το όνομα αργότερα.</Item>
+		<Item Name="DistributionOfflineWarning">Είστε βέβαιος/η ότι θέλετε να το μεταφέρετε εκτός σύνδεσης; Αυτό θα θυμώσει τους πελάτες σας και τους πελάτες τους.</Item>
+		<Item Name="EmployeeCourseBookError">Οι υπάλληλοι που επιλέξατε έχουν ήδη προγραμματιστεί για μαθήματα</Item>
+		<Item Name="TeamNameError">Μια ομάδα με αυτό το όνομα υπάρχει ήδη.</Item>
+		<Item Name="TeamEmptyNameError">Εισαγάγετε ένα μη κενό όνομα ομάδας.</Item>
+		<Item Name="LowMoneyHireWarning">Έχετε περιορισμένα κεφάλαια για να διατηρήσετε την εταιρεία σας εάν μισθώσετε {0}. Είστε βέβαιος/η ότι δεν θέλετε να περιμένετε;</Item>
+		<Item Name="WinDialogMsg">Συγχαρητήρια! Ολοκληρώσατε αυτό το σενάριο.</Item>
+		<Item Name="WinDialogMsgTitle">Κερδίσατε!</Item>
+		<Item Name="WinDialogMsgQuit">Έξοδος</Item>
+		<Item Name="WinDialogMsgContinue">Συνεχίστε να παίζετε</Item>
+		<Item Name="LoseDialogMsg">Δεν ολοκληρώσατε αυτό το σενάριο.</Item>
+		<Item Name="LoseDialogMsgTitle">Χάσατε!</Item>
+		<Item Name="BankruptInsurance">Έχετε {0} στο λογαριασμό σας.
+Θέλετε να αποσύρετε {1} Από τα ασφαλιστικά ταμεία σας για να αποφύγετε την πτώχευση;</Item>
+		<Item Name="BankruptStock">Έχετε {0} στο λογαριασμό σας.
+Θέλετε να πουλήσετε τις μετοχές σας αξίας {1} για να αποφύγετε την πτώχευση;</Item>
+		<Item Name="BankruptLoan">Έχετε {0} στο λογαριασμό σας.
+Θέλετε να λάβετε ένα δάνειο με {1} για να αποφύγετε την πτώχευση;</Item>
+		<Item Name="BankruptLoseMsg">Πτωχεύσατε με {0} στο λογαριασμό σας.</Item>
+	</Dialogs>
+	<FurnitureInfo>
+		<Item Name="Currently used by">Αυτή τη στιγμή χρησιμοποιείται από</Item>
+		<Item Name="Owned by">Ανήκει</Item>
+		<Item Name="Nobody">Κανένας</Item>
+		<Item Name="Currently on">Επί του παρόντος</Item>
+		<Item Name="Currently off">Αυτή τη στιγμή είναι εκτός λειτουργίας</Item>
+		<Item Name="FurnitureUnlock">Αυτό το στοιχείο ξεκλειδώνεται το {0}</Item>
+	</FurnitureInfo>
+	<RoomLimitNames>
+		<Item Name="Lounge">Σαλόνι</Item>
+		<Item Name="Anyone">οποιοσδήποτε</Item>
+		<Item Name="Leaders">Ηγέτες</Item>
+		<Item Name="Programmers">Προγραμματιστές</Item>
+		<Item Name="Designers">Σχεδιαστές</Item>
+		<Item Name="Artists">Καλλιτέχνες</Item>
+	</RoomLimitNames>
+	<BuildMode>
+		<Item Name="Wall">Τείχος</Item>
+		<Item Name="Door">Πόρτα</Item>
+		<Item Name="Elevator">Ανελκυστήρας</Item>
+		<Item Name="Window">Παράθυρο</Item>
+		<Item Name="Road">Δρόμος</Item>
+		<Item Name="Parking">Πάρκινγκ</Item>
+		<Item Name="Room">Δωμάτιο</Item>
+		<Item Name="Destroy">Καταστρέψτε</Item>
+		<Item Name="Normal">Κανονικό</Item>
+		<Item Name="Horizontal">Οριζόντιο</Item>
+		<Item Name="Vertical">Κατακόρυφο</Item>
+		<Item Name="Construct room">Κατασκευάστε δωμάτιο</Item>
+		<Item Name="Remove road">Αφαιρέστε το δρόμο</Item>
+		<Item Name="Build road">Κατασκευάστε δρόμο</Item>
+		<Item Name="Not available in demo">Δεν διατίθεται στη δοκιμαστική έκδοση (DEMO)</Item>
+		<Item Name="Office">Γραφείο</Item>
+		<Item Name="Needs">Ανάγκες</Item>
+		<Item Name="Decoration">Διακόσμηση</Item>
+	</BuildMode>
+	<RightClick>
+		<Item Name="ActionDefault Style">Ορίστε ως προεπιλεγμένο στυλ</Item>
+		<Item Name="ActionUnify Style">Ενοποιήστε το στυλ των επιλεγμένων στοιχείων</Item>
+		<Item Name="ActionRoom Color">Χρώματα δωματίου</Item>
+		<Item Name="ActionEducate">Εκπαίδευση υπαλλήλων</Item>
+		<Item Name="ActionDismiss">Απόλυση υπαλλήλου</Item>
+		<Item Name="ActionSell">Πωλήστε έπιπλα</Item>
+		<Item Name="ActionDestroy">Καταστρέψτε το δωμάτιο</Item>
+		<Item Name="ActionChange Team">Αλλαγή ομάδας</Item>
+		<Item Name="ActionLimit Use">Περιορίστε τη χρήση του δωματίου</Item>
+		<Item Name="ActionSelect Building">Επιλέξτε ολόκληρο το κτίριο</Item>
+		<Item Name="ActionChange Role">Αλλαγή του ρόλου των υπαλλήλων</Item>
+		<Item Name="ActionSend home">Στείλτε τον υπάλληλο σπίτι</Item>
+		<Item Name="ActionFurniture color">Έγχρωμο έπιπλο</Item>
+		<Item Name="ActionTypes in Room">Επιλέξτε τύπους επίπλων στα επιλεγμένα δωμάτια</Item>
+		<Item Name="ActionDetails">Στοιχεία υπαλλήλου</Item>
+		<Item Name="ActionChange Salary">Αλλάξτε τον μισθό των υπαλλήλων</Item>
+		<Item Name="ActionSelect Team">Επιλέξτε ολόκληρη την ομάδα</Item>
+		<Item Name="ActionSelect Owned">Επιλέξτε έπιπλα που συνδέονται με τον υπάλληλο</Item>
+		<Item Name="ActionSelect Staff">Επιλέξτε τους υπαλλήλους στο δωμάτιο</Item>
+		<Item Name="ActionUnpair">Αποσυνδέστε τα έπιπλα</Item>
+		<Item Name="ActionPair Use">Αναθέστε τα έπιπλα που χρησιμοποιούνται από τον υπάλληλο</Item>
+		<Item Name="ActionUpgrade">Αναβαθμίστε τα έπιπλα στην επόμενη βαθμίδα</Item>
+		<Item Name="ActionMove">Μετακινήστε τα έπιπλα</Item>
+	</RightClick>
+	<ProductWindow>
+		<Item Name="ProductChooseGeneric">Επιλέξτε {0}</Item>
+		<Item Name="ProductChooseOS">Επιλέξτε Λειτουργικό Σύστημα</Item>
+		<Item Name="ProductChooseSequel">Επιλέξτε (συνέχεια) Sequel</Item>
+		<Item Name="PlayerReleases">Οι Κυκλοφορίες μου</Item>
+		<Item Name="AllReleaes">Όλες οι Κυκλοφορίες</Item>
+		<Item Name="CompanyReleases">Προϊόντα για {0}</Item>
+	</ProductWindow>
+	<WorkItems>
+		<Item Name="SupportTickets">{0} Εισιτήρια στην ουρά</Item>
+		<Item Name="CancelSupport">Ακύρωση υποστήριξης</Item>
+		<Item Name="MarketingFundsOut">Έχετε εξοφλήσει χρήματα για να υποστηρίξετε την εκστρατεία μάρκετινγκ</Item>
+		<Item Name="MarketingStage">Μιλώντας για να πατήσετε</Item>
+		<Item Name="MarketingBalance">Δίκτυο</Item>
+		<Item Name="DesignStageStockWait">Αναμονή για έγκριση</Item>
+		<Item Name="DesignStageDesigning">Σχεδίαση</Item>
+		<Item Name="ThrowOutAuto">Πετάξτε έξω</Item>
+		<Item Name="DesignWaitLabel">Αναμονή</Item>
+		<Item Name="DesignNoProgress">Αυτός ο σχεδιασμός δεν έχει εξαργυρωτικά χαρακτηριστικά και δεν μπορεί να προωθηθεί στην ανάπτυξη</Item>
+		<Item Name="DesignNoProgressTitle">Δεν μπορεί να αναπτυχθεί</Item>
+		<Item Name="AlphaNoProgress">Δεν είναι δυνατή η προώθηση της "Άλφα" έκδοσης αφού δεν έχει γίνει καμία δουλειά</Item>
+		<Item Name="AlphaNoProgressTitle">Δεν είναι δυνατή η προώθηση</Item>
+		<Item Name="ContractCancel">Χάσατε {0} για την ακύρωση της σύμβασης</Item>
+		<Item Name="ContractFinish">Τελικό συμβόλαιο για καθαρή αξία {0}</Item>
+		<Item Name="Alpha">Άλφα</Item>
+		<Item Name="Beta">Βήτα</Item>
+		<Item Name="Promote">Προώθηση</Item>
+		<Item Name="Delay">Καθυστέρηση</Item>
+		<Item Name="NoBugs">Δεν υπάρχουν σφάλματα</Item>
+		<Item Name="StillBugs">Διορθώθηκαν {0} σφάλματα</Item>
+		<Item Name="ReleaseMarketingHint">Θέλετε να ξεκινήσετε μια καμπάνια μάρκετινγκ για {0} τώρα;
+Το μάρκετινγκ είναι κρίσιμο για την επιτυχία των προϊόντων σας.
+Μπορείτε να ξεκινήσετε μια καμπάνια μάρκετινγκ αφού κυκλοφορίσετε ένα προϊόν ανά πάσα στιγμή κάνοντας κλικ στο κουμπί "Οι κυκλοφορίες σας"</Item>
+	</WorkItems>
+	<Clothing>
+		<Item Name="Skirt">Φούστα</Item>
+		<Item Name="T-shirt">Κοντομάνικη μπλούζα</Item>
+		<Item Name="Jacket">Ζακέτα</Item>
+		<Item Name="Pants">Παντελόνι</Item>
+		<Item Name="Shorts">Σορτσάκι</Item>
+		<Item Name="Shirt">Πουκάμισο</Item>
+	</Clothing>
+	<Goal>
+		<Item Name="MoneyGoal">Έχετε {0} στο λογαριασμό σας</Item>
+		<Item Name="DateGoal">Κερδίστε πριν {0}</Item>
+		<Item Name="NothingGoal">Τίποτα</Item>
+	</Goal>
+	<ProductDetails>
+		<Item Name="Innovation">Καινοτομία</Item>
+		<Item Name="Stability">Σταθερότητα</Item>
+		<Item Name="Usability">Ευχρηστία</Item>
+		<Item Name="Operating systems">Λειτουργικά συστήματα</Item>
+		<Item Name="ProductNeeds">Ανάγκες</Item>
+		<Item Name="Franchise">Προνόμιο</Item>
+		<Item Name="Used in">Χρησιμοποιείται σε</Item>
+		<Item Name="Features">Χαρακτηριστικά</Item>
+		<Item Name="Take off market">Απογείωση της αγοράς</Item>
+		<Item Name="Put on market">Βάλτε στην αγορά</Item>
+		<Item Name="ProductDetailTitle">Λεπτομέρειες για το {0}</Item>
+		<Item Name="ProductDetailLeftText">Όνομα: {0}
+Εταιρία: {1}({2})
+Τύπος: {4} {3}
+Ανοιχτού Κώδικα: {5}
+Για την εταιρία: {6}
+Ημερομηνία κυκλοφορίας: {7}</Item>
+		<Item Name="ProductDetailRightText">Ποιότητα: {0}
+Αντίληψη: {1}
+Δημοτικότητα: {2}
+Κόστος άδειας: {3}
+Μικτά: {4}
+Έξοδα: {5}</Item>
+	</ProductDetails>
+	<FurnitureQuality>
+		<Item Name="Broken">Σπασμένο</Item>
+		<Item Name="Calcified">Ασβεστίσμένο</Item>
+		<Item Name="Clean">Καθαρό</Item>
+		<Item Name="Bulb died">Καμένη λάμπα</Item>
+		<Item Name="Flickering">τρεμοσβύνει</Item>
+		<Item Name="Dim">Σκοτεινό</Item>
+		<Item Name="Bright">Λαμπερό</Item>
+		<Item Name="Burned out">Έχουν καεί</Item>
+		<Item Name="Hardly working">Δουλεύει ελάχιστα</Item>
+		<Item Name="Capable">Ικανό</Item>
+		<Item Name="Effecient">Αποτελεσματικό</Item>
+		<Item Name="Overpowered">Εξουδετερωμένο</Item>
+		<Item Name="Somewhat working">Κάπως δουλεύει</Item>
+		<Item Name="FurnWorking">Εργάζεται</Item>
+		<Item Name="Clogged">Βουλωμένη</Item>
+		<Item Name="Disgusting">Αηδιαστικό</Item>
+		<Item Name="Brown water">Καφέ νερό</Item>
+		<Item Name="Shiny">Λαμπερό</Item>
+	</FurnitureQuality>
+	<Item Name="WireModeLongHint">Κάντε αριστερό κλικ πάνω σε ένα διακομιστή (Server) και κάντε πάλι αριστερό κλικ σε έναν άλλον για να τους συνδέσεται.
+
+Κάντε αριστερό κλικ οπουδήποτε ή κάντε διπλό κλικ για να τους αποσυνδέσετε.
+
+κάντε αριστερό κλικ για να το αφήσετε και να το ακυρώσετε.</Item>
+	<Item Name="Noisiness">Θορυβώδες</Item>
+	<Item Name="State">Κατάσταση</Item>
+	<Item Name="Assign">Ανάθεση</Item>
+	<Item Name="Unassigned">Δεν έχει ανατεθεί</Item>
+	<Item Name="SaveName">Εισαγάγετε το όνομα αποθήκευσης...</Item>
+	<Item Name="Save">Αποθήκευση</Item>
+	<Item Name="Load">Φόρτωση</Item>
+	<Item Name="Apply">Εφαρμογή</Item>
+	<Item Name="New team">Νέα ομάδα</Item>
+	<Item Name="Team name">Όνομα ομάδας</Item>
+	<Item Name="Enable">Ενεργοποίηση</Item>
+	<Item Name="Accept work">Αποδοχή εργασίας</Item>
+	<Item Name="Specialization">Ειδίκευση</Item>
+	<Item Name="Skill">Δεξιότητα</Item>
+	<Item Name="Traits">Χαρακτηριστικά</Item>
+	<Item Name="Design">Σχεδίαση</Item>
+	<Item Name="Code">Κωδικοποίηση</Item>
+	<Item Name="Art">Τέχνη</Item>
+	<Item Name="Base skill">Βασική δεξιότητα</Item>
+	<Item Name="Lead">Ηγετικότητα</Item>
+	<Item Name="Leader">Καθοδηγητής</Item>
+	<Item Name="Designer">Σχεδιαστής</Item>
+	<Item Name="Programmer">Προγραμματιστής</Item>
+	<Item Name="Artist">Καλλιτέχνης</Item>
+	<Item Name="Marketer">Έμπορος (Marketer)</Item>
+	<Item Name="Take any job">Πάρε οποιαδήποτε δουλειά</Item>
+	<Item Name="Any role">Οποιοσδήποτε ρόλος</Item>
+	<Item Name="Any">Οποιοδήποτε</Item>
+	<Item Name="All">Όλα</Item>
+	<Item Name="Work affectors">Εργαζόμενοι</Item>
+	<Item Name="Feature">χαρακτηριστικό</Item>
+	<Item Name="Change team">Αλλαγή ομάδας</Item>
+	<Item Name="Change roles">Αλλαγή ρόλου</Item>
+	<Item Name="Fire">Απόλυση</Item>
+	<Item Name="Select all">Επιλογή όλων</Item>
+	<Item Name="Educate">Εκπαίδευση</Item>
+	<Item Name="Interior">Εσωτερικό</Item>
+	<Item Name="Exterior">Εξωτερικό</Item>
+	<Item Name="Floor">Όροφος</Item>
+	<Item Name="Usage">Χρήση</Item>
+	<Item Name="None">Τίποτα</Item>
+	<Item Name="Primary">Βασικός</Item>
+	<Item Name="Secondary">Δευτερεύων</Item>
+	<Item Name="Tertiary">Τριτογενής</Item>
+	<Item Name="RoomBuildHint">Διαίρεση, συγχώνευση και επέκταση δωματίων</Item>
+	<Item Name="SkipTimeHint">Κάντε κλικ εδώ όταν είστε έτοιμοι για την πρώτη σας ημέρα.</Item>
+	<Item Name="BankruptcyHint">Οδεύεις προς την πτώχευση!</Item>
+	<Item Name="RotateFurnHint">Κάντε κλικ και σύρετε για να περιστρέψετε τα έπιπλά σας</Item>
+	<Item Name="Development">Ανάπτυξη</Item>
+	<Item Name="SearchBar">Πληκτρολογήστε για αναζήτηση...</Item>
+	<Item Name="Inventor">Εφευρέτης</Item>
+	<Item Name="Bought">Αγορασμένος</Item>
+	<Item Name="Color">Χρώμα</Item>
+	<Item Name="NetProfit">Καθαρό κέρδος</Item>
+	<Alpha4.1>
+		<Item Name="AreYouSure">Είστε σίγουρος/η ότι θέλετε να</Item>
+		<Item Name="MarketingWindowTitle">Εμπορία (Marketing) για {0}</Item>
+		<Item Name="PreMarketingWindowTitle">Προ-εμπορία (Pre-marketing) για {0}</Item>
+		<Item Name="MarketingStop">Τέλος</Item>
+		<Item Name="On market">Στην αγορά</Item>
+		<Item Name="CustomLeaderHint">Αυξάνει την ικανότητα να συγκεντρώνει μια ομάδα, να ενισχύει την αποτελεσματικότητά της και να διαχειρίζεται τα καθήκοντα διαχείρισης.</Item>
+		<Item Name="CustomProgrammerHint">Αυξήστε την ταχύτητα προγραμματισμού, την ποιότητα του κώδικα και τον ρυθμό διόρθωσηςι σφαλμάτων.Αυξάνει την ταχύτητα σύνταξης τεκμηρίωσης και προδιαγραφών απαιτήσεων και τη δυνατότητα αποφυγής περιττής πολυπλοκότητας.</Item>
+		<Item Name="CustomDesignerHint">Αυξάνει την ταχύτητα σύνταξης τεκμηρίωσης και προδιαγραφών απαιτήσεων και τη δυνατότητα αποφυγής περιττής πολυπλοκότητας.</Item>
+		<Item Name="CustomArtistHint">Αυξάνει υη λειτουργεία του καλλιτέχνη, την ποιότητα της τέχνης και μειώνει το μέγεθος των ελαττωμάτων.</Item>
+		<Item Name="CustomMarketerHint">Αυξάνει την αποτελεσματικότητα και την ταχύτητα των εκστρατειών εμπορίου (Marketing).</Item>
+		<Item Name="ElectronicHeatWarning">Μερικά από τα ηλεκτρονικά σας επηρεάζονται από τη θερμότητα.</Item>
+		<Item Name="ActionCoolOverride">Τοποθετήστε τους ανεμιστήρες σε κατάσταση πλήρους ψύξης για να διατηρήσετε τις ηλεκτρονικές συσκευές.</Item>
+		<Item Name="CoolMode">Υψηλή ψύξη</Item>
+		<Item Name="Slavery">Σκλαβιά</Item>
+	</Alpha4.1>
+	<Alpha4.2>
+		<Item Name="NeedNotChosen">Επιλέξτε την ανάγκη</Item>
+	</Alpha4.2>
+	<Alpha4.3>
+		<Item Name="Re-open">Ξανανοίξτε</Item>
+		<Item Name="cashflow">Ταμειακή Ροή</Item>
+		<Item Name="Rooms">Δωμάτια</Item>
+		<Item Name="Furniture">Έπιπλα</Item>
+		<Item Name="SelectedEverything">Τα πάντα</Item>
+		<Item Name="JanuaryAbbr">Ιαν.</Item>
+		<Item Name="FebruaryAbbr">Φεβ.</Item>
+		<Item Name="MarchAbbr">Μάρ.</Item>
+		<Item Name="AprilAbbr">Απρ.</Item>
+		<Item Name="MayAbbr">Μάιος</Item>
+		<Item Name="JuneAbbr">Ιούν.</Item>
+		<Item Name="JulyAbbr">Ιούλ.</Item>
+		<Item Name="AugustAbbr">Αύγ.</Item>
+		<Item Name="SeptemberAbbr">Σεπτ.</Item>
+		<Item Name="OctoberAbbr">Οκτ.</Item>
+		<Item Name="NovemberAbbr">Νοέμ.</Item>
+		<Item Name="DecemberAbbr">Δεκ.</Item>
+		<Item Name="Day">Ημέρα</Item>
+		<Item Name="6 months">6 μήνες</Item>
+		<Item Name="Last month">Προηγούμενος μήνας</Item>
+		<Item Name="This month">Αυτό το μήνα</Item>
+		<Item Name="SheetHire">Πρόσληψη</Item>
+		<Item Name="SheetBills">Λογαριασμοί</Item>
+		<Item Name="SheetSoftware">Λογισμικό</Item>
+		<Item Name="SheetLicenses">Άδειες</Item>
+		<Item Name="SheetMisc">Διάφορα</Item>
+		<Item Name="SheetInterest">Ενδιαφέρον</Item>
+		<Item Name="DaysPerMonth">Μέρες ανά μήνα</Item>
+		<Item Name="OffMarketHint">Εάν ένα προϊόν επηρεάζει τη φήμη σας ή δεν μπορείτε να το υποστηρίξετε, ίσως είναι καλή ιδέα να το απομακρύνετε από την αγορά. Μπορεί να επηρεάσει τη φήμη σας.</Item>
+	</Alpha4.3>
+	<Alpha4.4>
+		<Item Name="Room Aura">Δωμάτιο Aura</Item>
+		<Item Name="Janitor">Συντήρηση</Item>
+		<Item Name="IT">ΤΥ</Item>
+	</Alpha4.4>
+	<Alpha4.5>
+		<Item Name="Month">Μήνας</Item>
+		<Item Name="Year">Χρόνος</Item>
+		<Item Name="PresimLoadMsg">Προσομοίωση αγοράς...</Item>
+		<Item Name="VacationNotify">{0} εργαζόμενος(οι) ήταν σε διακοπές</Item>
+		<Item Name="RetireNotify">{0} έχει αποσυρθεί</Item>
+		<Item Name="SickNotify">{0} αρρώστησε</Item>
+		<Item Name="DiedNotify">{0} πέθανε!</Item>
+		<Item Name="HospitalizedNotify">{0} έπαθε ατύχημα και παραιτήθηκε!</Item>
+		<Item Name="Skip day">Περάστε την ημέρα (skip day)</Item>
+		<Item Name="CompanyLoadMsg">Ενεργές εταιρείες</Item>
+		<Item Name="TeamCompat0">N/A</Item>
+		<Item Name="TeamCompat1">Εξαιρετικά κακό</Item>
+		<Item Name="TeamCompat2">Πολύ κακό</Item>
+		<Item Name="TeamCompat3">Κακό</Item>
+		<Item Name="TeamCompat4">Κανονικό</Item>
+		<Item Name="TeamCompat5">Καλό</Item>
+		<Item Name="TeamCompat6">Τέλειο</Item>
+		<Item Name="TeamCompat7">Φανταστικό</Item>
+		<Item Name="ITBrokeWarning">Κάποιος ηλεκτρονικός εξοπλισμός έσπασε και χρειάζεται 'Τεχνική Υποστήριξη' (ΤΥ)</Item>
+		<Item Name="Thoughts">Στόχοι</Item>
+		<Item Name="Ideal salary">Ιδανικός Μισθός</Item>
+		<Item Name="Any job">Οποιαδήποτε δουλειά</Item>
+	</Alpha4.5>
+	<Alpha4.6>
+		<Item Name="NoPeeOptions">Δεν υπάρχει μέρος για να κατουρήσω</Item>
+		<Item Name="DisgustingToilet">Οι τουαλέτες είναι αηδιαστικές</Item>
+		<Item Name="NoToiletPrivacy">Δεν υπάρχει ιδιωτικότητα στο μπάνιο</Item>
+		<Item Name="NoSitting">Δεν μπορώ να καθίσω πουθενά</Item>
+		<Item Name="BadCoffee">Ο καφές έχει χάλια γεύση</Item>
+		<Item Name="GoodCoffee">Αυτός ο καφές είναι υπέροχος</Item>
+		<Item Name="LowerHealthInsurance">Χρειάζομαι ασφάλιση υγείας αν πληγωθώ</Item>
+		<Item Name="LowerLifeInsurance">Θα μπορούσα να πεθάνω οποιαδήποτε στιγμή, χρειάζομαι ασφάλεια ζωής</Item>
+		<Item Name="LowerPension">Οι συντάξεις μειώνονται ακριβώς όπως πρόκειται να συνταξιοδοτηθώ</Item>
+		<Item Name="MissingToiletWarning">Ένας υπάλληλος δυσκολεύεται να βρει μια τουαλέτα</Item>
+		<Item Name="ServerLoadWarning">Οι διακομιστές σας δεν μπορούν να αντιμετωπίσουν το φορτίο για διανομή</Item>
+		<Item Name="ServerItemLoadWarning">Οι διακομιστές σας δεν μπορούν να αντιμετωπίσουν το φορτίο από {0}</Item>
+		<Item Name="LowCompatWarning">Η ομάδα {0} έχει χαμηλή συμβατότητα</Item>
+		<Item Name="ContractIncomeMsg">Πείρατε {0} από την αποδοχή της σύμβασης</Item>
+		<Item Name="VSyncWarning">Η απενεργοποίηση του VSync θα μπορούσε να προκαλέσει ζημιά στην κάρτα γραφικών σας σε μεγαλύτερες περιόδους παιχνιδιού, λόγω υπερθέρμανσης.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="RoomLowEnv">Αυτό το δωμάτιο είναι βαρετό</Item>
+		<Item Name="FurnitureBlockedStaff">Έχετε έπιπλα που το προσωπικό σας δεν είναι σε θέση να φτάσει</Item>
+		<Item Name="DesignDetailBoxNew">ETA: {3}
+Χρειάζονται καλλιτέχνες: {7}
+Αναμενόμενο ενδιαφέρον: {0}%
+Καινοτομία: {4}
+Σταθερότητα: {5}
+Ευχρηστία: {6}
+ΛΣ (OS) Κάλυψη: {1}%
+Κόστος άδειας: {2}
+Συνιστώμενο μέγεθος ομάδας: {8}</Item>
+		<Item Name="Available contracts">Διαθέσιμες συμβάσεις</Item>
+		<Item Name="Finished contracts">Ολοκληρώθηκαν οι συμβάσεις</Item>
+		<Item Name="ContractEarly">{0} μήνα(ες) νωρίτερα</Item>
+		<Item Name="ContractLate">{0} μήνα(ες) αργότερα</Item>
+		<Item Name="ContractOnTime">στην ώρα της</Item>
+		<Item Name="CloneToolTitle">Εργαλείο κλωνοποίησης</Item>
+		<Item Name="CloneToolDesc">Χρησιμοποιήστε αυτό για να κλωνοποιήσετε τα επιλεγμένα δωμάτια</Item>
+		<Item Name="ActionRoomUnpair">Αφαιρέστε τα δωμάτια</Item>
+		<Item Name="ActionRoomPair">Ορίστε τα επιλεγμένα δωμάτια σε επιλεγμένο προσωπικό</Item>
+		<Item Name="Hire IT-support">Πρόσληψη ΤΥ (IT) υποστήριξης</Item>
+		<Item Name="ComplaintDialogInfo">Όνομα: {0}
+Ηλικία: {1}
+Ρόλος: {2}
+Ομάδα: {3}
+Χρόνια στην εταιρεία: {4}</Item>
+		<Item Name="Complaints">Παράπονα</Item>
+		<Item Name="Current salary">Τωρινός μισθός</Item>
+		<Item Name="Demanded salary">Απαιτούμενος μισθός</Item>
+		<Item Name="Accept demand">Αποδοχή ζήτησης</Item>
+		<Item Name="Fire employee">Απόλυση υπαλλήλου</Item>
+		<Item Name="PrematureDelayWarning">Είστε βέβαιος/η ότι θέλετε να τερματίσετε τη φάση καθυστέρησης;
+Ο τερματισμός της φάσης καθυστέρησης πρόωρα θα επεκτείνει συχνά τη Βήτα (BETA) φάση λόγω της ποσότητας πρόσθετων σφαλμάτων.</Item>
+	</Alpha4.6>
+	<Alpha4.7>
+			<Item Name="DesignProductTeamSizeHintLarge">Το μέγεθος της ομάδας που έχετε επιλέξει είναι αρκετά μεγάλο για ένα έργο αυτού του μεγέθους
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+			<Item Name="CloneComplexityWarning">Μπορείτε να κλωνοποιήσετε μια μεγάλη ποσότητα αντικειμένων, τα οποία θα μπορούσαν να συντρίψουν τον υπολογιστή σας.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+			<Item Name="UnreachableFurniture">Το προσωπικό δεν μπορεί να φτάσει σε αυτό {0}
+Βεβαιωθείτε ότι δεν υπάρχει τίποτα ανάμεσα</Item>
+			<Item Name="UnreachableParking">Αυτό το σημείο στάθμευσης δεν είναι προσβάσιμο
+Βεβαιωθείτε ότι είναι συνδεδεμένο στον κεντρικό δρόμο</Item>
+			<Item Name="EmployeeStuck">{0} δεν μπορούν να πάνε σπίτι τους
+Βεβαιωθείτε ότι υπάρχει ένα μονοπάτι έξω από το κτίριο χωρίς να εμποδίζετε την έξοδο</Item>
+			<Item Name="Coverage">Κάλυψη</Item>
+	</Alpha4.7>
+	<Alpha5.1>
+		<Item Name="I agree">Συμφωνώ</Item>
+		<Item Name="Validate">Επικυρώνω</Item>
+		<Item Name="Forest">Δάσος</Item>
+		<Item Name="City">Πόλη</Item>
+		<Item Name="StockBuyOutError">Πρέπει να είστε μέτοχος όλων των μετοχών μιας εταιρείας προτού μπορέσετε να την αγοράσετε</Item>
+		<Item Name="CompanyDetailInfo">Αξία: {0}
+Μερίδιο: {1}
+Ιδρύθηκε : {2}
+Προϊόντα: {3}
+Αρχικά IPs: {4}
+Οι εταιρείες αγόρασαν: {5}</Item>
+		<Item Name="Electricity">Ρεύμα</Item>
+		<Item Name="Water">Νερό</Item>
+		<Item Name="Maintenance">Συντήρηση</Item>
+		<Item Name="HostingDeal">Φιλοξενία για {0}</Item>
+		<Item Name="IPDeal">{0} IP</Item>
+		<Item Name="WorkDeal">{1} για {0}</Item>
+		<Item Name="Deals">Συμφωνίες</Item>
+		<Item Name="Description">Περιγραφή</Item>
+		<Item Name="Client">Πελάτης</Item>
+		<Item Name="Offer">Προσφορά</Item>
+		<Item Name="ServerDealDetail">Τύπος: {0}
+Μονάδα ισχύος ανά ώρα: {1}
+Απαιτούμενες μονάδες: {2}</Item>
+		<Item Name="MainDealsDesc">Η απεργία ασχολείται με άλλες εταιρείες και τους χτυπά από μέσα
+Χρειάζεστε υποδοχή (reception) για να λαμβάνετε προσφορές</Item>
+		<Item Name="IPDealActionBuy">Θέλετε να αγοράσετε αυτό το IP για {0};</Item>
+		<Item Name="IPDealActionSell">Θέλετε να πουλήσετε αυτό το IP στην {0} για {1};</Item>
+		<Item Name="IPDealActionFail">Κανείς δεν ενδιαφέρεται να αγοράσει αυτό το IP</Item>
+		<Item Name="Trade IP">Εμπορία IP</Item>
+		<Item Name="SheetDeals">Συμφωνίες</Item>
+		<Item Name="Receptionist">Υπεύθυνος υποδοχής (Receptionist)</Item>
+		<Item Name="Guest">Επισκέπτης</Item>
+		<Item Name="Hire Receptionist">Πρόσλ. Ρεσεψιονίστ</Item>
+		<Item Name="CompanyNameWarning">Δεν έχετε επιλέξει όνομα εταιρείας.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="ActionConnectServers">Συνδέστε τους διακομιστές (Servers)</Item>
+		<Item Name="WireMode">Λειτουργία καλωδίου (Wire mode)</Item>
+		<Item Name="GuestCompany">{0} εκ μέρους του {1}</Item>
+	</Alpha5.1>
+	<Alpha5.2>
+		<Item Name="SupportWorkSlowWarning">Οι υπάλληλοί σας δεν μπορούν να συνεχίσουν να υποστηρίζουν το {0}</Item>
+		<Item Name="SupportWorkCancelWarning">Η ακύρωση της υποστήριξης για ένα προϊόν με σφάλματα που υπάρχουν ακόμα θα θυμώσει τους πελάτες σας!
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+	</Alpha5.2>
+	<Alpha5.3>
+		<Item Name="AcceptAllWages">Αποδοχή όλων και κλείσιμο</Item>
+		<Item Name="AcceptAllWagesWarning">Είστε βέβαιος/η ότι θέλετε να αποδεχτείτε όλες τις απαιτήσεις;
+Αυξάνονται οι μέσοι όροι {0}, που είναι μια καθαρή αλλαγή του {1} κάθε μήνα</Item>
+		<Item Name="FurnitureQueue">{0} εργαζομένος(οι) περιμένουν να χρησιμοποιηθούν</Item>
+		<Item Name="Upcoming events">Επερχόμενες εκδηλώσεις (events)</Item>
+		<Item Name="UpcomingEvDesc">Κάντε κλικ εδώ για να δείτε μια λίστα εκδηλώσεων (events) που έρχονται τον επόμενο μήνα. Το εικονίδιο θα ανάβει με κόκκινο χρώμα αν συμβούν πολύ σημαντικά γεγονότα.</Item>
+		<Item Name="RetireEventMsg">{0} υπάλληλοι από την ομάδα {1} θα αποσυρθούν τον επόμενο μήνα, αφού έχουν εργαστεί για {2} για {3} χρόνια.</Item>
+		<Item Name="VacationEventMsg1">{0} υπάλληλοι έχουν προγραμματίσει τις διακοπές τους τον επόμενο μήνα και οι {1} υπάλληλοι προγραμματίζονται να κρατήσουν τις διακοπές τους.</Item>
+		<Item Name="VacationEventMsg2">Καμία ομάδα δεν έχει προγραμματίσει διακοπές τον επόμενο μήνα, αλλά {0} υπάλληλοι προγραμματίζουν να κρατήσουν τις διακοπές τους.</Item>
+		<Item Name="ReleaseEventMsg">{0} σχεδιάζει να κυκλοφορήσει ένα προϊόν τύπου {1} που ονομάζεται "{2}" τον επόμενο μήνα.</Item>
+		<Item Name="ExceptionNotificationTip">Προέκυψε ένα σφάλμα!</Item>
+		<Item Name="ExceptionNotificationTip2">Κάντε κλικ εδώ για λεπτομέρειες</Item>
+		<Item Name="ExceptionNotificationMsg">Λυπούμαστε που σας ενημερώνουμε ότι ένα λάθος εμφανίστηκε μόλις τώρα, το οποίο μπορεί να προκαλέσει σπάσιμο ή ασταθές παιχνίδι (έγκαιρη πρόσβαση - Early access, σωστά;).
+Αν έχετε πρόσφατη αποθήκευση, θα πρότεινα να κλείσετε το παιχνίδι, να το ανοίξετε ξανά και στη συνέχεια να το φορτώσετε, καθώς ίσως δεν μπορείτε να αποθηκεύσετε το τρέχον παιχνίδι από τώρα.
+Εάν έχετε μια ιδέα για το τι συνέβη με βάση το μήνυμα σφάλματος (κάντε κλικ στο κουμπί "Δείτε το σφάλμα") και μπορείτε να το αναπαράγετε, θα ήμουν πολύ ευγνώμων αν στείλατε ένα μήνυμα στο SoftwareInc@Coredumping.com με μια περιγραφή του σφάλματος, για να μπορέσω να το διορθώσω.
+Λυπάμαι πολύ για την ταλαιπωρία.</Item>
+		<Item Name="UI size">Μέγεθος 'περιβάλλοντος χρήστη' ΠΧ (UI)</Item>
+		<Item Name="NoCompanyName">Εισαγάγετε ένα μη κενό όνομα εταιρείας</Item>
+		<Item Name="Save picture">Αποθηκεύστε την εικόνα</Item>
+		<Item Name="Tweet picture">Κάντε Tweet την εικόνα</Item>
+		<Item Name="TwitterDesc">Τι θέλετε να πείτε στον κόσμο;</Item>
+		<Item Name="DefaultTweet">Κοιτάξτε την λογισμική μου αυτοκρατορία! #SoftwareInc</Item>
+		<Item Name="Enter pin">Εισαγάγετε το pin</Item>
+		<Item Name="TweetError">Παρουσιάστηκε σφάλμα κατά την προσπάθεια δημοσίευσης της εικόνας σας στο Twitter</Item>
+		<Item Name="SteamImgQ">Θέλετε να αποθηκεύσετε αυτό το στιγμιότυπο οθόνης στο Steam λογαριασμό σας;</Item>
+	</Alpha5.3>
+	<Alpha5.4>
+		<Item Name="WindowPref">Προτιμήσεις παραθύρων</Item>
+		<Item Name="Reset">Επαναφορά</Item>
+		<Item Name="Upcoming releases">Προσεχείς κυκλοφορίες</Item>
+		<Item Name="UpcomingRelDesc">Δείτε μια λίστα των ανακοινώσεων που έχουν ανακοινωθεί από τους ανταγωνιστές σας.</Item>
+		<Item Name="Close all windows">Κλείστε όλα τα παράθυρα</Item>
+		<Item Name="CloseAllWindowWarning">Είστε βέβαιοσ/η ότι θέλετε να κλείσετε όλα τα παράθυρα;</Item>
+		<Item Name="Only sequels">Μόνο συνέχειες (sequels)</Item>
+		<Item Name="Select fallback">Επιλέξτε το εφεδρικό (fallback)</Item>
+		<Item Name="Fallback">Εφεδρικό (fallback)</Item>
+		<Item Name="Project">Έργο (Project)</Item>
+		<Item Name="Desert">Έρημος</Item>
+		<Item Name="Tundra">Τούντρα</Item>
+		<Item Name="Paused">Παύση</Item>
+	</Alpha5.4>
+	<Alpha6>
+		<Item Name="ActionDismantle">Αφαιρέστε</Item>
+		<Item Name="Dismantle">Αφαίρεση</Item>
+		<Item Name="DismantleMsg">Είστε βέβαιος/η ότι θέλετε να αφαιρέσετε {0} τμήματα τοίχων;</Item>
+		<Item Name="DismantleMsg2">Αφαιρέστε τα τμήματα τοίχων {0}</Item>
+		<Item Name="WallSegments">Τμήματα τοίχων</Item>
+		<Item Name="AngleSnapDesc">Αλλάξτε τη γωνία θραύσης επίπλων</Item>
+		<Item Name="DoubleGridSize">Διπλό μέγεθος πλέγματος</Item>
+		<Item Name="HalveGridSize">Μεγαλώστε το μέγεθος του πλέγματος</Item>
+		<Item Name="ChangeGridAnchor">Πλέγμα άγκυρας σε ένα αντικείμενο ή τοίχο στον κόσμο</Item>
+		<Item Name="ResetGrid">Επαναφορά πλέγματος</Item>
+		<Item Name="ActionMergeRooms">Συγχώνευση δωματίων</Item>
+		<Item Name="Turn furniture clockwise">Περιστρέψτε το έπιπλο δεξιόστροφα</Item>
+		<Item Name="Turn furniture counter clockwise">Περιστρέψτε το έπιπλο αριστερόστροφα</Item>
+		<Item Name="Grid">Πλέγμα</Item>
+		<Item Name="ActionSelectWall">Επιλέξτε όλα τα τμήματα σε αυτόν τον τοίχο</Item>
+		<Item Name="ActionDuplicate">Αντίγραφο</Item>
+		<Item Name="RoomNarrowError">Τα τοιχώματα των δωματίων πρέπει να απέχουν 1.0 μονάδα</Item>
+		<Item Name="RoomIntersectError">Οι τοίχοι δεν μπορούν να διασταυρωθούν</Item>
+		<Item Name="RoomInsideError">Δεν μπορείτε να χτίσετε δωμάτια γύρω από τα δωμάτια</Item>
+		<Item Name="FurnitureSnapError">Αυτό πρέπει να τοποθετηθεί στα υποδεικνυόμενα σημεία</Item>
+		<Item Name="RoomInRoomError">Δεν μπορείτε να χτίσετε δωμάτια μέσα στα δωμάτια</Item>
+		<Item Name="Construct rectangle room">Κατασκευή ορθογώνιου δωματίου</Item>
+		<Item Name="CorruptSaveFile">
+Αυτό το αρχείο αποθήκευσης είναι κατεστραμμένο.
+Πρόκειται πιθανότατα από μια παλαιότερη έκδοση του Software Inc. που δεν υποστηρίζεται πλέον.</Item>
+	</Alpha6>
+	<Alpha6.4>
+		<Item Name="DynamicSegmentHint">Κάντε κλικ και σύρετε για να κλιμακώσετε αυτό το τμήμα</Item>
+	</Alpha6.4>
+	<Alpha6.5>
+		<Item Name="RotateFurnHint2">Κάντε κλικ και σύρετε για να περιστρέψετε τα έπιπλά σας
+Ή πατήστε {0} ή {1}</Item>
+		<Item Name="Delete">Διαγραφή</Item>
+		<Item Name="DeleteSaveConf">Είστε βέβαιος/η ότι θέλετε να διαγράψετε αυτό το αρχείο αποθήκευσης;
+Δεν θα μπορείτε να το ανακτήσετε αργότερα!</Item>
+		<Item Name="DeleteFail">Παρουσιάστηκε σφάλμα κατά την προσπάθεια διαγραφής του αρχείου αποθήκευσης
+Βεβαιωθείτε ότι έχετε άδεια να διαγράψετε αυτό το αρχείο στον υπολογιστή σας</Item>
+		<Item Name="AskMarketingOption">Ρωτήστε για το μάρκετινγκ κατά την κυκλοφορία</Item>
+	</Alpha6.5>
+	<Alpha6.11>
+		<Item Name="Overall skill">Συνολική ικανότητα</Item>
+		<Item Name="Skill interview">Συνέντευξη ικανοτήτων</Item>
+		<Item Name="Specialization interview">Συνέντευξη ειδίκευσης</Item>
+		<Item Name="Personality interview">Συνέντευξη προσωπικότητας</Item>
+		<Item Name="SSAA">SSAA</Item>
+		<Item Name="SSAAHint">Η υπερ-δειγματοληψία κατά της αλλοίωσης (SSAA) καθιστά το παιχνίδι σε διπλή ανάλυση για να εξομαλύνει τις άκρες όσο το δυνατόν περισσότερο (Απαιτεί μια κάρτα γραφικών υψηλής τεχνολογίας)</Item>
+		<Item Name="Event">Εκδήλωση</Item>
+		<Item Name="Payments">Πληρωμές</Item>
+		<Item Name="Employee">Υπάλληλος</Item>
+	</Alpha6.11>
+	<Alpha6.12>
+		<Item Name="Loans">Δάνεια</Item>
+	</Alpha6.12>
+	<Alpha6.13>
+		<Item Name="KeyBindingHint">Πατήστε ένα κουμπί...</Item>
+		<Item Name="Context menu">Κατάλογος συμφραζόμενων</Item>
+		<Item Name="Rotate camera">Περιστρέψτε την κάμερα</Item>
+	</Alpha6.13>
+	<Alpha6.14>
+		<Item Name="Segment">Τμήμα</Item>
+	</Alpha6.14>
+	<Alpha6.18>
+		<Item Name="SaveDeletedError">Αυτό το αρχείο αποθήκευσης δεν υπάρχει πλέον στον υπολογιστή σας και θα καταργηθεί</Item>
+		<Item Name="ExteriorWallFurn">Πρέπει να το τοποθετήσετε σε εξωτερικό τοίχο</Item>
+		<Item Name="BasementFurnError">Αυτά τα έπιπλα δεν μπορούν να τοποθετηθούν στο υπόγειο</Item>
+		<Item Name="RoomTempratureWarning2">Η θερμοκρασία θα ποικίλει πολύ σε αυτό το δωμάτιο
+Προσθέστε ρυθμιστές θερμοκρασίας και θυμηθείτε ότι διαρρέουν παράθυρα</Item>
+		<Item Name="TemperatureOveruse">Μια μονάδα ρύθμισης της θερμοκρασίας είναι υπερφορτωμένη. Προσθέστε περισσότερες μονάδες ρύθμισης στο συγκρότημα κτιρίων.</Item>
+	</Alpha6.18>
+	<Alpha6.21>
+		<Item Name="Selection">Επιλογή</Item>
+		<Item Name="Select multiple">Επιλέξτε πολλαπλά</Item>
+	</Alpha6.21>
+	<Alpha6.22>
+		<Item Name="FurnitureInLimitRoomWarning">Ένας υπάλληλος έχει εκχωρηθεί {0} σε ένα δωμάτιο στον οποίο δεν επιτρέπεται ο υπάλληλος</Item>
+		<Item Name="EmployeeArtWorkWarning">{0} εργάζεται στην τέχνη (art) του {1} αλλά δεν είναι ικανός στην τέχνη και μπορεί να καθυστερήσει την κυκλοφορία και να καταστρέψει την τέχνη</Item>
+		<Item Name="EmployeeProgrammingWorkWarning">{0} προγραμματίζει (code) το {1} αλλά δεν είναι ικανός στην κώδικοποίηση και ενδέχεται να καθυστερήσει την κυκλοφορία και να προσθέσει σφάλματα</Item>
+		<Item Name="EmployeeDesignWorkWarning">{0} σχεδιάζει (design) το {1}, αλλά δεν είναι ικανός με την εργασία του σχεδιασμού και ενδέχεται να καθυστερήσει την κυκλοφορία και να προσθέσει λάθη</Item>
+		<Item Name="RoadBusSignError">Δεν μπορείτε να χτίσετε δρόμο μπροστά από τη στάση του λεωφορείου</Item>
+	</Alpha6.22>
+	<Alpha7.1>
+		<Item Name="Units">Μονάδες</Item>
+		<Item Name="Perception">Αντίληψη</Item>
+		<Item Name="License cost">Κόστος άδειας</Item>
+		<Item Name="Gross">Ακαθάριστο</Item>
+		<Item Name="Price">Τιμή</Item>
+		<Item Name="Active users">Ενεργοί χρήστες</Item>
+		<Item Name="Category">Κατηγορία</Item>
+		<Item Name="ETA">ETA</Item>
+		<Item Name="Artists needed">Χρειάζονται καλλιτέχνες (Artists)</Item>
+		<Item Name="Expected interest">Αναμενόμενο ενδιαφέρον</Item>
+		<Item Name="Consumer reach">Εφικτό ποσό καταν/τών</Item>
+		<Item Name="License costs">Κόστος άδειας</Item>
+		<Item Name="Recommended team size">Συνιστώμενο μέγεθος ομάδας</Item>
+		<Item Name="Traded">Εμπορευμένο</Item>
+		<Item Name="Fans">Θαυμαστές</Item>
+		<Item Name="FansInfo">Οι θαυμαστές δεν έχουν άμεσο αντίκτυπο στις πωλήσεις σας, αλλά έχοντας περισσότερους οπαδούς θα καταστήσει ευκολότερη την αναγνώρισή σας στην αγορά.</Item>
+		<Item Name="Business reputation">Επιχειρηματική φήμη</Item>
+		<Item Name="BusinessRepInfo">Αυτή είναι η φήμη σας στη βιομηχανία λογισμικού. Κάθε αστέρι θα επηρεάσει την ποιότητα των αιτούντων, των συμβάσεων, των προσφορών και της διανομής των εργαζομένων.</Item>
+		<Item Name="PricingButtonTip">Κάντε κλικ εδώ για να χρησιμοποιήσετε την προτεινόμενη τιμή για αυτό το λογισμικό</Item>
+		<Item Name="Market recognition">Αναγνώριση στην αγορά</Item>
+		<Item Name="MarketRecognitionInfo">Η αναγνώριση στην αγορά ελέγχει πόσο γνωστή είναι η εταιρία σας σε κάθε αγορά λογισμικού και, ως εκ τούτου, πόσο καλά θα πωλούν τα προϊόντα σας σε κάθε κατηγορία</Item>
+		<Item Name="Bandwidth">Εύρος Ζώνης</Item>
+		<Item Name="Reflections">Σκέψεις</Item>
+		<Item Name="ActionChange Room Team">Αλλαγή ομάδας</Item>
+		<Item Name="Screen Space Reflections">Σκέψεις χώρου οθόνης</Item>
+		<Item Name="SSRHint">Κάνει τις πιο λαμπερές επιφάνειες να αντικατοπτρίζουν το περιβάλλον τους (Απαιτεί μια κάρτα γραφικών υψηλής τεχνολογίας)</Item>
+		<Item Name="Please wait">Παρακαλώ περιμένετε</Item>
+		<Item Name="PicTakingError">Σφάλμα λήψης εικόνας. Επιλέξτε μικρότερη ανάλυση.</Item>
+		<Item Name="Performance tip">Συμβουλή Απόδοσης</Item>
+		<Item Name="Hover for details">Τοποθετήστε το ποντίκι για λεπτομέρειες</Item>
+		<Item Name="PerformanceTipDetail">Η απόδοση των περισσότερων αποτελεσμάτων εξαρτάται από την ανάλυση της οθόνης σας και όχι από την πολυπλοκότητα των αντικειμένων στην οθόνη. Η SSAA θα διπλασιάσει την επίπτωση των επιδόσεων των περισσότερων αποτελεσμάτων.</Item>
+		<Item Name="Impact">Επίπτωση</Item>
+		<Item Name="Very high">Πολύ ηψηλή</Item>
+		<Item Name="High">Ηψηλός</Item>
+		<Item Name="Low">Χαμηλός</Item>
+		<Item Name="DevMarketingHint">Θέλετε να ξεκινήσετε μια καμπάνια μάρκετινγκ για το {0} τώρα;
+Η εμπορία (marketing) του προϊόντος σας, ενώ βρίσκεται σε εξέλιξη, θα δημιουργήσει διαφημιστική απάτη, η οποία επηρεάζει την εκτόξευση των πωλήσεων και τους ανταγωνιστές σας</Item>
+		<Item Name="MarketingError">Υπάρχει ήδη μια εκστρατεία μάρκετινγκ για αυτό το προϊόν</Item>
+		<Item Name="KeyBindingWarning">Το "{0}" έχει ήδη δεσμευτεί στο "{1}", είστε βέβαιος/η ότι θέλετε να επανασυνδέσετε;</Item>
+		<Item Name="Request">Αίτηση</Item>
+		<Item Name="Retail price">Τιμή λιανικής</Item>
+		<Item Name="Priority">Προτεραιότητα</Item>
+		<Item Name="Change software name">Αλλάξτε το όνομα λογισμικού</Item>
+		<Item Name="MarketingProduct">Εμπορία (Marketing) {0}</Item>
+		<Item Name="Time v Innovation">Ώρα έναντι Καινοτομία</Item>
+		<Item Name="Time v quality">Χρόνος έναντι ποιότητας</Item>
+		<Item Name="Budget v quality">Προϋπολογισμός (Budget) έναντι ποιότητας</Item>
+		<Item Name="AutoDevProjDetails2">Τρέχοντα στοιχεία του πρότζεκτ:
+Όνομα: {0}
+Τύπος: {1}
+Κατηγορία: {2}</Item>
+		<Item Name="OldSaveGameError">Το παιχνίδι που προσπαθείτε να φορτώσετε προέρχεται από μια παλαιότερη έκδοση του Software Inc. ({0}), η οποία δεν είναι πλέον συμβατή με την έκδοση που χρησιμοποιείτε ({1})</Item>
+	</Alpha7.1>
+	<Alpha7.2>
+		<Item Name="FXAA">ΓΚΠΑ (FXAA)</Item>
+		<Item Name="FXAADetails">'Γρήγορη κατά προσέγγιση αλλοίωση' (Fast Approximate Anti-Aliasing), βασική αντι-αλίευση. Διατηρεί τις άκρες από την εμφάνιση σε pixel</Item>
+		<Item Name="SMAA">ΜΑΑΥ (SMAA)</Item>
+		<Item Name="SMAADetails">'Μορφολογικός αντι-αλλοιισμός υποεικονοστοιχείων' (Subpixel Morphological Anti-Aliasing), πιο προηγμένες αντι-ψευδαισθήσεις. Διατηρεί τις άκρες από την εμφάνιση σε pixel</Item>
+		<Item Name="SMAADetailsError">Το ΜΑΑΥ (SMAA), δεν υποστηρίζεται από το DirectX9</Item>
+		<Item Name="SSAADetails">Υπερ-δειγματοληψία αντι-αλλοιισμός. Αναδεικνύει το παιχνίδι σε υψηλότερη ανάλυση για να εξομαλύνει τις άκρες όσο το δυνατόν περισσότερο (Απαιτεί μια κάρτα γραφικών υψηλής τεχνολογίας)</Item>
+		<Item Name="WorkItemCancelConf">Είστε βέβαιος/η ότι θέλετε να ακυρώσετε το {0};</Item>
+		<Item Name="Shadow quality">ποιότητα Σκιάς</Item>
+		<Item Name="Units sold">Μονάδες που πωλήθηκαν</Item>
+	</Alpha7.2>
+	<Alpha7.3>
+		<Item Name="Off">Κλειστό</Item>
+		<Item Name="ActionResetDefaultStyle">Επαναφορά στο προεπιλεγμένο στυλ</Item>
+		<Item Name="ComputerWarning">Ένας υπολογιστής γίνεται πολύ αργός και πρέπει να το εξετάσει το προσωπικό ΤΥ υποστήριξης (IT)</Item>
+		<Item Name="NotificationGotoHint">Κάντε κλικ για προβολή</Item>
+		<Item Name="Auto role">Αυτόματος Ρόλος</Item>
+	</Alpha7.3>
+	<Alpha7.4>
+		<Item Name="Topdown view">Κάτωψη Κορυφής</Item>
+	</Alpha7.4>
+	<Alpha7.5>
+		<Item Name="WorkPriorityHint">Ο υψηλότερος αριθμός σημαίνει υψηλότερη προτεραιότητα</Item>
+		<Item Name="ShiftFurnHint">Κρατήστε παρατεταμένα το Shift για να τοποθετήσετε πολλαπλά</Item>
+		<Item Name="IPDealActionBuyFail">To {0} θέλει {1}, κάτι που δεν μπορείτε να αντέξετε οικονομικά</Item>
+		<Item Name="MarketingAmount1">Τίποτα</Item>
+		<Item Name="MarketingAmount2">Αραιό</Item>
+		<Item Name="MarketingAmount3">Διακεκριμένο</Item>
+		<Item Name="MarketingAmount4">Διαδεδομένο</Item>
+		<Item Name="MarketingAmount5">Αναπόφευκτο</Item>
+		<Item Name="ActionSelectBuildingFloor">Επιλέξτε το πάτωμα του κτιρίου</Item>
+		<Item Name="PathwayBlocked">Κάτι εμποδίζει αυτό το μονοπάτι</Item>
+		<Item Name="Sweep selection">Επιλογή σάρωσης</Item>
+	</Alpha7.5>
+	<FurnitureColorNames>
+		<Item Name="FCBase">Βάση</Item>
+		<Item Name="FCFrame">Πλαίσιο</Item>
+		<Item Name="FCCasing">Θήκη</Item>
+		<Item Name="FCShade">Απόχρωση</Item>
+		<Item Name="FCLighting">Φωτισμός</Item>
+		<Item Name="FCFabric">Ύφασμα</Item>
+		<Item Name="FCBackground">Φόντο</Item>
+		<Item Name="FCBlades">Λεπίδες</Item>
+		<Item Name="FCHandle">Λαβή</Item>
+		<Item Name="FCPot">Δοχείο</Item>
+		<Item Name="FCPad">Μπλοκ</Item>
+		<Item Name="FCBox">Κουτί</Item>
+		<Item Name="FCMonitor">Οθόνη</Item>
+		<Item Name="FCKeys">κλειδιά</Item>
+		<Item Name="FCShelf">Ράφι</Item>
+		<Item Name="FCSeat">Έδρα</Item>
+		<Item Name="FCSupport">Υποστήριξη</Item>
+		<Item Name="FCHologram">Ολόγραμμα</Item>
+		<Item Name="FCBack">Πίσω</Item>
+	</FurnitureColorNames>
+	<Alpha7.6>
+		<Item Name="Minigame">Μικρό παιχνίδι (minigame)</Item>
+		<Item Name="MinigameLifeError">Έχετε ήδη σπαταλήσει όλη τη ζωή σας</Item>
+		<Item Name="Lives left">Ζωές που έμειναν</Item>
+		<Item Name="Multiplier">Πολλαπλασιαστής</Item>
+		<Item Name="MinigameHint">Συνιστάται μόνο για μικρά έργα όταν ξεκινάτε</Item>
+		<Item Name="UMLGameHint">Κάντε κλικ για να ξεκινήσετε
+
+Συνδέστε τα πλαίσια μέχρι να εμφανιστούν όλα τα πλαίσια σε μια ομάδα 0
+
+Δεν μπορείτε να συνδέσετε τα ίδια πλαίσια δύο φορές
+
+Μπορείτε να κάνετε βρόχους
+
+Μην αφήνετε ένα κουτί να φτάσει στο κέντρο</Item>
+		<Item Name="CodeGameHint">Κάντε κλικ για να ξεκινήσετε
+
+Πληκτρολογήστε τις λέξεις στην οθόνη
+
+Πρέπει να πληκτρολογήσετε ολόκληρη τη λέξη μόλις αρχίσετε να πληκτρολογείτε, δεν μπορείτε να διαγράψετε ένα γράμμα
+
+Όταν συμπληρώνετε μια λέξη, ο συντελεστής πολλαπλασιαστή σας αυξάνεται
+
+Ο πολλαπλασιαστής επαναφέρεται όταν πληκτρολογείτε εσφαλμένα ένα γράμμα ή όταν μια λέξη φτάσει στο κάτω μέρος
+
+Μην αφήνετε τις λέξεις να φτάνουν στο κάτω μέρος</Item>
+		<Item Name="OwnLicense">Χρησιμοποιήστε τις δικές σας άδειες</Item>
+	</Alpha7.6>
+	<Alpha7.7>
+		<Item Name="Hyping">Υπόψη</Item>
+		<Item Name="Fulfilling contract">Εκτέλεση σύμβασης</Item>
+		<Item Name="Time-limit">Προθεσμία</Item>
+		<Item Name="Required quality">Απαιτούμενη ποιότητα</Item>
+		<Item Name="Upfront">Προκαταρκτικά</Item>
+		<Item Name="When done">Όταν τελειώσετε</Item>
+		<Item Name="Penalty">Ποινή</Item>
+		<Item Name="Cost per bug">Κόστος ανά σφάλμα</Item>
+		<Item Name="Bug penalty">Ποινή σφάλματος</Item>
+		<Item Name="Late penalty">Ποινή Καθυστέρησης</Item>
+		<Item Name="Quality penalty">Ποινή ποιότητας</Item>
+		<Item Name="Cancel penalty">Ποινή ακύρωσης</Item>
+		<Item Name="Net profit">Καθαρό κέρδος</Item>
+		<Item Name="Delivered">Παραδόθηκε</Item>
+		<Item Name="Max bandwidth">Μέγιστο εύρος ζώνης</Item>
+		<Item Name="Look again">Κοίταξτε ξανά</Item>
+		<Item Name="LookAgainPrompt">Είστε βέβαιος/η ότι θέλετε να κοιτάξετε ξανά; Θα κοστίσει {0}</Item>
+	</Alpha7.7>
+	<Alpha8.1>
+		<Item Name="FeatureUnlockWarning">Αυτή η λειτουργία θα ξεκλειδώσει το {0}</Item>
+		<Item Name="FeatureDependencyWarning">Αυτή η λειτουργία εξαρτάται από το {0}, επιλέξτε πρώτα αυτό το χαρακτηριστικό</Item>
+		<Item Name="FeatureFromWarning">Αυτή η δυνατότητα αντικαθίσταται από το {0}</Item>
+		<Item Name="FeatureDependencyUnlockWarning">Αυτή η λειτουργία εξαρτάται από το {0} από το {1}, το οποίο δεν έχει ξεκλειδωθεί ακόμα</Item>
+		<Item Name="FeatureDependencyMarketWarning">Αυτή η λειτουργία εξαρτάται από το {0} από το {1}, η οποία δεν είναι διαθέσιμη στην αγορά</Item>
+		<Item Name="FeatureDependencyPickedWarning">Αυτή η λειτουργία εξαρτάται από το {0}, το οποίο δεν είναι διαθέσιμο για το {1} που έχετε επιλέξει</Item>
+		<Item Name="FeatureDependencyOSWarning">Όλα τα υποστηριζόμενα λειτουργικά συστήματα (OS) πρέπει να έχουν το {0} για να ξεκλειδώσουν αυτή τη λειτουργία</Item>
+		<Item Name="SoftwareSupportWaning">Έχει περάσει καιρός από τότε που κυκλοφόρησε ένα προϊόν σας τύπου {0} ({1}) και οι οπαδοί σας σας παρατήρησαν</Item>
+		<Item Name="Royalties">Δικαιώματα</Item>
+		<Item Name="Royalty">Δικαίωμα</Item>
+		<Item Name="Research">Έρευνα</Item>
+		<Item Name="Researching">Ερευνάται</Item>
+		<Item Name="ResearchDesc">Έρευνα και χαρακτηριστικά ευρεσιτεχνίας για την αποζημίωση των ανταγωνιστών σας</Item>
+		<Item Name="Patent">Ευρεσιτεχνία</Item>
+		<Item Name="Patents">Ευρεσιτεχνίες</Item>
+		<Item Name="Durability">Αντοχή</Item>
+		<Item Name="Work boost">Ενίσχυση της εργασίας</Item>
+		<Item Name="Room boost">Ενίσχυση δωματίου</Item>
+		<Item Name="Mood">Διάθεση</Item>
+		<Item Name="Horizontal parking">Οριζόντια στάθμευση</Item>
+		<Item Name="Vertical parking">Κατακόρυφος χώρος στάθμευσης</Item>
+		<Item Name="Heating">Θέρμανση</Item>
+		<Item Name="Cooling">Ψύξη</Item>
+		<Item Name="ResearchCancelWarning">Είστε βέβαιος/η ότι θέλετε να ακυρώσετε αυτήν την έρευνα; Θα χάσετε όλη την πρόοδο</Item>
+		<Item Name="PatentExpiration">Το δίπλωμα ευρεσιτεχνίας σας για {1} για το {0} έχει λήξει</Item>
+		<Item Name="PatentTooSlow">Μια άλλη εταιρεία ολοκλήρωσε την έρευνα {1} από {0} πριν από σας</Item>
+		<Item Name="Unlocks">Ξεκλειδώματα</Item>
+		<Item Name="Researched">Ερευνήθηκε</Item>
+		<Item Name="CompanyMissingWarning">Η εταιρεία δεν υπάρχει πλέον</Item>
+		<Item Name="Find owner">Βρείτε τον κάτοχο</Item>
+		<Item Name="Software">Λογισμικό</Item>
+		<Item Name="Port">Port</Item>
+		<Item Name="Porting">Μεταφορά</Item>
+		<Item Name="PortTo">Μεταφορά στο {0}</Item>
+		<Item Name="UnsupportedProcWarning">Έχετε μη υποστηριζόμενες διεργασίες διακομιστή (Server)!</Item>
+		<Item Name="Max quality">Μέγιστη ποιότητα</Item>
+		<Item Name="Fence">Φράκτης</Item>
+		<Item Name="Construct fence">Κατασκευάστε φράχτη</Item>
+		<Item Name="Construct rectangle fence">Κατασκευή ορθογώνιου φράχτη</Item>
+		<Item Name="ActionMaterial">Υλικό κατασκευής δωματίου</Item>
+		<Item Name="Drag camera">Σύρετε την κάμερα</Item>
+		<Item Name="DownFloor">Πηγαίνετε έναν όροφο κάτω</Item>
+		<Item Name="UpFloor">Πηγαίνετε έναν όροφο πάνω</Item>
+		<Item Name="Salaries">Μισθοί</Item>
+		<Item Name="Force role">Ρόλος δύναμης</Item>
+		<Item Name="Preferred age">Προτιμώμενη ηλικία</Item>
+		<Item Name="Education cooldown">Διάλειμμα εκπαίδευσης</Item>
+		<Item Name="Dividends">Μερίσματα</Item>
+		<Item Name="ResearchPhase1">Ερευνάται</Item>
+		<Item Name="ResearchPhase2">Δοκιμάζεται</Item>
+		<Item Name="ResearchPhase3">Αίτηση για δίπλωμα ευρεσιτεχνίας</Item>
+	</Alpha8.1>
+	<Alpha8.2>
+		<Item Name="NoResearch">Δεν υπάρχει προς το παρόν τίποτα για έρευνα</Item>
+	</Alpha8.2>
+	<Alpha8.3>
+		<Item Name="Own office">Το δικό σας γραφείο</Item>
+		<Item Name="CodeMiniGameEnd">Τέλος παιχνιδιού!
+
+Κάντε κλικ για να συνεχίσετε</Item>
+		<Item Name="RoomAngleError2">Η γωνία τοίχου πρέπει να είναι μεγαλύτερη από {0}°</Item>
+		<Item Name="Hint">Hint</Item>
+		<Item Name="Hints">Hints</Item>
+		<Item Name="HintEmployeeAssign">Μπορείτε να εκχωρήσετε υπαλλήλους σε έπιπλα κρατώντας παρατεταμένα το Shift και επιλέγοντας τόσο τους εργαζόμενους όσο και τα έπιπλα και κάνοντας δεξί κλικ</Item>
+		<Item Name="HintStaffAssign">Μπορείτε να ορίσετε το προσωπικό σε δωμάτια κρατώντας παρατεταμένα το Shift και επιλέγοντας τόσο το μέλος του προσωπικού όσο και τους χώρους και κάνοντας δεξί κλικ</Item>
+		<Item Name="HintMultipleBuild">Μπορείτε να κρατήσετε αντικείμενα και δωμάτια σε κατάσταση κατασκευής έχοντας παρατεταμένα το Shift, αυτό επίσης λειτουργεί όταν κάνετε αντιγραφή αντικειμένων</Item>
+		<Item Name="HintQuickSelect">Μπορείτε εύκολα να επιλέξετε πολλαπλά αντικείμενα συγκεκριμένου τύπου κρατώντας το ctrl και το αριστερό πλήκτρο του ποντικιού ενώ σύρετε το ποντίκι</Item>
+		<Item Name="HintSelectFurnitureType">Η επιλεγμένη επιλογή τύπου επίπλου είναι εξαιρετικά ευέλικτη, μπορείτε να την χρησιμοποιήσετε για να επιλέξετε όλα τα έπιπλα σε ένα δωμάτιο ή τον επιλεγμένο τύπο επίπλων στο/α επιλεγμένο/α δωμάτιο/α</Item>
+		<Item Name="HintCopyColor">Μπορείτε εύκολα να αντιγράψετε το χρώμα επίπλων, ρυθμίζοντας το προεπιλεγμένο στυλ και κατόπιν επαναφέροντας το στυλ για επιλεγμένα έπιπλα από το μενού περιβάλλοντος</Item>
+		<Item Name="HintProductRelease">Παρακολουθήστε τα επερχόμενα και πρόσφατα κυκλοφορούντα προϊόντα προτού κυκλοφορίσετε το δικό σας για να αποφύγετε την επισκίαση</Item>
+		<Item Name="HintFurnitureCopyMultiple">Μπορείτε να αντιγράψετε πολλαπλά αντικείμενα σε μια διάταξη κάθε φορά πατόντας παρατεταμένα το Shift και επιλέγοντάς τα πριν αντιγράψετε</Item>
+		<Item Name="HintEmployeeEducation">Μπορείτε να εκπαιδεύσετε πολλούς υπαλλήλους κάθε φορά, επιλέγοντάς τους όλoυς πριν ανοίξετε το παράθυρο εκπαίδευσης</Item>
+		<Item Name="HintEmployeeSelection">Μπορείτε να κρατήσετε το ctrl και να κάνετε κλικ για να επιλέξετε πολλούς υπαλλήλους ή να κρατήσετε παρατεταμένα το Shift για να επιλέξετε μια σειρά υπαλλήλων, η οποία επίσης λειτουργεί για κάποιες άλλες λίστες στο παιχνίδι</Item>
+		<Item Name="HintAutoScaleSegment">Για μερικά τμήματα τοίχου, μπορείτε να κρατήσετε το ctrl για αυτόματη κλιμάκωση του τμήματος ώστε να ταιριάζει στον τοίχο στον οποίο θέλετε να το χτίσετε</Item>
+	</Alpha8.3>
+	<Alpha8.4>
+		<Item Name="HintElevatorBeam">Μπορείτε να επιλέξετε ανελκυστήρες σε κατάσταση κατασκευής για να εμφανίσετε μια δέσμη καθοδήγησης, η οποία θα σας βοηθήσει να ευθυγραμμίσετε τους ανελκυστήρες σε άλλους ορόφους</Item>
+		<Item Name="HRHireBudgetWarning">Το ΑΠ (HR) για την ομάδα {0} δεν έχει αρκετά μεγάλο προϋπολογισμό (Budget) για να προσλάβει περισσότερους υπαλλήλους</Item>
+		<Item Name="PortNonOSError">Αυτό το προϊόν δεν εξαρτάται από το λειτουργικό σύστημα</Item>
+		<Item Name="ResearchOwnedError">Αυτό έχει ήδη ερευνηθεί</Item>
+		<Item Name="SoftwareSoftwareDependencyWarning">Αυτό το λογισμικό εξαρτάται από το {1} που πρέπει να αναπτυχθεί. Επιλέξτε ένα προϊόν τύπου {1} για να συνεχίσετε</Item>
+		<Item Name="SoftwareFeatureError">Χρειάζεστε τουλάχιστον ένα χαρακτηριστικό για να ξεκινήσετε την ανάπτυξη</Item>
+	</Alpha8.4>
+	<Alpha8.5>
+		<Item Name="Bank">τράπεζα</Item>
+		<Item Name="HintGridSnapToWall">Μπορείτε να χρησιμοποιήσετε το κουμπί "Πλέγμα άγκυρας", πάνω από το κουμπί κατασκευής στα αριστερά, για να ασφαλίσετε το πλέγμα σε τοίχο. Αυτό κάνει πολύ ευκολότερη την ευθυγράμμιση των επίπλων με γωνιακούς τοίχους</Item>
+	</Alpha8.5>
+	<Alpha8.6>
+		<Item Name="Upload">Μεταφόρτωση (Upload)</Item>
+		<Item Name="Steam Workshop">Steam Workshop</Item>
+		<Item Name="SteamWorkshopHint">Κάντε κλικ εδώ για να ξεκινήσετε τη μεταφόρτωση των mod σας στο Steam Workshop</Item>
+		<Item Name="FailedSteamUpload">Αποτυχία φόρτωσης mod με κωδικό σφάλματος: {0}</Item>
+		<Item Name="SuccessSteamUpload">Το Mod φορτώθηκε με επιτυχία! Θυμηθείτε να αλλάξετε την ορατότητα του mod σας στο εργαστήριο.</Item>
+		<Item Name="SteamUploadDenied">Δεν έχετε δικαίωμα να μεταφορτώσετε αυτήν τη λειτουργία στο Steam Workshop</Item>
+		<Item Name="SteamUploadFileType">Βρέθηκε αρχείο τύπου {0}. Μεταφορτώστε μόνο σχετικά αρχεία</Item>
+		<Item Name="SteamUploadConfirmation">Είστε βέβαιος/η ότι θέλετε να το μεταφορτώσετε στο Steam Workshop; Αποφύγετε να μεταφορτώσετε εργασίες που δεν είναι δικές σας.</Item>
+		<Item Name="HintWorkItemActions">Μπορείτε να κάνετε αριστερό κλικ και να σύρετε στοιχεία εργασίας για να τα επαναλάβετε στη λίστα. Μπορείτε να κάνετε δεξί κλικ σε ένα αντικείμενο εργασίας για να το συμπτύξετε.</Item>
+		<Item Name="Uploaded">Μεταφορτώθηκε (Uploaded)</Item>
+	</Alpha8.6>
+	<Alpha8.7>
+		<Item Name="BlueprintPrompt">Επιλέξτε ένα όνομα για το σχέδιό (Blueprint) σας</Item>
+		<Item Name="BlueprintPromptTitle">Όνομα σχεδίου (Blueprint)</Item>
+		<Item Name="BlueprintPromptDefault">Το σχέδιό (Blueprint) μου</Item>
+		<Item Name="BlueprintPromptError">Το όνομα αυτό έχει ήδη ληφθεί</Item>
+		<Item Name="BlueprintButton">Δημιουργία σχεδίων (Blueprints)</Item>
+		<Item Name="BlueprintButtonDesc">Επιλέξτε από μια λίστα προκατασκευασμένων και προ-επιπλωμένων κτιρίων</Item>
+		<Item Name="SaveBlueprint">Αποθήκευση επιλεγμένα δωμάτια</Item>
+		<Item Name="Blueprints">Σχέδια (Blueprints)</Item>
+		<Item Name="Build">Χτίστε</Item>
+		<Item Name="BlueprintSaveError">Αποτυχία αποθήκευσης σχεδίου (Blueprint) με σφάλμα: {0}</Item>
+		<Item Name="BlueprintSteamDelete">Καταργήστε την εγγραφή σας από αυτό το στοιχείο στο Steam Workshop. Αν ανεβάσατε αυτό στο Workshop, διαγράψτε το με μη αυτόματο τρόπο από το φάκελο Blueprints.</Item>
+	</Alpha8.7>
+	<Alpha8.8>
+		<Item Name="Square meters">Τετραγωνικά μέτρα</Item>
+		<Item Name="Building cost">Κόστος κατασκευής</Item>
+		<Item Name="Furniture cost">Έξοδα επίπλων</Item>
+		<Item Name="Computers">Υπολογιστές</Item>
+		<Item Name="Incompatible furniture">Μη συμβατά έπιπλα</Item>
+		<Item Name="Distribution">Διανομή</Item>
+		<Item Name="Build Mode">Λειτουργία κατασκευής</Item>
+		<Item Name="Welcome">καλώς ήρθατε</Item>
+		<Item Name="Customization">Προσαρμογή</Item>
+		<Item Name="Design work">Σχεδιασμός εργασιών</Item>
+		<Item Name="Alpha work">Άλφα (Alpha) εργασία</Item>
+		<Item Name="Support work">Υποστηρικτικές εργασίες</Item>
+		<Item Name="Hiring">Πρόσληψη</Item>
+		<Item Name="TutorialPost">{0} tutorial</Item>
+		<Item Name="TutorialPrompt">Θέλετε να ξεκινήσετε το {0} tutorial;</Item>
+		<Item Name="Tutorial">Tutorial</Item>
+		<Item Name="Not now">Όχι τώρα</Item>
+		<Item Name="Never">Ποτέ</Item>
+		<Item Name="Disable all">Απενεργοποίηση όλων</Item>
+		<Item Name="Skip">Παράλειψη</Item>
+		<Item Name="End">Τέλος</Item>
+		<Item Name="CancelTutorial">Είστε βέβαιος/η ότι θέλετε να ακυρώσετε το tutorial;</Item>
+		<Item Name="ModEnableError">Η επιλεγμένη λειτουργία δεν είναι συμβατή με τις άλλες επιλεγμένες επιλογές</Item>
+		<Item Name="Preparing">Προετοιμασία</Item>
+		<Item Name="Uploading">Μεταφόρτωση</Item>
+		<Item Name="Committing">Δέσμευση</Item>
+	</Alpha8.8>
+	<Alpha8.9>
+		<Item Name="Noise reduction">Μείωση θορύβου</Item>
+		<Item Name="StressWarning">Ένας εργαζόμενος αγχώνεται. Βεβαιωθείτε ότι δεν τους φορτώνετε με πάρα πολλά καθήκοντα και μακρά εργάσιμη ώρα, χτίστε ένα κυλικείο και στέλνετέ τους στο σπίτι όταν είναι εντελώς άγχωμένοι</Item>
+		<Item Name="SocialProblem">Νιώθω απομονωμένος</Item>
+		<Item Name="SocialWarning">Ένας υπάλληλος δεν έχει τις κοινωνικές του ανάγκες που πληρούνται. Ένα ανοιχτό περιβάλλον εργασίας, κυλικεία, συναντήσεις ομάδων και έπιπλα για κοινωνικοποίηση μπορεί να βοηθήσει</Item>
+		<Item Name="Stress">Άγχος</Item>
+		<Item Name="Social">Κοινωνικός</Item>
+		<Item Name="Independent">Ανεξάρτητος</Item>
+		<Item Name="Hard worker">Σκληρά εργαζόμενος</Item>
+		<Item Name="Fast learner">Μαθαίνει γρήγορα</Item>
+		<Item Name="Lazy">Τεμπέλης</Item>
+		<Item Name="Stressed">Αγχωμένος</Item>
+		<Item Name="IndependantVsSocial">Ένας καλός ηγέτης πρέπει να είναι κοινωνικός, αλλά ένας ανεξάρτητος υπάλληλος θα εργάζεται ευτυχώς όλη μέρα μόνος του στις καμπίνες τους</Item>
+		<Item Name="LazyVsStressed">Ένας τεμπέλης υπάλληλος θα προσπαθήσει να βγει από τη δουλειά όσο το δυνατόν περισσότερο, ενώ ένας έμμισθος υπάλληλος θα αισθανθεί γρήγορα υπερβολικά εργαζόμενος</Item>
+		<Item Name="HardWorkVsFastLearn">Ένας σκληρός εργάτης δίνει πάντα το 110%, αλλά ένας γρήγορος μαθητής θα πάρει νέες δεξιότητες πιο εύκολα</Item>
+		<Item Name="InHouseWarning">Πρόκειται να αρχίσετε να αποκαλύπτετε ένα εσωτερικό προϊόν, το οποίο σημαίνει ότι δεν θα μπορείτε να το πωλήσετε ή να το παραχωρήσετε.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="InHouseMarketing">Δεν μπορείτε να διαθέσετε προϊόντα εσωτερικού</Item>
+		<Item Name="RotateRoomHint">Πατήστε {0} ή {1} για να περιστρέψετε το κτίριο</Item>
+		<Item Name="Appx bandwidth">Εύρος ζώνης Appx</Item>
+	</Alpha8.9>
+	<Alpha8.10>
+		<Item Name="Zoom">Ζούμ</Item>
+		<Item Name="Gamma">Γκάμα</Item>
+		<Item Name="CleaningBlocked">Κάτι εμποδίζει το προσωπικό καθαρισμού σας από τον καθαρισμό αυτού του δωματίου</Item>
+		<Item Name="Head">Κεφάλι</Item>
+		<Item Name="Torso">κορμός σώματος</Item>
+		<Item Name="Legs">Πόδια</Item>
+		<Item Name="Accessories">Αξεσουάρ</Item>
+		<Item Name="Business Casual">Επιχειρηματικά περιστασιακά (κοντά)</Item>
+		<Item Name="Full Beard">Πλήρης γενειάδα</Item>
+		<Item Name="Stubble">Γένια</Item>
+		<Item Name="Mens Blouse">Ανδρική μπλούζα</Item>
+		<Item Name="Mens Pants">Ανδρικό παντελόνι</Item>
+		<Item Name="Glasses">Γυαλιά</Item>
+		<Item Name="Knot">Κόμπος</Item>
+		<Item Name="Rouge">Ρουζ</Item>
+		<Item Name="Womens Blouse">Γυναικεία μπλούζα</Item>
+		<Item Name="Womens Pants">Γυναικείο παντελόνιι</Item>
+		<Item Name="HintTeamSizeEffectiveness">Η τοποθέτηση περισσότερων ανθρώπων σε ένα έργο από όσο χρειάζεται δεν κάνει απαραίτητα την ανάπτυξη ταχύτερα και μπορεί να μειώσει την αποτελεσματικότητα</Item>
+		<Item Name="Womens Hoodie">Γυναικεία ζακέτα</Item>
+		<Item Name="Mens Hoodie">Ανδρική ζακέτα</Item>
+		<Item Name="Womens Shirt">Γυναικείο πουκάμισο</Item>
+		<Item Name="Mens Shirt">Ανδρικό πουκάμισο</Item>
+		<Item Name="Womens T-Shirt">Γυναικείο κοντομάνικο</Item>
+		<Item Name="Mens T-Shirt">Ανδρικό κοντομάνικο</Item>
+		<Item Name="Long Skirt">Μακριά φούστα</Item>
+		<Item Name="Short Skirt">Κοντή φούστα</Item>
+		<Item Name="Trumpet Pants">Τρομπέτα Παντελόνια</Item>
+		<Item Name="Cargo Shorts">Κοντό σορτσάκι</Item>
+		<Item Name="Mens Shorts">Ανδρικό σορτς</Item>
+		<Item Name="Trousers">Παντελόνι</Item>
+		<Item Name="Long Curly Hair">Μακρόστενα μαλλιάr</Item>
+		<Item Name="Long Hair">Μακριά μαλλιά</Item>
+		<Item Name="Semi-Long Hair">Ημι-μακρά μαλλιά</Item>
+		<Item Name="Afro">Αφρό</Item>
+		<Item Name="Hire Cook">Πρόσληψη Μάγειρα</Item>
+		<Item Name="Cook">Μάγειρας</Item>
+		<Item Name="Preparing food">Προετοιμασία φαγητού</Item>
+		<Item Name="Serving food">Σερβίρησμα φαγητό</Item>
+		<Item Name="Canteen">Καντίνα</Item>
+		<Item Name="NameChangeTitle">Νέο όνομα</Item>
+		<Item Name="NameChangePrompt">Ονομα υπαλλήλου:</Item>
+		<Item Name="Change name">Αλλαγή ονόματος</Item>
+		<Item Name="DeleteKeyHintHint">Μπορείτε να διαμορφώσετε μια συντόμευση πληκτρολογίου για να απολύσετε υπαλλήλους και να καταστρέψετε αντικείμενα Η προεπιλογή είναι το πλήκτρο DELETE</Item>
+		<Item Name="SaveFailIOError">Αποτυχία αποθήκευσης παιχνιδιού με μήνυμα σφάλματος:
+{0}</Item>
+		<Item Name="Currency short form">Σύντομη μορφή νομίσματος</Item>
+		<Item Name="MillionPost">Εκατ.</Item>
+		<Item Name="BillionPost">Δις</Item>
+		<Item Name="UpdateBlueprint">Ενημέρωση σχεδίου (blueprint)</Item>
+		<Item Name="SplitUnsupported">Αυτή η διάσπαση θα είχε ως αποτέλεσμα μη υποστηριζόμενα δωμάτια</Item>
+		<Item Name="ModActivateError">Αποτυχία ενεργοποίησης του Mod. Ελέγξτε το αρχείο καταγραφής για λεπτομέρειες.</Item>
+		<Item Name="HexColor">Hex</Item>
+		<Item Name="BlueprintDeleteConfirmation">Είστε βέβαιος/η ότι θέλετε να διαγράψετε το σχέδιο blueprint: {0};</Item>
+		<Item Name="TeamDisbandConfirmation">Είστε βέβαιος/η ότι θέλετε να διαλύσετε την ομάδα: {0};</Item>
+		<Item Name="Open console">Άνοιγμα κονσόλας</Item>
+		<Item Name="Recommended designers">Συνιστώμενοι σχεδιαστές</Item>
+		<Item Name="Recommended programmers">Προτεινόμενοι προγραμματιστές</Item>
+		<Item Name="Recommended artists">Συνιστώμενοι καλλιτέχνες</Item>
+		<Item Name="LampTestHint">Μπορείτε να αλλάξετε τις συνθήκες φωτισμού σε κατάσταση κατασκευής στην κάτω αριστερή γωνία κάτω από τις κατηγορίες.
+Αυτό θα σας επιτρέψει επίσης να δείτε τους λαμπτήρες σας σε δράση.</Item>
+		<Item Name="CookStoveWarning">Ένας μάγειρας δεν μπορεί να βρει ένα φούρνο.
+Βεβαιωθείτε ότι διαθέτετε ένα για κάθε μάγειρα και τουλάχιστον ένα ψυγείο και δίσκο σερβιρίσματος</Item>
+		<Item Name="ServerDelegateError">Δεν μπορείτε να ανακατευθύνετε μια διαδικασία διακομιστή (Server) στο διακομιστή (Server) που είναι ήδη ενεργοποιημένος</Item>
+		<Item Name="Cancel Deal">Ακύρωση συμφωνίας</Item>
+		<Item Name="SteamUploadDirectoryError">Ο κατάλογος δεν υπάρχει: {0}</Item>
+		<Item Name="Meeting">Συνάντηση</Item>
+		<Item Name="Function">Λειτουργία</Item>
+		<Item Name="Capacity">Χωρητικότητα</Item>
+		<Item Name="Anchor grid">Πλέγμα άγκυρας</Item>
+		<Item Name="Reset grid">Επαναφορά πλέγματος</Item>
+		<Item Name="Feedback">Απάντηση (Feedback)</Item>
+		<Item Name="E-mail">E-mail</Item>
+		<Item Name="Message">Μήνυμα</Item>
+		<Item Name="Files">Αρχεία</Item>
+		<Item Name="Send">Αποστολή</Item>
+		<Item Name="MailInvalid">Καταχωρίστε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου ή αφήστε το πεδίο κενό</Item>
+		<Item Name="ReportFailure">Αποτυχία αποστολής αναφοράς. Θέλετε να δοκιμάσετε ξανά αργότερα;
+Σφάλμα:</Item>
+		<Item Name="Include log file">Συμπεριλάβετε αρχείο καταγραφής</Item>
+		<Item Name="Include save file">Συμπεριλάβετε το αρχείο αποθήκευσης</Item>
+		<Item Name="Include PC specs">Συμπεριλάβετε τις προδιαγραφές του υπολογιστή</Item>
+		<Item Name="NoFeedbackError">Παρακαλώ γράψτε τουλάχιστον 50 γράμματα στο μήνυμά σας</Item>
+		<Item Name="CrashMessage">Το παιχνίδι έχει εντοπίσει κρασάρισμα στην τελευταία σας εκτέλεση, θέλετε να ενημερώσετε τον προγραμματιστή τώρα;</Item>
+		<Item Name="ExceptionMessage">Το παιχνίδι έχει εντοπίσει σφάλμα, θέλετε να ενημερώσετε τον προγραμματιστή τώρα;</Item>
+		<Item Name="MailPlaceholder">(ΠΡΟΑΙΡΕΤΙΚΟ) Επιτρέψτε μου να επικοινωνήσω μαζί σας για περισσότερες πληροφορίες</Item>
+		<Item Name="ReportMessagePlaceholder">Πληκτρολογήστε το μήνυμά σας στον προγραμματιστή εδώ</Item>
+		<Item Name="TryLaterConfirm">Η αναφορά σας έχει αποθηκευτεί και θα προσπαθήσει ξανά την επόμενη φορά που θα ξεκινήσετε το παιχνίδι</Item>
+		<Item Name="ReportDelayError">Μπορείτε να στείλετε μια αναφορά μόνο μία φορά κάθε 5 λεπτά</Item>
+		<Item Name="Report">Αναφορά</Item>
+		<Item Name="ScreenshotDev">Αναφορά στιγμιότυπου οθόνης</Item>
+		<Item Name="SaveGameFail2">Αποτυχία αποθήκευσης παιχνιδιού. Το παιχνίδι θα συνεχιστεί, αλλά ενδέχεται να αντιμετωπίσετε παράξενη συμπεριφορά ή απώλεια δεδομένων.
+Το σφάλμα έχει καταγραφεί. Θέλετε να στείλετε επιπλέον μια αναφορά σφάλματος στον προγραμματιστή;
+Συγγνώμη για την ταλαιπωρία.</Item>
+		<Item Name="LoadGameFail2">Αποτυχία φόρτωσης παιχνιδιού. Το παιχνίδι θα συνεχιστεί, αλλά ενδέχεται να αντιμετωπίσετε παράξενη συμπεριφορά ή απώλεια δεδομένων.
+Το σφάλμα έχει καταγραφεί. Θέλετε να στείλετε επιπλέον μια αναφορά σφάλματος στον προγραμματιστή;
+Συγγνώμη για την ταλαιπωρία.</Item>
+	</Alpha8.10>
+	<Alpha8.11>
+			<Item Name="FurnitureLoadError">Ένα έπιπλο με όνομα {0} δεν υπήρχε στον υπολογιστή σας. Το παιχνίδι θα πρέπει να φορτώσει το αρχείο σας χωρίς αυτό το έπιπλο, το οποίο μπορεί να κρασάρει το παιχνίδι.</Item>
+			<Item Name="StockLowBid">Η {0} είναι πρόθυμη να προσφέρει {1}, θέλετε να πάρετε την προσφορά της;
+Αγοράσατε το απόθεμα για {2} και αξίζει αυτήν την περίοδο {3}</Item>
+			<Item Name="InaccessibleRoom">Αυτό το δωμάτιο δεν είναι προσβάσιμο από έξω
+Συνδέστε το με πόρτες, ανελκυστήρες ή σκάλες</Item>
+			<Item Name="Column widths">Πλάτος στήλης</Item>
+			<Item Name="LastDay">Τελευταία μέρα</Item>
+			<Item Name="ContractGoal">Στόχος: {0}%</Item>
+			<Item Name="ContractEarlyDay">{0} μέρα(ες) νωρίτερα</Item>
+			<Item Name="ContractLateDay">{0} μέρα(ες) αργότερα</Item>
+			<Item Name="Mens Suit">Ανδρικό κοστούμι</Item>
+			<Item Name="Womens Suit">Γυναικείο κοστούμι</Item>
+			<Item Name="Small moustache">Μικρό μουστάκι</Item>
+			<Item Name="Moustache">Μουστάκι</Item>
+			<Item Name="Goatee">Μούσι</Item>
+			<Item Name="Eye shadow">Σκιά ματιών</Item>
+			<Item Name="Mens Beanie">Ανδιρκά κοσμήματα</Item>
+			<Item Name="Womens Beanie">Γυναικείο καπέλο</Item>
+			<Item Name="KeyBindError">Δεν ήταν δυνατή η σύνδεση του πατημένου πλήκτρου</Item>
+			<Item Name="WorkItemTeamFilter">Φιλτράρισμα βάσει επιλεγμένων ομάδων</Item>
+			<Item Name="Replace furniture">Αντικατάσταση επίπλων</Item>
+			<Item Name="ActionReplaceFurn">Αντικαταστήστε τα έπιπλα</Item>
+			<Item Name="InstallMods">Εγκατεστημένα mods περιεχομένου</Item>
+			<Item Name="Idle employees">Ελεύθεροι υπάλληλοι</Item>
+			<Item Name="NotWorkingState">Δεν δουλεύει</Item>
+			<Item Name="NoWork">Δεν έχουν εκχωρηθεί καθήκοντα</Item>
+			<Item Name="NoComputer">Δεν υπάρχει διαθέσιμος υπολογιστής</Item>
+			<Item Name="NotApplicable">Δεν πληροί τις προϋποθέσεις για εκχωρημένες εργασίες</Item>
+			<Item Name="NoEffectiveness">Αρνητικά επηρεασμένος/η από το περιβάλλον</Item>
+			<Item Name="NoActiveWork">Όλες οι εργασίες ολοκληρώθηκαν</Item>
+			<Item Name="StressProblem">Νιώθω αγχωμένος</Item>
+			<Item Name="Backup">Αντίγραφα ασφαλείας (Backup)</Item>
+			<Item Name="BackupDesc">Δημιουργία αντιγράφων ασφαλείας (Backup) των αρχείων πριν από την αντικατάσταση</Item>
+			<Item Name="Load backup">Φόρτωση αντιγράφου ασφαλείας (Backup)</Item>
+			<Item Name="LoadBackupMsg">Πρόκειται να φορτώσετε την εφεδρική έκδοση (Backup) του αρχείου αποθήκευσης.
+Είστε βέβαιος/η ότι αυτό είναι αυτό που θέλετε να κάνετε;</Item>
+	</Alpha8.11>
+	<Alpha9.1>
+		<Item Name="LikeTeamWork">Μου αρέσει πολύ να δουλεύω με την ομάδα μου</Item>
+		<Item Name="DislikeTeamWork">Αισθάνομαι άβολα με την ομάδα μου</Item>
+		<Item Name="JobSatisfaction">Εργασιακή ικανοποίηση</Item>
+		<Item Name="RoomAura">Αύρα δωματίου</Item>
+		<Item Name="TeamCompatibility">Ομαδική συμβατότητα</Item>
+		<Item Name="OtherTeams">Άλλες ομάδες</Item>
+		<Item Name="OwnOffice">Το δικό σας γραφείο</Item>
+		<Item Name="linesofcode">{0} γραμμές κώδικα</Item>
+		<Item Name="MBArt">{0} τέχνες</Item>
+		<Item Name="Refunds">Επιστροφές χρημάτων</Item>
+		<Item Name="Bias">Μεροληψία</Item>
+		<Item Name="PositivePostfixBias">{0} θετικές μεροληψίες</Item>
+		<Item Name="NegativePostfixBias">{0} αρνητικές μεροληψίες</Item>
+		<Item Name="BiasNone">Χωρίς προκατάληψη</Item>
+		<Item Name="Peer review">Κριτική ισάξιων</Item>
+		<Item Name="Review">Κριτική</Item>
+		<Item Name="Anonymous">Ανώνυμος</Item>
+		<Item Name="ReviewOf">Κριτική του {0}</Item>
+		<Item Name="ReviewsWritten">{0} κριτικές ολοκληρώθηκαν</Item>
+		<Item Name="ReviewMessage">Ποιοί θέλετε να χειριστούν την κριτική από ισάξιους;
+Λάβετε υπόψη ότι η εξωτερική ανάθεση θα κοστίσει {0} ανά κριτική.</Item>
+		<Item Name="MarketingDescAnnounce">Θα πρέπει να ανακοινώσετε μια ημερομηνία κυκλοφορίας για το προϊόν σας όσο το δυνατόν νωρίτερα, καθώς θα αυξήσει την αποτελεσματικότητα των προσπαθειών μάρκετινγκ και θα σας βοηθήσει να θέσετε έναν στόχο για το έργο σας, αν και αυτό δεν θα έχει κανένα αποτέλεσμα από μόνο του.
+Βεβαιωθείτε ότι δεν κυκλοφορήσετε το προϊόν σας πολύ αργά.</Item>
+		<Item Name="MarketingDescRelease">Ένα δελτίο τύπου λέει στον κόσμο για το προϊόν σας.
+Ένα δελτίο τύπου θα είναι πιο αποτελεσματικό, τόσο περισσότερο θα πρέπει να επιδείξετε, επομένως πρέπει να περιμένετε λίγο στη φάση σχεδιασμού ή ανάπτυξης πριν κάνετε ένα δελτίο τύπου.
+Κάθε δελτίο Τύπου θα μειώσει την επίδραση του επόμενου, γι 'αυτό θα πρέπει να το χρησιμοποιήσετε με φειδώ.</Item>
+		<Item Name="MarketingDescBuild">Μπορείτε να στείλετε ένα έγκαιρο αντίγραφο του προϊόντος σας στον Τύπο για να κερδίσετε πολλούς οπαδούς γρήγορα. Εάν το προϊόν σας δεν αρέσει στον Τύπο, θα μπορούσατε να χάσετε τους οπαδούς σας εξίσου γρήγορα, οπότε προσέξτε.
+Η απάντηση στο demo σας θα εμφανιστεί στην εφημερίδα την ημέρα μετά την κυκλοφορία του.</Item>
+		<Item Name="MarketingDescHype">Είναι καλή ιδέα να διατηρήσετε τη διαφημιστική εκστρατεία μόλις κερδίσετε τους οπαδούς σας, οπότε μην ξεχνάτε το προϊόν σας.
+Η παρακώλυση του προϊόντος σας θα επιβραδύνει την απορρόφηση του ακόλουθου εάν ξεκινήσει να χάνει το ενδιαφέρον του.</Item>
+		<Item Name="MarketingDescPost">Θα πρέπει να εστιάσετε στο να αναφέρετε όσο το δυνατόν περισσότερο το προϊόν σας στα μέσα μετά την απελευθέρωσή του.
+Το μάρκετινγκ είναι ένας ατελείωτος νεροχύτης χρημάτων και ανταγωνίζεστε την προσοχή σας με τους άμεσους ανταγωνιστές σας όλη την ώρα.
+Ορίστε έναν προϋπολογισμό για να βεβαιωθείτε ότι δεν έχετε χάσει χρήματα και μην το αφήσετε στο 0 εάν δεν θέλετε να περιορίσετε τις δαπάνες.</Item>
+		<Item Name="Writing press release">Γράφοντας δελτίο τύπου</Item>
+		<Item Name="Announce release date">Ανακοινώστε την ημερομηνία κυκλοφορίας</Item>
+		<Item Name="Press release">Press release</Item>
+		<Item Name="Press build">Press build</Item>
+		<Item Name="Hype">Δημοσιότητα</Item>
+		<Item Name="FollowerAmount">{0} οπαδοί</Item>
+		<Item Name="ReleaseDateError">Επιλέξτε μια μελλοντική ημερομηνία</Item>
+		<Item Name="PressText">Κείμενο</Item>
+		<Item Name="PressPicture">Εικόνες</Item>
+		<Item Name="PressVideo">Βίντεο</Item>
+		<Item Name="NoMarketingOptions">Δεν έχετε διαθέσιμες επιλογές μάρκετινγκ για αυτό το προϊόν</Item>
+		<Item Name="MockOSError">Δεν μπορείτε να κυκλοφορήσετε αυτό το προϊόν προτού κυκλοφορήσετε όλα τα λειτουργικά συστήματα που υποστηρίζει</Item>
+		<Item Name="MockOSPortWait">Αναμονή για κυκλοφορία</Item>
+		<Item Name="DesignSafetyCheck">Είστε βέβαιος/η ότι θέλετε να προωθήσετε αυτό το έργο στη φάση ανάπτυξης; Τα κακά σχέδια μπορούν να οδηγήσουν σε προϊόντα κακής ποιότητας, σφάλματα και καθυστερήσεις</Item>
+		<Item Name="Project details">Λεπτομέρειες σχεδίου</Item>
+		<Item Name="Current designers">Τρέχοντες σχεδιαστές</Item>
+		<Item Name="Current programmers">Τρέχοντες προγραμματιστές</Item>
+		<Item Name="Current artists">Τρέχοντες καλλιτέχνες</Item>
+		<Item Name="Current any role">Τρέχοντες κάθε ρόλου</Item>
+		<Item Name="Release date">Ημερομηνία κυκλοφορίας</Item>
+		<Item Name="Started development">Ξεκινήστε την ανάπτυξη</Item>
+		<Item Name="BugsFixed">{0} διορθώσοις</Item>
+		<Item Name="BugsVerified">{0} επιβεβαιώσοις</Item>
+		<Item Name="TicketsQueued">{0} σε αναμονή</Item>
+		<Item Name="TicketsMissed">{0} αναπάντητες</Item>
+		<Item Name="Human resources">Ανθρώπινο δυναμικό</Item>
+		<Item Name="Pick a leader">Επιλέξτε έναν ηγέτη</Item>
+		<Item Name="HUD Frost">HUD πάγωμα</Item>
+		<Item Name="HUDFrostHelp">Παρέχει στο κύριο HUD πάνελ μια παγωμένη εμφάνιση</Item>
+		<Item Name="ProjectManagementDefaultName">Όνομα πρότζεκτ</Item>
+		<Item Name="Design teams">Σχεδιαστικές ομάδες</Item>
+		<Item Name="Development teams">Ομάδες ανάπτυξης</Item>
+		<Item Name="Secondary dev teams">Δευτερεύουσες ομάδες ανάπτυξης</Item>
+		<Item Name="Support teams">Υποστηρικτικές ομάδες</Item>
+		<Item Name="Pre-marketing teams">Προ-μάρκετινγκ ομάδες</Item>
+		<Item Name="Post-marketing teams">Ομάδες μάρκετινγκ μετά την κυκλοφορία</Item>
+		<Item Name="Development time">Χρόνος ανάπτυξης</Item>
+		<Item Name="Auto development">Αυτόματη ανάπτυξη</Item>
+		<Item Name="AutoDevHelpTip">Ενεργοποιήστε το για να κάνετε τον αρχηγό να βρει νέα προϊόντα με βάση το τελευταίο προϊόν που κυκλοφόρησε</Item>
+		<Item Name="OnlySequelHelpTip">Είτε ο ηγέτης πρέπει να δημιουργήσει μόνο συνέχειες σε προηγούμενα έργα αντί να δημιουργήσει νέα IP</Item>
+		<Item Name="DevelopmentTimeHelpTip">Πόσο καιρό θα κρατηθεί κάθε έργο σε εξέλιξη σε σχέση με τον βέλτιστο χρόνο που θα χρειαζόταν για να αναπτυχθεί</Item>
+		<Item Name="Phase">Φάση</Item>
+		<Item Name="Projects">Έργα</Item>
+		<Item Name="Info">Πληροφορίες</Item>
+		<Item Name="Queued">Σε αναμονή</Item>
+		<Item Name="Followers">Οπαδοί</Item>
+		<Item Name="DesignDocumentAutoDevWarning">Επί του παρόντος, δεν έχετε καθήκοντα διαχείρισης πρότζεκτ</Item>
+		<Item Name="DesignDocumentAutoDevDesc">κάντε κλικ εδώ για να εκχωρήσετε αυτό το έργο σε μια εργασία διαχείρισης πρότζεκτ</Item>
+		<Item Name="Next release">Επόμενη κυκλοφορία</Item>
+		<Item Name="Designing">Σχεδιάζεται</Item>
+		<Item Name="Developing">Αναπτύσεται</Item>
+		<Item Name="Handle marketing">Χειριστείτε το μάρκετινγκ</Item>
+		<Item Name="HandleMarketingTip">Αφήστε τον διαχειριστή του πρότζεκτ να χειριστεί την εμπορική προώθηση και τον προϋπολογισμό</Item>
+		<Item Name="Takeover">Αναλάβετε</Item>
+		<Item Name="Action points">Πόντοι δράσης</Item>
+		<Item Name="ActionPointTip">Κάθε διαχειριστική απόφαση απαιτεί σημεία δράσης, τα οποία ο ηγέτης θα εργαστεί για να αποκτήσει. Η δεξιότητα του ηγέτη καθορίζει πόσα μπορούν να αποκτηθούν και οι δεξιότητες που καθορίζουν το ρόλο καθορίζουν την ταχύτητα.</Item>
+		<Item Name="OwnLicenseTip">Είτε ο ηγέτης θα πρέπει να προσπαθήσει να κολλήσει αποκλειστικά στις εσωτερικές (In-house) άδειες κατά τη δημιουργία νέων έργων</Item>
+		<Item Name="Single IP">Ενιαία IP</Item>
+		<Item Name="SingleIPTip">Είτε ο ηγέτης πρέπει να κολλήσει σε μια IP, αναγκάζοντάς τους να περιμένουν εάν μια συνέχεια έχει ήδη αναπτυχθεί</Item>
+		<Item Name="Temporarily unavailable">Προσωρινά μη διαθέσιμο</Item>
+		<Item Name="AutoDevMissingLeader">Πρέπει να επιλέξετε έναν ηγέτη για να μπορέσετε να συνεχίσετε</Item>
+		<Item Name="AutoDevNoLeaders">Δεν υπάρχουν ηγέτες για να διαλέξετε. Να προσλάβετε έναν ή να κάνετε έναν από τους σημερινούς υπαλλήλους σας ηγέτη</Item>
+		<Item Name="LateProductRelease">Το {0} καθυστερεί και χάνει τους οπαδούς</Item>
+		<Item Name="NewDebtLoss">Η εταιρεία σας είναι χρεοκοπημένη! Έχετε μέχρι την {0} να διορθώσετε την οικονομική σας κατάσταση ή η εταιρεία σας θα αναγκαστεί να κηρύξει πτώχευση</Item>
+		<Item Name="NewDebtLossPass">Συγχαρητήρια! Έχουν περάσει 24 ώρες και η εταιρεία σας έχει πληρώσει τα χρέοι της</Item>
+		<Item Name="ReviewError">Οι αξιολογήσεις από ομότιμους χρήστες είναι διαθέσιμες μόνο κατά τη διάρκεια της άλφα έκδοσης</Item>
+		<Item Name="Current floor">Τρέχον όροφος</Item>
+		<Item Name="Physical units">Υλικές μονάδες</Item>
+		<Item Name="Digital units">Ψηφιακές μονάδες</Item>
+		<Item Name="In stock">Στα μαγαζιά</Item>
+		<Item Name="Various">Διάφορος</Item>
+		<Item Name="Taken">Χρησιμοποιημένο</Item>
+		<Item Name="Free">Δωρεάν</Item>
+		<Item Name="Guests">Επισκέπτες</Item>
+		<Item Name="Deliveries">Διανομείς</Item>
+		<Item Name="Cooks">Μάγειρες</Item>
+		<Item Name="ActionAssignParking">Εκχώρηση χώρου στάθμευσης</Item>
+		<Item Name="ActionSelectParkedPeople">Επιλέξτε άτομα που είναι σταθμευμένα εδώ</Item>
+		<Item Name="ActionSelectNearParking">Επιλέξτε παρακείμενα σημεία στάθμευσης</Item>
+		<Item Name="Digital distribution">Ψηφιακή διανομή</Item>
+		<Item Name="DistributionFailCancel">Η {0} έχει ακυρώσει τη συμφωνία διανομής μαζί σας λόγω της αδυναμίας σας να παράσχετε μια σταθερή σύνδεση</Item>
+		<Item Name="DistributionDealPrompt">Κάντε στην {0} μια προσφορά σχετικά με το πόσο μεγάλη μείωση των εσόδων θα λάβετε για ψηφιακές πωλήσεις σε ποσοστό</Item>
+		<Item Name="DistributionOffer">Κάντε μια προσφορά για την ψηφιακή διανομή</Item>
+		<Item Name="DistributionOfferMade">Αυτήν τη στιγμή λαμβάνετε {0}% έσοδα για ψηφιακές πωλήσεις</Item>
+		<Item Name="Digital market share">Ψηφιακό μερίδιο αγοράς</Item>
+		<Item Name="Open online store">Ανοίξτε ηλεκτρονικό κατάστημα</Item>
+		<Item Name="CancelDistribution">Είστε βέβαιος/η ότι θέλετε να ακυρώσετε τη συμφωνία διανομής σας με την {0}</Item>
+		<Item Name="DistributionDealDenied">Η {0} δεν ενδιαφέρεται για την προσφορά σας</Item>
+		<Item Name="DistributionDealCooldown">Πρέπει να περιμένετε τουλάχιστον ένα μήνα για να κάνετε μια άλλη προσφορά</Item>
+		<Item Name="InvalidAmount">Εισαγάγετε ένα έγκυρο ποσό</Item>
+		<Item Name="CopiesOf">Αντίγραφα του {0}</Item>
+		<Item Name="Order copies">Παραγγείλετε αντίγραφα</Item>
+		<Item Name="Physical copies sold">Υλικά αντίγραφα που πωλήθηκαν</Item>
+		<Item Name="Physical market share">Υλικά κατάστημα κοινοποίησης</Item>
+		<Item Name="ReleasePrintingPrompt">Για να πουλήσετε αντίγραφα του προϊόντος σας, πρέπει να εκτυπώσετε υλικά αντίγραφα. Αν δεν εκτυπώσετε αντίγραφα του προϊόντος σας, θα είναι διαθέσιμο μόνο ψηφιακά. Θέλετε να εκτυπώσετε αντίγραφα τώρα;
+Μπορείτε πάντα να εκτυπώσετε νέα αντίγραφα στο παράθυρο "Οι εκδόσεις μου".</Item>
+		<Item Name="CourierParkError">Δεν υπάρχει πουθενά για να σταθμεύσει ο μεταφορέας. Παρακαλούμε να χτίσετε χώρους στάθμευσης στις παρτίδες σας</Item>
+		<Item Name="Start printing">Ξεκινήστε την εκτύπωση</Item>
+		<Item Name="Print">Εκτύπωση</Item>
+		<Item Name="Hire courier">Πρόσλ. Μεταφορέα</Item>
+		<Item Name="Courier">Μεταφορέας</Item>
+		<Item Name="Product">Προϊόν</Item>
+		<Item Name="Per month">Ανά μήνα</Item>
+		<Item Name="Deadline">Προθεσμία</Item>
+		<Item Name="Goal">Στόχος</Item>
+		<Item Name="Product print orders">Παραγγελίες εκτύπωσης προϊόντος</Item>
+		<Item Name="MainDistributionDesc2">Διαχειριστείτε τους εκτυπωτές προϊόντων σας και την πλατφόρμα ψηφιακής διανομής σας</Item>
+		<Item Name="Mirror room horizontally">Οριζόντιο καθρεπτιζόμενο δωμάτιο</Item>
+		<Item Name="Mirror room vertically">Κάθετο καθρεπτιζόμενο δωμάτιο </Item>
+		<Item Name="InStockStorage">Στην αγορά + Στην αποθήκη</Item>
+		<Item Name="MaintenanceDesc">Το προσωπικό συντήρησης (Maintenance) θα εξασφαλίσει ότι το κτίριό σας θα λειτουργεί με τον καλύτερο τρόπο, φτιάχνοντας τα έπιπλά σας.Είναι καλή ιδέα να τους κρατήσετε βολικό, καθώς θα επιδιορθώσουν τα πράγματα πριν σπάσουν εντελώς.</Item>
+		<Item Name="CleaningDesc">Το προσωπικό καθαρισμού θα βεβαιωθεί ότι τα δάπεδα του κτιρίου σας είναι καθαρά, βελτιώνοντας έτσι το περιβάλλον εργασίας και διατηρώντας τους εργαζομένους σας ευτυχείς</Item>
+		<Item Name="ITFixDesc">Το προσωπικό ΤΥ (IT) θα διορθώσει ό, τι δεν μπορεί να κάνει το προσωπικό συντήρησης (Maintenance) σας, όπως υπολογιστές, διακομιστές και εκτυπωτές</Item>
+		<Item Name="ReceptionDesc">Οι Ρεσεψιονίστ θα χαιρετήσουν τους επισκέπτες που επισκέπτονται την εταιρεία σας για να προσφέρουν ευκαιρίες. Δεν μπορείτε να λάβετε προσφορές χωρίς Ρεσεψιονίστ.</Item>
+		<Item Name="CourierDesc">Οι μεταφορείς θα παραλάβουν τυχόν προϊόντα που έχετε εκτυπώσει στον αποθηκευτικό χώρο, ώστε να μπορέσουν να τα παραδώσουν στα καταστήματα, να αποθηκευτούν και να πωληθούν</Item>
+		<Item Name="CooksDesc">Οι μάγειροι θα μαγειρέψουν και θα σερβίρουν φαγητό σε μια καντίνα για τους υπαλλήλους σας. Θα χρειαστεί να έχετε έτοιμο ψυγεία, φούρνους και σερβίτσια.</Item>
+		<Item Name="ITPayment2">{0} up front - Up to {0} per repair</Item>
+		<Item Name="PrintDealTitle">Eργασία εκτύπωσης για {0}</Item>
+		<Item Name="PrintDealDesc">Eργασία εκτύπωσης για {0}</Item>
+		<Item Name="Income per Mbps per month">Έσοδα ανά Mbps ανά μήνα</Item>
+		<Item Name="Current bandwidth usage">Τρέχουσα χρήση εύρους ζώνης</Item>
+		<Item Name="Maximum bandwidth usage">Μέγιστη χρήση εύρους ζώνης</Item>
+		<Item Name="Per day">Ανά μέρα</Item>
+		<Item Name="Per copy">Ανά αντίγραφο</Item>
+		<Item Name="Expires">Λήγει</Item>
+		<Item Name="NotEnoughPallets">Οι εκτυπωτές σας λαμβάνουν αντίγραφα ασφαλείας, δημιουργούν περισσότερες παλέτες για να τις εκφορτώσουν</Item>
+		<Item Name="OnlineStoreServerError">Χρειάζεστε ένα διακομιστή (Server) για να ανοίξετε τη δική σας ψηφιακή πλατφόρμα διανομής</Item>
+		<Item Name="OnlineStoreConfirmation">Είστε βέβαιος/η ότι θέλετε να ανοίξετε τη δική σας ψηφιακή πλατφόρμα διανομής; Όλα τα ψηφιακά αντίγραφα των προϊόντων σας θα πωλούνται μέσω της δικής σας πλατφόρμας και θα απαιτούν επαρκή χωρητικότητα διακομιστή (Server)</Item>
+		<Item Name="OnlineStoreCloseConfirmation">Είστε βέβαιος/η ότι θέλετε να κλείσετε τη δική σας ψηφιακή πλατφόρμα διανομής; Όλες οι συμφωνίες διανομής θα ακυρωθούν και θα πρέπει να επαναδιαπραγματευτούν</Item>
+		<Item Name="Open digital distribution platform">Ανοίξτε την ψηφιακή πλατφόρμα διανομής</Item>
+		<Item Name="Close digital distribution platform">Κλείστε την ψηφιακή πλατφόρμα διανομής</Item>
+		<Item Name="BetaPrintError">Δεν μπορείτε να ξεκινήσετε την εκτύπωση αντιγράφων μέχρι να φτάσετε στη Beta έκδοση</Item>
+		<Item Name="PlayerIPPrintError">Μπορείτε να εκτυπώσετε μόνο αντίγραφα της IP που έχετε στην κατοχή σας</Item>
+		<Item Name="PricePerCopy">{0} ανά αντίγραφο</Item>
+		<Item Name="CopyPerMonth">{0} αντίγραφα ανά μήνα</Item>
+		<Item Name="Reason">Αίτιο</Item>
+		<Item Name="Terminations">Τερματισμοί</Item>
+		<Item Name="EmployeeCount">{0} υπάλληλοι</Item>
+		<Item Name="SickNotifyPlural">{0} έχουν αρρωστήσει</Item>
+		<Item Name="HR options">Επιλογές ΑΠ (HR)</Item>
+		<Item Name="2 products">2 προϊόντα</Item>
+		<Item Name="Physical copies">Υλικά αντίγραφα</Item>
+		<Item Name="ProjectManagementRelease">Η ομάδα διαχείρισης του προγράμματος {0} μόλις κυκλοφόρησε το {1} {2}: {3}</Item>
+		<Item Name="Gaming">Gaming</Item>
+		<Item Name="Productivity">Παραγωγικότητα</Item>
+		<Item Name="Security">Ασφάλεια</Item>
+		<Item Name="Computing">Χρήση υπολογιστή</Item>
+		<Item Name="All section">Όλες οι ενότητες</Item>
+		<Item Name="ServerLoad">Φόρτωση</Item>
+		<Item Name="Done">Έγινε</Item>
+		<Item Name="Build date">Δημιουργία σφραγίδας χρόνου</Item>
+		<Item Name="2D">2D</Item>
+		<Item Name="3D">3D</Item>
+		<Item Name="System">Σύστημα</Item>
+		<Item Name="Algorithm">Αλγόριθμος</Item>
+		<Item Name="Network">Δίκτυο</Item>
+		<Item Name="Please enter your license key">Εισάγετε το κλειδί άδειας χρήσης στη μορφή #### - #### - #### - ####</Item>
+	</Alpha9.1>
+	<Alpha9.2>
+		<Item Name="Overall score">Συνολική βαθμολογία</Item>
+		<Item Name="Review accuracy">Ακρίβεια ελέγχου</Item>
+		<Item Name="Printing">Εκτύπωση</Item>
+		<Item Name="AskPrintingOption">Ρωτήστε για την εκτύπωση κατά την απελευθέρωση</Item>
+		<Item Name="SteamWorkshopNotePrompt">Γράψτε σύντομα τι έχει αλλάξει</Item>
+		<Item Name="Change notes">Αλλαγή σημειώσεων</Item>
+	</Alpha9.2>
+	<Alpha9.3>
+		<Item Name="NoPrintersWarning">Δεν διαθέτετε εκτυπωτές προϊόντων, είστε βέβαιος/η ότι θέλετε να ξεκινήσετε μια εργασία εκτύπωσης;
+Μπορείτε να παραγγείλετε αντίγραφα αμέσως για {0} ανά αντίγραφο κάνοντας κλικ στο κουμπί "Παραγγελία αντιγράφων"</Item>
+		<Item Name="LostSalesPopup">Το {0} δεν ικανοποιεί τη ζήτηση και χάνετε τις πωλήσεις. Πρέπει να παραγγείλετε περισσότερα υλικά αντίγραφα του {0} ή να εκτυπώσετε τα δικά σας</Item>
+		<Item Name="FurnitureReplacementBlocked">Δεν αντικαταστάθηκαν όλα τα έπιπλα καθώς μπλοκαρίστηκαν από κάτι άλλο</Item>
+		<Item Name="No release date">Δεν υπάρχει ημερομηνία κυκλοφορίας</Item>
+		<Item Name="MainFinanceDesc">Αποκτήστε μια επισκόπηση των δαπανών και των εσόδων της εταιρείας σας</Item>
+		<Item Name="Bills">Λογαριασμοί</Item>
+		<Item Name="Rent">Ενοίκιο</Item>
+		<Item Name="Food">Φαγητό</Item>
+		<Item Name="Internet">Internet</Item>
+		<Item Name="MonthsAgo">{0} μήνες πριν</Item>
+		<Item Name="Sheet">Sheet</Item>
+		<Item Name="NextPrintCountdown">Επόμενη εκτύπωση σε {0} λεπτά</Item>
+		<Item Name="Log">Καταγραφή</Item>
+		<Item Name="Copy">Αντιγραφή</Item>
+		<Item Name="IndoorError">Αυτό πρέπει να τοποθετηθεί σε εσωτερικό χώρο</Item>
+		<Item Name="OutdoorError">Αυτό πρέπει να τοποθετηθεί σε εξωτερικό χώρο</Item>
+		<Item Name="Background noise">Θόρυβος φόντου</Item>
+		<Item Name="Neighbor rooms">Θόρυβος δωματίου στη γειτονιά</Item>
+		<Item Name="Noise level">Επίπεδο θορύβου</Item>
+		<Item Name="Noise overlay">Επικάλυψη θορύβου</Item>
+		<Item Name="NoiseOverlayDesc">Παρακολούθηση πηγών θορύβου. Τοποθετήστε το δείκτη του ποντικιού πάνω από τα δωμάτια για να δείτε ακριβώς πώς διασκορπίζεται ο θόρυβος</Item>
+		<Item Name="SupportWorkCancelWarning2">Η ακύρωση της υποστήριξης για ένα προϊόν με ενεργούς χρήστες θα τους θυμώσει, εκτός και αν έχουν διορθωθεί όλα τα σφάλματα.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="Room size">Μέγεθος δωματίου</Item>
+		<Item Name="AlphaPromoteConfirmation">Είστε βέβαιος/η ότι θέλετε να φύγετε από την "Άλφα" έκδοση;
+Δεν μπορείτε πλέον να βελτιώσετε την ποιότητα του προϊόντος μόλις φύγετε από την Άλφα έκδοση</Item>
+		<Item Name="Reviews">Κριτικές</Item>
+		<Item Name="ReleaseDateConfirmation">Είστε βέβαιος/η ότι θέλετε να ορίσετε την ημερομηνία κυκλοφορίας στο {0};
+Θα έχετε {1} για να κυκλοφορήσετε το προϊόν</Item>
+		<Item Name="MonthPostfix">{0} μήνα</Item>
+		<Item Name="YearPostfix">{0} χρόνο</Item>
+		<Item Name="DayPostfix">{0} μέρα</Item>
+		<Item Name="MonthPostfixPlural">{0} μήνες</Item>
+		<Item Name="YearPostfixPlural">{0} χρόνια</Item>
+		<Item Name="DayPostfixPlural">{0} μέρες</Item>
+		<Item Name="SoftwareReviewHeader">Κριτική του {0}</Item>
+		<Item Name="PressBuildReviewHeader">Βeta κριτική του {0}</Item>
+		<Item Name="PressReleaseReviewHeader">Η {0} ανακοινώνει το {1}</Item>
+		<Item Name="ReviewReminder">Ένα προϊόν έχει επανεξεταστεί.</Item>
+		<Item Name="PressBuildReviewReminder">Έχει γίνει ανασκόπηση ενός press build.</Item>
+		<Item Name="PressReleaseReviewReminder">Έχει αναφερθεί ένα Δελτίο Τύπου.</Item>
+		<Item Name="Printing capacity">Δυνατότητα εκτύπωσης</Item>
+		<Item Name="Toggle audio overlay">Εναλλαγή επικάλυψης ήχου</Item>
+		<Item Name="Toggle ceiling fixture">Αλλαγή της διάταξης οροφής</Item>
+		<Item Name="Ceiling fixture">Φωτιστικό οροφής</Item>
+	</Alpha9.3>
+	<Alpha9.5>
+		<Item Name="Today">Σήμερα</Item>
+		<Item Name="Recycle">Ανακύκλωση</Item>
+		<Item Name="Plot expansion">Προβολή επέκτασης</Item>
+		<Item Name="Digital store">Ψηφιακό κατάστημα</Item>
+		<Item Name="Copy order">Παραγγελία αντιγράφων</Item>
+		<Item Name="Store cut">Κατάστημα κοψίματος</Item>
+		<Item Name="Hosting">Φιλοξενία</Item>
+		<Item Name="IntellectualPropertyAbbr">IP</Item>
+		<Item Name="On call">Σε κλήση</Item>
+		<Item Name="Unlimited">Απεριόριστα</Item>
+		<Item Name="Limit">Όριο</Item>
+		<Item Name="Maximum copies">Μέγιστα αντίγραφα</Item>
+		<Item Name="PerBox">{0} Ανά κουτί</Item>
+		<Item Name="CourierPayment">{0} προς τα εμπρός - {1} ανά κουτί</Item>
+		<Item Name="Call courier">Φωνάξτε Μεταφορέα</Item>
+		<Item Name="FollowerChange">Χάνετε {0}% οπαδούς το μήνα</Item>
+		<Item Name="HypingInactiveStatus">Επί του παρόντος, δεν χάνετε οπαδούς</Item>
+		<Item Name="Master">Κύριος</Item>
+		<Item Name="UI">UI</Item>
+		<Item Name="ProjectManagementProjectWarning">Πρέπει να ορίσετε ένα αρχικό σχέδιο για την ομάδα διαχείρισης έργων, {0}, προτού αρχίσουν τη δουλειά</Item>
+		<Item Name="PressReleaseNotReleased">Έχετε ένα Δελτίο Τύπου που δεν έχει κυκλοφορήσει για αυτό το έργο, το οποίο θα ακυρωθεί εάν κυκλοφορίσετε το προϊόν σας.
+Θέλετε να συνεχίσετε;</Item>
+		<Item Name="PressBuildNotReleased">Έχετε ένα press build που δεν έχει κυκλοφορήσει για αυτό το έργο, το οποίο θα ακυρωθεί εάν κυκλοφορίσετε το προϊόν σας.
+Θέλετε να συνεχίσετε;</Item>
+		<Item Name="Reject">Απόρριψη</Item>
+		<Item Name="RejectConfirmation">Είστε βέβαιος/η ότι θέλετε να απορρίψετε αυτά τα στοιχεία;</Item>
+		<Item Name="TimeDiffLeft">{0} έμεινε/αν</Item>
+		<Item Name="TimeDiffNotLeft">{0} καθηστέρησης</Item>
+		<Item Name="Expected quality">Αναμενόμενη ποιότητα</Item>
+		<Item Name="Lines of code">Γραμμές κώδικα</Item>
+		<Item Name="Art amount">Ποσό τέχνης</Item>
+		<Item Name="Cancelled">Ακυρώθηκε</Item>
+		<Item Name="Inadequate">Ανεπαρκές</Item>
+		<Item Name="Satisfactory">Ικανοποιητικό</Item>
+		<Item Name="Outstanding">Εξαιρετικό</Item>
+		<Item Name="Late">Αργά</Item>
+		<Item Name="Completion penalty">Ημιτελής ποινή</Item>
+		<Item Name="Quality assesment">Αξιολόγηση ποιότητας</Item>
+		<Item Name="ContractFinish2">Ολοκληρώθηκε σύμβαση για καθαρή αξία {0}, με {1} ποιότητα</Item>
+	</Alpha9.5>
+	<Alpha9.6>
+		<Item Name="PressBuildConfirmation">Μια σύνταξη τύπου που απεικονίζει την τρέχουσα κατάσταση του {0} έχει σταλεί στον τύπο</Item>
+		<Item Name="Handle support">Υποστήριξη λαβής</Item>
+		<Item Name="HandleSupportTip">Αφήστε τον διαχειριστή του πρότζεκτ να χειριστεί την υποστήριξη και πότε να την τερματίσει</Item>
+		<Item Name="ProjectQualityWarning">Η ποιότητα του {0} μειώνεται γρήγορα,ο/η {1} δεν είναι πολύ εξειδικευμένος/η στον/ην {2}</Item>
+		<Item Name="HREducationBudgetWarning">Το ΑΠ (HR) για την ομάδα {0} δεν διαθέτει αρκετά μεγάλο προϋπολογισμό (Budget) για την εκπαίδευση των εργαζομένων</Item>
+		<Item Name="ReportSuccess2">Η αναφορά στάλθηκε με επιτυχία, με αναγνωριστικό αριθμό: {0}
+Μπορείτε να χρησιμοποιήσετε το παράθυρο ανάδρασης (feedback) για να βρείτε αυτόν τον αριθμό αναγνώρισης, αν το χρειάζεστε αργότερα</Item>
+		<Item Name="Previous reports">Προηγούμενες αναφορές</Item>
+		<Item Name="SubsidiaryBankruptWarning">Η θυγατρική σας {0} χρεοκοπείται και έχει κλείσει</Item>
+		<Item Name="Subsidiary">Θυγατρική</Item>
+		<Item Name="Subsidiaries">Θυγατρικές</Item>
+		<Item Name="MarketingReleaseDateWarning">Δεν έχετε ανακοινώσει ακόμη μια ημερομηνία κυκλοφορίας, η οποία θα μειώσει τον αντίκτυπο του {0}
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="ActionPairDirect">Εκχωρήστε έπιπλα στον υπάλληλο</Item>
+		<Item Name="ActionPair">Ανάθεση επίπλων σε επιλεγμένο υπάλληλο</Item>
+		<Item Name="ActionAutoAssign">Αυτόματη εκχώρηση υπολογιστών σε δωμάτια</Item>
+		<Item Name="SubsidiaryCloseWarning">Πρόκειται να τερματίσετε τη θυγατρική σας, {0}.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="SubsidiaryPrompt">Θέλετε να πάρετε την {0} και την IP ή να την κάνετε θυγατρική της εταιρείας σας;</Item>
+		<Item Name="ReturnDate">Επιστρέφει στο {0}</Item>
+		<Item Name="AutoSecondDevTeam">Η φάση σχεδιασμού είναι συνήθως μικρότερη από τη φάση υλοποίησης, αλλά μπορείτε να χρησιμοποιήσετε μια δευτερεύουσα ομάδα ανάπτυξης για να εκτελέσετε παράλληλα έργα και να πάρετε κάποια χαλαρά</Item>
+		<Item Name="SubsidiaryDeposit">Καταχωρίστε τα χρήματα που θέλετε να καταθέσετε στη θυγατρική</Item>
+		<Item Name="SubsidiaryDepositError">Η εταιρεία χρειάζεται χρήματα για να μην κηρύξει πτώχευση</Item>
+		<Item Name="Vacation end">Τέλος διακοπών</Item>
+		<Item Name="ReleaseDateChangeWarning">Είστε βέβαιος/η ότι θέλετε να αλλάξετε την ημερομηνία κυκλοφορίας; Θα έχετε {0} για να κυκλοφορίσετε το προϊόν σας.
+Η ώθηση στην ημερομηνία κυκλοφορίας μπορεί να κάνει τους οπαδούς να δυσαρεστηθούν και θα είναι πιο δύσκολο να την ωθήσετε αργότερα, αν την μετακινήσετε.</Item>
+	</Alpha9.6>
+	<Alpha9.7>
+		<Item Name="Shipping capacity">Ικανότητα αποστολής</Item>
+		<Item Name="Close active window">Κλείσε το ενεργό παράθυρο</Item>
+		<Item Name="CopyPerBox">{0} αντίγραφα ανά κουτί</Item>
+		<Item Name="BoxPostfix">{0} κουτιά</Item>
+		<Item Name="CopiesPostfix">{0} αντίγραφα</Item>
+		<Item Name="Size">Μέγεθος</Item>
+		<Item Name="Vacation range">Περιοχή διακοπών</Item>
+		<Item Name="Past peer reviews">Προηγούμενες αξιολογήσεις από ισάξιος</Item>
+		<Item Name="View assigned furniture">Δείτε τα επιλεγμένα έπιπλα</Item>
+		<Item Name="ViewAssignedFurnitureHint">Κάντε κλικ εδώ για να φτιάξετε όλα τα επιλεγμένα έπιπλα κόκκινα και τα μη επιλεγμένα έπιπλα γκρι</Item>
+		<Item Name="Income per Mb per hour">Έσοδα ανά Mb ανά ώρα</Item>
+		<Item Name="Filter">Φίλτρο</Item>
+		<Item Name="Crunch">Κρίση</Item>
+		<Item Name="CrunchHint">Ο χρόνος κρίσης αναγκάζει όλους τους υπαλλήλους μιας ομάδας να εργάζονται πολύ πιο γρήγορα με το κόστος της ικανοποίησης. Οι εργαζόμενοι θα δουλέψουν πιο αργά για μια περίοδο μετά την κρίσιμη στιγμή, ανάλογα με το πόσο καιρό κράτησε.</Item>
+		<Item Name="CrunchTimeProb">Ο χρόνος κρίσης είναι αγχωτικός</Item>
+		<Item Name="CrunchHangover">Η κρίση έφηγε</Item>
+		<Item Name="Distribution deals">Διανομές</Item>
+		<Item Name="NoPreMarketWarning">Το {0} έχει φτάσει στην alpha έκδοση, αλλά δεν έχει ακόμα οπαδούς! Βεβαιωθείτε ότι έχετε αρχίσει τις προσπάθειες μάρκετινγκ νωρίς ή κανείς δεν θα αγοράσει το προϊόν σας</Item>
+		<Item Name="NoHRWarning">Η ομάδα {0} έχασε τον αρχηγό της και δεν βρίσκεται πλέον υπό τη διαχείριση των 'ανθρώπινων πόρων' ΑΠ (HR)</Item>
+		<Item Name="Handle wages">Χειριστείτε τους μισθούς</Item>
+		<Item Name="Handle complaints">Χειριστείτε τα παράπονα</Item>
+		<Item Name="ProductReleaseConfirmation">Είστε βέβαιος/η ότι θέλετε να κυκλοφορίσετε το {0} τώρα;</Item>
+		<Item Name="ProductOSAudienceZero">Τα υποστηριζόμενα λειτουργικά συστήματα για το {0} δεν έχουν πλέον κανέναν χρήστη για να πουλήσουν. Εξετάστε τη μεταφορά σε άλλα λειτουργικά συστήματα, αν είναι δυνατόν</Item>
+		<Item Name="RangeFrom">Από</Item>
+		<Item Name="RangeTo">προς</Item>
+		<Item Name="Confirmations">Επιβεβαιώσεις</Item>
+		<Item Name="ConfirmationsHint">Ενεργοποιήστε το χωρίς διακρίσεις επιβεβαίωσης. Απενεργοποιήστε το μόνο αν είστε βέβαιος/η ότι δεν θα αστοχήσετε</Item>
+	</Alpha9.7>
+	<Alpha9.8>
+		<Item Name="Code units">Μονάδες κώδικα</Item>
+		<Item Name="Art units">Μονάδες τέχνης</Item>
+		<Item Name="EstUnits">Εκτιμ/νες μονάδες {0}</Item>
+		<Item Name="OSMockConfirm">Το προϊόν σας εξαρτάται από λειτουργικά συστήματα, τα οποία βρίσκονται ακόμα σε εξέλιξη. Δεν θα έχετε τη δυνατότητα να κυκλοφορήσετε το προϊόν σας προτού κυκλοφορήσουν αυτά τα λειτουργικά συστήματα.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="ActionRoomPairDirect">Εκχωρήστε επιλεγμένα δωμάτια στο προσωπικό</Item>
+		<Item Name="Undo">Αναίρεση</Item>
+		<Item Name="UndoWarningTip">Αυτή η λειτουργία είναι πειραματική αυτή τη στιγμή! Το παιχνίδι θα αποθηκευτεί αυτόματα σε περίπτωση που συμβεί κάτι</Item>
+		<Item Name="Destroy Wall">Καταστρέψτε τον τοίχο</Item>
+		<Item Name="Tear down walls between rooms">Τρυπήστε τοίχους μεταξύ των δωματίων</Item>
+		<Item Name="MissingChairHint">Αυτό το {0} χρειάζεται μια καρέκλα για να γίνει προσβάσιμο</Item>
+	</Alpha9.8>
+	<Alpha9.9>
+		<Item Name="Generous">Γενναιόδωρος</Item>
+		<Item Name="Optimistic">Αισιόδοξος</Item>
+		<Item Name="Misanthropist">Μισάνθρωπος</Item>
+		<Item Name="Cocky">Αναιδής</Item>
+		<Item Name="Snob">Σνομπ</Item>
+		<Item Name="Mean">Πρόστυχος</Item>
+		<Item Name="Pessimistic">Δυσοίωνος</Item>
+		<Item Name="Goofy">Ανόητος</Item>
+		<Item Name="Flirt">Ερωτότροπος</Item>
+		<Item Name="Naive">Αφελής</Item>
+		<Item Name="Dramatic">Δραματικός</Item>
+		<Item Name="Short-tempered">Ευέξαπτος</Item>
+		<Item Name="Stubborn">Πεισματάρης</Item>
+		<Item Name="Introvert">Εσωστρεφής</Item>
+		<Item Name="Extrovert">Εξωστρεφής</Item>
+	</Alpha9.9>
+	<Alpha9.10>
+		<Item Name="ExtremeGraphicImpact">Ακραίο</Item>
+		<Item Name="GfxTestWarning">Η εκτέλεση αυτής της δοκιμής θα τερματιστεί στο κύριο μενού.
+Ειστε σίγουρος/η οτι θέλετε να συνεχίσετε;</Item>
+		<Item Name="GfxTestResWarning">Βεβαιωθείτε ότι οι ρυθμίσεις της ανάλυσης και της πλήρους οθόνης είναι σωστές, καθώς αυτές θα επηρεάσουν το αποτέλεσμα.
+Θέλετε να ξεκινήσετε τη δοκιμή;</Item>
+		<Item Name="AutoGFXButton">Δοκιμή απόδοσης</Item>
+		<Item Name="AutoGFXHint">Το παιχνίδι θα κάνει μια μικρή δοκιμή και θα πάρει τις ρυθμίσεις γραφικών σας με βάση τα αποτελέσματα</Item>
+		<Item Name="GFXQUality">Ποιότητα</Item>
+		<Item Name="GFXCustom">Custom</Item>
+		<Item Name="GFXNothing">Τίποτα</Item>
+		<Item Name="GFXLow">Χαμηλό</Item>
+		<Item Name="GFXMedium">Μεσαίο</Item>
+		<Item Name="GFXHigh">Υψηλό</Item>
+		<Item Name="GFXUltra">Υπερβολικό</Item>
+		<Item Name="Limit reached">Οριακό</Item>
+		<Item Name="Incomplete">Ελειπές</Item>
+		<Item Name="Fulfilled">Ολοκληρωμένο</Item>
+		<Item Name="ContractFinish3">Συμβόλαιο {0} για καθαρή αξία {1}, με {2} ποιότητα</Item>
+		<Item Name="OptionFileError">Το παιχνίδι απέτυχε να αποκτήσει πρόσβαση στο αρχείο settings.txt, οι ρυθμίσεις σας δεν θα αποθηκευτούν ούτε θα φορτωθούν.
+Αυτό θα μπορούσε να συμβεί επειδή δεν έχετε άδεια επεξεργασίας αρχείων, είναι κλειδωμένο από λογισμικό προστασίας από ιούς, έχει επισημανθεί ως μόνο για ανάγνωση ή έχετε κατεβάσει παράνομα το παιχνίδι.</Item>
+		<Item Name="Past month">Τον προηγούμενο μήνα</Item>
+		<Item Name="In storage">Στην αποθήκη</Item>
+		<Item Name="Has sequel">Έχει συνέχεια (sequel)</Item>
+		<Item Name="UndoNothing">{0} γλυκά κομμάτια</Item>
+		<Item Name="UndoDestroyFurniture">Αγοράζοντας {0} κομμάτια επίπλων</Item>
+		<Item Name="UndoCreateFurniture">Πωλώντας {0} τεμάχια επίπλων</Item>
+		<Item Name="UndoFurnitureColor">Χρώματίζοντας {0} κομμάτια επίπλων</Item>
+		<Item Name="UndoReplaceFurniture">Αντικατάσταση {0} τεμαχίων επίπλων</Item>
+		<Item Name="UndoMoveFurniture">Μετακίνηση {0} τεμαχίων επίπλων</Item>
+		<Item Name="UndoDestroySegment">Κατασκευή {0} τμημάτων τοίχων</Item>
+		<Item Name="UndoCreateSegment">Αφαίρεση {0} τμημάτων τοίχων</Item>
+		<Item Name="UndoDestroyRoom">Κατασκευή {0} δωματίων</Item>
+		<Item Name="UndoCreateRoom">Καταστρέφοντας {0} δωμάτια</Item>
+		<Item Name="UndoMergeRooms">Διαχωρισμός {0} δωματίων</Item>
+		<Item Name="UndoSplitRoom">Συγχώνευση {0} δωματίων</Item>
+		<Item Name="UndoRoomColor">Χώροι χρωματισμού {0}</Item>
+		<Item Name="UndoRoomMaterial">Αλλαγή υλικού {0} δωματίων</Item>
+		<Item Name="UndoChangeRoad">Τροποποίηση των οδικών τμημάτων</Item>
+		<Item Name="LimitCopyPrompt">Εισαγάγετε τον αριθμό των αντιγράφων που θέλετε να εκτυπώσετε πριν σταματίσει η εργασία εκτύπωσης. -1 σημαίνει χωρίς όριο.</Item>
+		<Item Name="FinishedPrintingJob">Ολοκληρώθηκε η εργασία εκτύπωσης για {0}</Item>
+		<Item Name="Print job copies">Αντιγραφή αντιγράφων εργασίας</Item>
+		<Item Name="AutoDevPrintHint">Ορίστε αυτό σε έναν αριθμό πάνω από το 0 για να αποθηκεύσετε αυτόματα μια εργασία εκτύπωσης για κάθε έργο, η οποία εκτυπώνει την εκχωρημένη ποσότητα αντιγράφων όταν ένα έργο φτάνει την έκδωση beta.
+Προσθέστε το % στο τέλος του αριθμού για να εκτυπώσετε ένα ποσοστό των οπαδών του πρότζεκτ.</Item>
+		<Item Name="AutoDevPhysicalHint">Αυτό το ποσό των υλικών αντιγράφων θα παραγγελθεί για πώληση με την απελευθέρωση κάθε προϊόντος που αναπτύχθηκε
+Προσθέστε το % στο τέλος του αριθμού για να παραγγείλετε ένα ποσοστό των οπαδών του προϊόντος.</Item>
+		<Item Name="Make sequel">Κάντε συνέχεια (sequel)</Item>
+	</Alpha9.10>
+	<Alpha9.11>
+		<Item Name="StockLoanError">Δεν μπορείτε να αγοράσετε μετοχές με δανεισμένα χρήματα</Item>
+		<Item Name="Dialog confirmations">Επιβεβαιώσεις του Dialog</Item>
+		<Item Name="ActionSave Style">Αποθήκευση Στυλ</Item>
+		<Item Name="ActionApply Style">Εφαρμογή Στυλ</Item>
+		<Item Name="SaveStylePrompt">Εισαγάγετε εδώ ένα όνομα για το στυλ σας:</Item>
+		<Item Name="Room style">Στυλ Δωματίου</Item>
+		<Item Name="ActionGroupRooms">Προσθήκη επιλεγμένων δωματίων σε ομάδα</Item>
+		<Item Name="Room groups">Ομάδες δωματίων</Item>
+		<Item Name="NewRoomGroupPrompt">Εισαγάγετε εδώ ένα όνομα για την Ομάδα δωματίου σας:</Item>
+		<Item Name="New room group">Νέα ομάδα δωματίου</Item>
+		<Item Name="RoomGroupNameError">Μια ομάδα δωματίου με αυτό το όνομα υπάρχει ήδη</Item>
+		<Item Name="NoRoomGroupPrompt">Δεν έχετε ομάδες δωματίου, θέλετε να δημιουργήσετε μία τώρα;</Item>
+		<Item Name="Indoor style">Εσωτερικό Στυλ</Item>
+		<Item Name="Outdoor style">Εξωτερικό Στυλ</Item>
+		<Item Name="Select rooms">Επιλέξτε δωμάτια</Item>
+		<Item Name="Ungrouped rooms">Μη Ομαδοποιημένα δωμάτια</Item>
+		<Item Name="Group">Ομάδα</Item>
+		<Item Name="ActionRoomPair">Εκχωρήστε ομάδες δωματίου σε επιλεγμένο προσωπικό</Item>
+		<Item Name="LowerWalls">Εναλλαγή των τοίχων</Item>
+		<Item Name="LowerWallsDesc">Αλλάξτε την εμφάνιση του τοίχου</Item>
+		<Item Name="RoomGroupDesc">Διαχείριση και ομαδοποίηση δωματίων για εύκολη ανάθεση προσωπικού και αλλαγή στυλ</Item>
+		<Item Name="StaffRoomAssignError">Ένα μέλος του προσωπικού έχει ανατεθεί σε άδειες ομάδες δωματίου και δεν μπορεί να δουλέψει</Item>
+	</Alpha9.11>
+	<Alpha10.1>
+		<Item Name="Generation string">Σειρά δημιουργίας</Item>
+		<Item Name="Climate">Κλίμα</Item>
+		<Item Name="Cold">Κρύο</Item>
+		<Item Name="Temperate">Eύκρατο</Item>
+		<Item Name="Warm">Ζεστό</Item>
+		<Item Name="Rural">Αγροτικό</Item>
+		<Item Name="Town">Κωμόπολη</Item>
+		<Item Name="Custom Map">Προσαρμοσμένος Χάρτης (Custom Map)</Item>
+		<Item Name="Pick map">Επιλογή χάρτη</Item>
+		<Item Name="Move company">Μετακίνηση εταιρείας</Item>
+		<Item Name="PrintDealFail2">Αποτύχατε να εκτυπώσετε τα τελευταία {0} αντίγραφα για την {1} με λίγο πάνω από {3} μήνα για να πάει, κοστίζοντάς σας συνολικά {2}</Item>
+		<Item Name="NotPlayerOwnedPlace">Μπορείτε να τοποθετήσετε έπιπλα μόνο στα δωμάτια που σας ανήκουν</Item>
+		<Item Name="AlignWallKeyHint">Πατήστε {0} για να ευθυγραμμίσετε τα έπιπλα με τον πλησιέστερο τοίχο</Item>
+		<Item Name="Align to nearest wall">Ευθυγραμμίστε στον πλησιέστερο τοίχο</Item>
+		<Item Name="Manage roles">Διαχείριση Ρόλων</Item>
+		<Item Name="Relative">Σχετικά</Item>
+		<Item Name="Plot view">Προβολή Οικοπέδου</Item>
+		<Item Name="Plots">Οικόπεδα</Item>
+		<Item Name="PlotToolDesc">Χρησιμοποιήστε αυτό το εργαλείο για να αγοράσετε και να πωλήσετε οικόπεδα</Item>
+		<Item Name="Monthly">Μηνιαία Δόση</Item>
+		<Item Name="Quarterly">Τριμηνιαίος</Item>
+		<Item Name="Yearly">Ετήσιος</Item>
+		<Item Name="Opaque glass">Αδιαφανή παράθυρο</Item>
+		<Item Name="OpaqueGlassDesc">Αυτό θα κάνει τα παράθυρα αδιαφανή στους χαμηλότερους ορόφους για τη βελτιστοποίηση της απόδοσης για πολύ μεγάλα κτίρια με πολλά έπιπλα</Item>
+		<Item Name="LikeTeamWork">Μου αρέσει ένα μέλος της ομάδας</Item>
+		<Item Name="DislikeTeamWork">Δεν μου αρέσει ένα μέλος της ομάδας</Item>
+		<Item Name="TeamWorkQuit">Αισθάνομαι άβολα στην ομάδα μου</Item>
+		<Item Name="NoSittingWarning">Ένας εργαζόμενος δυσκολεύεται να βρει ένα μέρος για να καθίσει</Item>
+		<Item Name="WithdrawCost">Η ανάληψη {0} θα σας κοστίσει {1} σε χαμένο ενδιαφέρον. Θέλετε να συνεχίσετε;</Item>
+		<Item Name="Free to withdraw">Επιτρέπεται η ανάληψη</Item>
+		<Item Name="Health insurance">Ασφάλεια Υγείας</Item>
+		<Item Name="Life insurance">Ασφάλεια Ζωής</Item>
+		<Item Name="Pension">Σύνταξη</Item>
+		<Item Name="Employee benefits">Παροχές Εργαζομένων</Item>
+		<Item Name="EmployeeBenefitDesc">Διαχειριστείτε τα προνόμια και τα οφέλη που θα λάβουν οι υπάλληλοί σας από προεπιλογή</Item>
+		<Item Name="MainSavings">Αποταμιεύσεις</Item>
+		<Item Name="MainSavingsDesc">Βάλτε χρήματα στον λογαριασμό ταμιευτηρίου σας για να κερδίσετε χρήματα από τους τόκους</Item>
+		<Item Name="Savings account">Αποταμιευτικός Λογαριασμός</Item>
+		<Item Name="SavingsFunds">Χρήματα στον αποταμιευτικό λογαριασμό</Item>
+		<Item Name="Revert">Επιστροφή</Item>
+		<Item Name="Role selection">Επιλογή ρόλου</Item>
+		<Item Name="RoleModeCustom">Μην αλλάξεις</Item>
+		<Item Name="RoleModeHiredFor">Προσλήφθηκε για να</Item>
+		<Item Name="RoleModeBest">Καλύτερος(οι) ρόλος(οι)</Item>
+		<Item Name="Physical store cut">Περικοπή Υλικού Καταστήματος</Item>
+		<Item Name="Digital store cut">Περικοπή Ηλεκτρονικού Καταστήματος</Item>
+		<Item Name="Benefits">Πλεονεκτήματα</Item>
+		<Item Name="UndoBuyPlot">Πώληση Οικοπέδου</Item>
+		<Item Name="UndoSellPlot">Αγορά Οικοπέδου</Item>
+		<Item Name="UndoRentRoom">Τερματίστε {0} μισθώσεις</Item>
+		<Item Name="UndoUnrentRoom">Εισαγάγετε {0} μισθώσεις</Item>
+		<Item Name="Starting funds">Αρχικά χρήματα</Item>
+		<Item Name="Education level">Επίπεδο Εκπαίδευσης</Item>
+		<Item Name="Education amount">Ποσό Εκπαίδευσης</Item>
+		<Item Name="EducationAmountTip">Ο μέγιστος αριθμός των εργαζομένων που αποστέλλονται αμέσως. Ρυθμίστε στο -1 για απεριόριστο</Item>
+		<Item Name="EducationCooldownTip">Πόσα {0} να περιμένετε μεταξύ της αποστολής υπαλλήλων για εκπαίδευση</Item>
+		<Item Name="HRSpent">Μηνιαία έξοδα</Item>
+		<Item Name="RoleSelectionHint">Εάν και πώς το ΑΠ (HR) πρέπει να ελέγχει την ανάθεση ρόλων των εργαζομένων</Item>
+		<Item Name="Room grouping">Ομαδοποίηση Δωματίων</Item>
+		<Item Name="RentModeEditorError">Δεν έχετε μαρκάρει κανένα αρχικό δωμάτιο για ενοικίαση!
+Μπορείτε να κάνετε δεξί κλικ στα δωμάτια για να τα μαρκάρετε και να τα ξεμαρκάρετε για ενοικίαση, να τα ομαδοποιήσετε και να τα χαρακτηρίσετε ως αρχικά δωμάτια.</Item>
+		<Item Name="ActionToggleRentable">Toggle whether rentable</Item>
+		<Item Name="ActionTogglePlayerOwned">Toggle whether rented by default</Item>
+		<Item Name="ActionGroupRentRooms">Ομαδοποίηση δωματίων ως μονάδες ενοικίασης</Item>
+		<Item Name="ActionAutoGroupRentRooms">Αυτόματη ομαδοποίηση επιλεγμένων κτιρίων προς ενοικίαση</Item>
+		<Item Name="NoCompetencyAlpha">Κανείς που εργάζεται στο {0} δεν είναι ικανός στο/η {1}, αυτό θα μπορούσε να επηρεάσει σοβαρά την ποιότητα του προϊόντος</Item>
+		<Item Name="Construction">Έργα</Item>
+		<Item Name="Repairs">Επιδιορθώσεις</Item>
+		<Item Name="Sales">Πωλήσεις</Item>
+		<Item Name="Loan">Δάνειο</Item>
+		<Item Name="Not applicable">N/A</Item>
+		<Item Name="LowSalaryQuit">Ο μισθός μου είναι πολύ χαμηλός</Item>
+		<Item Name="NoToiletQuit">Οι εγκαταστάσεις του μπάνιου είναι άθλιες</Item>
+		<Item Name="BadFacilityQuit">Οι εγκαταστάσεις του γραφείου είναι άθλιες</Item>
+		<Item Name="BadEnvQuit">Το περιβάλλον του γραφείου είναι κακό</Item>
+		<Item Name="BadJobQuit">Αυτή η δουλειά είναι ανεκπλήρωτη</Item>
+		<Item Name="RoomAuraBoost">Αυτό το δωμάτιο είναι χαλαρωτικό</Item>
+		<Item Name="NoiseComplaint">Υπάρχει πολύς θόρυβος</Item>
+		<Item Name="OtherTeamComplaint">Οι άλλες ομάδες μου αποσπούν την προσοχή</Item>
+		<Item Name="RoomDirtyWarning">Ένας εργαζόμενος πιστεύει ότι το γραφείο του είναι καταθλιπτικό. Χτίστε κάτι για να αυξήσετε την εμφάνιση των δωματίων σας</Item>
+		<Item Name="Autonomous">Αυτόνομο</Item>
+		<Item Name="AutonomousHint">Εάν αυτή η εταιρεία μπορεί να δημιουργήσει νέα προϊόντα από μόνη της</Item>
+		<Item Name="BoughtProductInfo">Τα δικαιώματα {0} προϊόντων</Item>
+		<Item Name="BoughtStockInfo">{0} αποθέματα</Item>
+		<Item Name="BoughtOutPatentInfo">{0} ευρεσιτεχνίες</Item>
+		<Item Name="BoughtOutInfo">Λάβατε {0} κατά την εξαγορά της {1}</Item>
+		<Item Name="SubsidiaryDelegationConfirm">{0} has been added to {1}'s development queue and will begin development once current projects are finished</Item>
+		<Item Name="SubsidiaryOverworked">{0} doesn't have the capacity to deal with more work, you might need to cancel its queued projects first</Item>
+		<Item Name="Disgruntled employee">Δυσαρεστημένος υπάλληλος</Item>
+		<Item Name="Deal">Συμφωνία</Item>
+		<Item Name="SubsidiaryRepError">You only have enough business reputation to own {0} subsidiaries</Item>
+		<Item Name="BusinessRepInfo">Αυτή είναι η φήμη σας στη βιομηχανία λογισμικού. Κάθε αστέρι επηρεάζει την ποιότητα των υποψηφίων εργαζομένων, των συμβολέων και των συμφωνιών και πόσες θυγατρικές μπορείτε να έχετε.</Item>
+		<Item Name="Minimum raise">Ελάχιστη αύξηση</Item>
+		<Item Name="Severance pay">Αποζημίωση λόγω απόλυσης</Item>
+		<Item Name="Paid vacation">Διακοπές μετ'αποδοχών</Item>
+		<Item Name="Vacation months">Μήνες Διακοπών</Item>
+		<Item Name="Free food">Δωρεάν φαγητό</Item>
+		<Item Name="Company car">Εταιρικό αμάξι</Item>
+		<Item Name="Plot">Οικόπεδο</Item>
+		<Item Name="Death">Θάνατος</Item>
+		<Item Name="Termination">Τερματισμός</Item>
+		<Item Name="Hospitalization">Νοσοκομειακή Περίθαλψη</Item>
+		<Item Name="BadBenefits">Είμαι δυσαρεστημένος με τα οφέλη μου</Item>
+		<Item Name="GoodBenefits">Είμαι ευχαριστημένος με τα οφέλη μου</Item>
+		<Item Name="NewGoodBenfits">Τα οφέλη μου βελτιώθηκαν</Item>
+		<Item Name="NewBadBenefits">Τα οφέλη μου χειροτέρεψαν</Item>
+		<Item Name="BadBenefitWarning">Ένας εργαζόμενος είναι δυσαρεστημένος με το σχέδιο οφελών</Item>
+		<Item Name="Duration">Διάρκεια</Item>
+		<Item Name="EdDurationHint">Μήνες εκπαίδευσης για να στείλετε έναν υπάλληλο</Item>
+		<Item Name="HourPostfix">{0} ώρα</Item>
+		<Item Name="HourPostfixPlural">{0} ώρες</Item>
+		<Item Name="Intercompany">Διεταιρική</Item>
+		<Item Name="CompanyBuyoutRestriction">Δεν μπορείτε να αγοράσετε μια εταιρεία μέσα στο πρώτο έτος της ύπαρξής της</Item>
+		<Item Name="IdleBored">Δεν έχεις τίποτα να κάνεις</Item>
+		<Item Name="TiredOfJob">Αισθάνομαι κολλημένος εδώ</Item>
+		<Item Name="TeammateLeft">Ο φίλος μου έφυγε</Item>
+		<Item Name="GoodVacation">Είχα υπέροχες διακοπές</Item>
+		<Item Name="Lease">Μίσθωση</Item>
+		<Item Name="Cancel lease">Τερματισμός Μίσθωσης</Item>
+		<Item Name="Bad">Άσχημα</Item>
+		<Item Name="Good">Καλά</Item>
+		<Item Name="Too cold">Πολύ κρύο</Item>
+		<Item Name="Just perfect">Απλά τέλεια</Item>
+		<Item Name="Too hot">Πολύ ζέστη</Item>
+		<Item Name="High consumption">Υψηλή κατανάλωση</Item>
+		<Item Name="No consumption">Καμία κατανάλωση</Item>
+		<Item Name="No group">Χωρίς Ομάδα</Item>
+		<Item Name="Is grouped">Ομαδοποιημένος/η/ο</Item>
+		<Item Name="Player owned">Παίκτης που σας ανήκει</Item>
+		<Item Name="CantLease">Δεν είναι δυνατή η μίσθωση</Item>
+		<Item Name="CanLease">Can lease, colored by grouping</Item>
+		<Item Name="EnvironmentToolTitle">Περιβάλλον</Item>
+		<Item Name="EnvironmentToolDesc">Τοποθετήστε αντικείμενα στο περιβάλλον του χάρτη</Item>
+		<Item Name="Houses">Σπίτια</Item>
+		<Item Name="Skyscrapers">Ουρανοξύστες</Item>
+		<Item Name="Trees">Δέντρα</Item>
+		<Item Name="HouseEditToolDesc">Left click to place, shift+left click to remove, right click to cancel and scroll to change type</Item>
+		<Item Name="SkyscraperEditToolDesc">Left click to choose position, base size and height, shift+left click to remove and right click to cancel</Item>
+		<Item Name="TreeEditToolDesc">Left click to place, shift+left click to remove, right click to cancel and scroll to change brush size</Item>
+		<Item Name="Months left">Εναπομήναντες Μήνες</Item>
+		<Item Name="Down payment">Προκαταβολή</Item>
+		<Item Name="Added valuation">Προστιθέμενη αξία</Item>
+		<Item Name="Plot area">Περιοχή Οικοπέδου</Item>
+		<Item Name="Building area">Περιοχή Κτιρίου</Item>
+		<Item Name="Leased area">Μισθωμένη περιοχή</Item>
+		<Item Name="Accrued interest">Δεδουλευμένοι Τόκοι</Item>
+		<Item Name="DepositRelease">Απελευθέρωση Καταθέσεων</Item>
+		<Item Name="Landlord">Διαχειριστής</Item>
+		<Item Name="For rent">Προς ενοικίαση</Item>
+		<Item Name="For sale">Προς πώληση</Item>
+		<Item Name="ContructRoomDesc">Μπορείτε να χρησιμοποιήσετε αυτό το εργαλείο για την κατασκευή νέων {2}{3} ή διαίρεση υφιστάμενων {3}. Το {4} κοστίζει {0} ανά μέτρο, επιπλέον ένα τετραγωνικό μέτρο {5} κοστίζει {1}. Χτίζοντας {3} κοστίζει περισσότερο όσο ψηλότερα πηγαίνετε.</Item>
+		<Item Name="RDescOutdoorAreas">Εξωτερικοί Χώροι</Item>
+		<Item Name="RDescRooms">Δωμάτια</Item>
+		<Item Name="RDescRectangle">Ορθογώνιο</Item>
+		<Item Name="RDescRoomSq">Δάπεδα και στέγες</Item>
+		<Item Name="RDescOutdoorSq">Δάπεδο</Item>
+		<Item Name="RDescOutdoorFence">Περιφράξεις</Item>
+		<Item Name="RDescRoomWalls">Τοίχοι</Item>
+		<Item Name="Rectangle rooms">Ορθογώνια Δωμάτια</Item>
+		<Item Name="Free angle rooms">Χώροι ελεύθερης γωνίας</Item>
+		<Item Name="Rectangle outdoor areas">Ορθογώνιοι εξωτερικοί χώροι</Item>
+		<Item Name="Free angle outdoor areas">Εξωτερικοί χώροι ελεύθερης γωνίας</Item>
+		<Item Name="Relocation">Μετεγκατάσταση</Item>
+		<Item Name="DesignProductFeatureHint2">Κανείς δεν είναι ικανός για {0}, στις επιλεγμένες ομάδες.
+Είστε σίγουρος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="Balance">Υπόλοιπο</Item>
+		<Item Name="Leasing">Ενοικίαση</Item>
+		<Item Name="OverwriteError">Δεν μπορείτε να αντικαταστήσετε αυτό το αρχείο</Item>
+		<Item Name="TerminateLeaseWarning">Ο τερματισμός της μίσθωσης σας θα πουλήσει όλα τα έπιπλά σας, την οποία μπορείτε να ακυρώσετε.</Item>
+		<Item Name="UndoRemoveTrees">Προσθήκη δέντρων</Item>
+		<Item Name="UndoAddTrees">Αφαίρεση δέντρων</Item>
+		<Item Name="UndoCreateLandmark">Κατάργηση αντικειμένου περιβάλλοντος</Item>
+		<Item Name="UndoDestroyLandmark">Προσθήκη αντικειμένου περιβάλλοντος</Item>
+		<Item Name="Buildings">Κτίρια</Item>
+		<Item Name="Empty plot">Άδειο οικόπεδο</Item>
+		<Item Name="EnvDestroyHint">Πατήστε shift και αριστερό πλήκτρο του ποντικιού για να το αφαιρέσετε</Item>
+		<Item Name="DesignProductAssignHint">Δεν υπάρχουν σχεδιαστές στις επιλεγμένες ομάδες.
+Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="MaximumCopyPrompt">Εισαγάγετε τον αριθμό των αντιγράφων που θέλετε να έχετε στη διάθεσή σας πριν τη διακοπή της εργασίας εκτύπωσης.Το -1 σημαίνει χωρίς όριο.</Item>
+		<Item Name="Maximum">Aνώτατο</Item>
+		<Item Name="IPAIBadDeal">Η {0} δεν ενδιαφέρεται να διαπραγματευτεί αυτή την IP μαζί σας</Item>
+		<Item Name="Bugs">Σφάλματα</Item>
+		<Item Name="Bigger plots">Μεγαλύτερα οικόπεδα</Item>
+		<Item Name="BiggerPlotTip">Ενεργοποιήστε αυτό για να πάρετε μεγαλύτερα και πιο κανονικά διαμορφωμένα οικόπεδα, τα οποία θα απαιτήσουν περισσότερα χρήματα για επέκταση</Item>
+		<Item Name="Skill comparison">Συγκριτική Ικανότητα</Item>
+		<Item Name="SkillComptHint">Συγκρίνετε τις ικανότητες του επιλεγμένου αιτούντα με τον μέσο όρο της επιλεγμένης ομάδας</Item>
+	</Alpha10.1>
+	<Alpha10.3>
+		<Item Name="Minimum specialization">Ελάχιστη εξειδίκευση</Item>
+		<Item Name="MinSpecHint">Πόσο υψηλή πρέπει να είναι η εξειδίκευση ενός εργαζόμενου πριν να του επιτραπεί να εργαστεί μαζί του. Αυτό επηρεάζει την εκπαίδευση του ανθρώπινων πόρων (ΑΠ).</Item>
+		<Item Name="RelativeRoleHint">Scale each skill level bar by the employees' highest skill level</Item>
+		<Item Name="TeamDisbandConfirmation">Είστε βέβαιος/η ότι θέλετε να διαλύσετε την ομάδα/ες:
+{0};</Item>
+		<Item Name="All year">Όλο τον χρόνο</Item>
+		<Item Name="VacRangeTip">Οι διακοπές θα κατανέμονται στους υπαλλήλους στις επιλεγμένες ομάδες χρησιμοποιώντας αυτό το εύρος. Η πραγματική διάρκεια των διακοπών καθορίζεται από τις παροχές των εργαζομένων.</Item>
+		<Item Name="PR">PR</Item>
+		<Item Name="Area">Περιοχή</Item>
+		<Item Name="RoomHeatingWarning">Δεν υπάρχει αρκετή θέρμανση για χειμωνιάτικες νύχτες
+Προσθέστε θέρμανση και θυμηθείτε ότι διαρρέουν παράθυρα</Item>
+		<Item Name="RoomCoolingWarning">Δεν υπάρχει αρκετός εξαερισμός για καλοκαιρινές ημέρες
+Προσθέστε εξαερισμό και θυμηθείτε ότι διαρρέουν παράθυρα</Item>
+		<Item Name="Target FPS">Target FPS</Item>
+		<Item Name="TargetFPSTip">Πόσα καρέ η κάρτα γραφικών σας θα πρέπει να επιδιώκει να αναπαράγει ανά δευτερόλεπτο, υποθέτοντας ότι το VSync είναι απενεργοποιημένο. Πληκτρολογήστε -1 για να υπερθερμανθεί η κάρτα γραφικών σας.</Item>
+		<Item Name="Change benefits">Αλλαγή Οφελών</Item>
+		<Item Name="ResetBenefits">Επαναφέρετε την εταιρεία ευρέως</Item>
+		<Item Name="OverrideBenefits">Αντικατάσταση οφέλους εταιρείας</Item>
+		<Item Name="Insulation">Μόνωση</Item>
+		<Item Name="Christmas bonus">Χριστουγεννιάτικο μπόνους</Item>
+		<Item Name="Great">Εξαιρετικά</Item>
+	</Alpha10.3>
+	<Alpha10.4>
+		<Item Name="Ramp">Ράμπα</Item>
+		<Item Name="RotateRampHint">Πατήστε {0} ή {1} για να περιστρέψετε τη ράμπα</Item>
+		<Item Name="RampHighError">Δεν μπορείτε να φτιάξετε ράμπα υψηλότερα</Item>
+		<Item Name="OnRampError">Δεν μπορείτε να χτίσετε πάνω από μια ράμπα</Item>
+		<Item Name="RoomOnRoad2">Δεν μπορείτε να χτίσετε κάτω ή πιο κάτω από 2 ορόφους πάνω από τους δρόμους</Item>
+		<Item Name="StuckOnRoadWarning">Κάποιος έχει κολλήσει σε έναν υπερυψωμένο δρόμο</Item>
+		<Item Name="RoadUnderRoomError">Οι δρόμοι πρέπει να είναι τουλάχιστον 2 ορόφους κάτω από κάθε δωμάτιο</Item>
+		<Item Name="BuildingTooHigh">Το κτίριό σας είναι πολύ ψηλό για να τοποθετηθεί σε αυτό τον όροφο</Item>
+		<Item Name="ServingTrayMissing">Ένας μάγειρας δεν μπορεί να βρει κανενός δίσκου σερβιρίσματος για να τοποθετήσει το φαγητό για τους υπαλλήλους σας. Τοποθετήστε μερικούς σε τραπέζια κοντά στην κουζίνα και μια καντίνα.</Item>
+	</Alpha10.4>
+	<Alpha10.5>
+		<Item Name="HREmployeeRoleWarning">Προσπαθείτε να αλλάξετε το ρόλο ενός ή περισσοτέρων υπαλλήλων του/ων οποίου/ων ο/οι ρόλος/οι ελέγχεται/ονται από έναν διευθυντή ΑΠ (HR).
+Θέλετε να συνεχίσετε χωρίς να αλλάξετε τις ρυθμίσεις ΑΠ (HR);</Item>
+		<Item Name="MultiIPDealActionSell">Θέλετε να πουλήσετε {0} IPs σε {1} εταιρείες για {2};</Item>
+	</Alpha10.5>
+	<Alpha10.6>
+		<Item Name="Tasks">Καθήκοντα</Item>
+		<Item Name="InterEmployeeDislike">Ο/Η {0} αντιπαθεί έντονα τον/την {1}.
+Σκεφτείτε να τους χωρίσετε σε ξεχωριστές ομάδες</Item>
+		<Item Name="PriceTooHighWarning">Η τιμή αυτού του λογισμικού είναι αυτή τη στιγμή πολύ υψηλότερη από τον μέσο όρο της αγοράς.
+Η προτεινόμενη τιμή είναι {0}</Item>
+		<Item Name="MarketingDescAnnounce2">Θα πρέπει να ανακοινώσετε μια ημερομηνία κυκλοφορίας για το προϊόν σας το συντομότερο δυνατόν, καθώς θα αυξήσει την αποτελεσματικότητα των προσπαθειών μάρκετίνγκ σας, θα κρατήσει το ενδιαφέρον των οπαδών περισσότερο και θα βοηθήσει να θέσετε έναν στόχο για το πρότζεκτ σας.
+Βεβαιωθείτε ότι δεν κυκλοφορήσετε το προϊόν σας πολύ αργά.</Item>
+		<Item Name="ITPayment2">{0} up front - Up to {1} per repair</Item>
+		<Item Name="Month" NamePlural="Months">{0} [Μήνας|Μήνες]</Item>
+		<Item Name="Day" NamePlural="Days">{0} [Μέρα|Μέρες]</Item>
+		<Item Name="Year" NamePlural="Years">{0} [Χρόνο|Χρόνια]</Item>
+		<Item Name="Hour" NamePlural="Hours">{0} [Ώρα|Ώρες]</Item>
+		<Item Name="Product" NamePlural="Products">{0} [Προϊόν|Προϊόντα]</Item>
+		<Item Name="Team" NamePlural="Teams">{0} [Ομάδα|Ομάδες]</Item>
+		<Item Name="Specialization" NamePlural="Specializations">{0} [Ειδικότητα|Ειδικότητες]</Item>
+		<Item Name="RotateFurnHint3">{0} για να περιστρέψετε τα έπιπλα σας</Item>
+		<Item Name="RotateFurnHint3Mouse">Κάντε κλικ και σύρετε</Item>
+		<Item Name="RotateFurnHint3Key">Πατήστε {0} ή {1}</Item>
+		<Item Name="Change price">Αλλαγή τιμής</Item>
+		<Item Name="CookStoveWarning">Ένας μάγειρας δεν μπορεί να βρει ένα φούρνο.
+Βεβαιωθείτε ότι έχετε ένα φούρνο εργασίας για κάθε μάγειρα και τουλάχιστον ένα ψυγείο και ένα δίσκος σερβιρίσματος</Item>
+		<Item Name="NotApplicable">Δεν έχει τα προσόντα για ενεργές εργασίες</Item>
+		<Item Name="Team management">Διαχείριση Ομάδας</Item>
+		<Item Name="SubsidiaryMoneyWarning">Η θυγατρική σας {0} ξεμένει από χρήματα</Item>
+		<Item Name="RoadAboveRoomError">Δεν μπορείτε να χτίσετε δρόμους πάνω από τα δωμάτια</Item>
+		<Item Name="MockNeedError">Δεν μπορείτε να κυκλοφορήσετε αυτό το προϊόν προτού διαθέσετε όλο το λογισμικό από το οποίο εξαρτάται</Item>
+		<Item Name="ProductMockConfirm">Το προϊόν σας εξαρτάται από άλλα προϊόντα, τα οποία βρίσκονται ακόμη σε ανάπτυξη. Δεν θα μπορείτε να κυκλοφορίσετε το προϊόν σας προτού κυκλοφορήσουν αυτά τα προϊόντα.
+Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="Sick days">Άρρωστες μέρες</Item>
+		<Item Name="Seniority">Αρχαιότητα</Item>
+		<Item Name="Resignations">Παραιτήσεις</Item>
+		<Item Name="AutoCompleteRoomPrompt">Πατήστε Ctrl για αυτόματη ολοκλήρωση του χώρου για το {0}</Item>
+		<Item Name="No data available">Δεν υπάρχουν διαθέσιμα δεδομένα</Item>
+		<Item Name="Prints sold">Οι εκτυπώσεις που πωλήθηκαν</Item>
+		<Item Name="Net units sold">Καθαρές μονάδες που πωλήθηκαν</Item>
+		
+		
+		<Item Name="DistDeal">Συμφωνία διανομής με την {0}</Item>
+		<Item Name="BidAction">Η {0} προσφέρει {1}</Item>
+		<Item Name="AiCompanyDistDealReject">Η {0} δεν ενδιαφέρεται για τη συμφωνία σας</Item>
+		<Item Name="AiCompanyDistDealAccept">Η {0} αποδέχθηκε την προσφορά σας</Item>
+		<Item Name="RejectDealWarning">Η απόρριψη αυτής της προσφοράς θα ακυρώσει την τρέχουσα συμφωνία διανομής σας.
+Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="BidAction">Η {0} προσφέρει {1}</Item>
+		<Item Name="Physical distribution">Υλική κατανομή</Item>
+		<Item Name="OutdoorError">Αυτό πρέπει να τοποθετείται σε εξωτερικές περιφραγμένες περιοχές</Item>
+		<Item Name="ProductInDevError">Αυτό το προϊόν βρίσκεται ακόμα στο σημείο της ανάπτυξης (developing)</Item>
+		<Item Name="SellPlotWarning">Η πώληση αυτού του οικοπέδου θα καταστρέψει τα υπάρχοντα κτίρια.
+Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="ChangePriceFreeError">Το προϊόν είναι ήδη δωρεάν</Item>
+	</Alpha10.6>
+	<Alpha10.7>
+		<Item Name="Roof" NamePlural="Roofs">{0} [Οροφή|Οροφές]</Item>
+		<Item Name="Room" NamePlural="Rooms">{0} [Δωμάτιο|Δωμάτια]</Item>
+		<Item Name="Group" NamePlural="Groups">{0} [Ομάδα|Ομάδες]</Item>
+		<Item Name="ActionRoof Color">Χρώματα οροφής</Item>
+		<Item Name="ActionRoof material">Υλικά οροφής</Item>
+		<Item Name="ActionEdit roof">Επεξεργασία οροφής</Item>
+		<Item Name="BulldozeMsg">Είστε βέβαιοι ότι θέλετε να καταστρέψετε {0} κατασκευές?</Item>
+		<Item Name="BulldozeMsg3">Κατεδαφίστε {0} οροφή/ές</Item>
+		<Item Name="UndoCreateRoof">Καταστρέφεται/ονται {0} οροφή/ές</Item>
+		<Item Name="UndoDestroyRoof">Χτίζεται/ονται {0} οροφή/ές</Item>
+		<Item Name="UndoRoofStyle">Αλλάζει/ουν {0} οροφή/ές</Item>
+		<Item Name="ActionDestroy">Καταστροφή κατασκευής</Item>
+		<Item Name="Finish roof">Ολοκληρώστε την οροφή</Item>
+		<Item Name="Invalid roof">Μη έγκυρη οροφή</Item>
+		<Item Name="Align">Ευθυγραμμίστε</Item>
+		<Item Name="Straighten">Ισιώστε</Item>
+		<Item Name="Height">Ύψος</Item>
+		<Item Name="Slope">Κλίση</Item>
+		<Item Name="Gable">Αέτωμα</Item>
+		<Item Name="Move">Μετακίνηση</Item>
+		<Item Name="Merge">Συγχώνευση</Item>
+		<Item Name="Roof editor">Επεξεργαστής στέγης</Item>
+		<Item Name="RoofAlignTip">Ευθυγραμμίστε τα σημεία με τα άκρα των οροφών</Item>
+		<Item Name="RoofStraightTip">Ισιώστε τα σημεία κατά μήκος μιας γραμμής</Item>
+		<Item Name="RoofDesc">Κατασκευάστε στέγη σε επιλεγμένα δωμάτια</Item>
+		<Item Name="RoofIntersectError">Δεν μπορεί να διασταυρωθεί με τη στέγη</Item>
+		<Item Name="RoofBasementError">Δεν είναι δυνατή η προσθήκη στέγης σε υπόγεια δωμάτια</Item>
+		<Item Name="RoofHighError">Δεν είναι δυνατή η κατασκευή στέγης τόσο ψηλά</Item>
+		<Item Name="RoofAlreadyPresentError">Το δωμάτιο έχει είδη οροφή</Item>
+		<Item Name="RoofAcrossFloorError">Μπορείτε να χτίσετε στέγες μόνο σε έναν όροφο κάθε φορά</Item>
+		<Item Name="RoofNoRoomError">Παρακαλώ επιλέξτε τα δωμάτια που θέλετε να τους προσθέσετε οροφή</Item>
+		<Item Name="RoofAdjacentError">Παρακαλείσθε να επιλέξετε γειτονικά δωμάτια για να χτίσετε μια στέγη πάνω τους</Item>
+		<Item Name="Include basement">Συμπεριλάβετε το υπόγειο</Item>
+		<Item Name="Select unsupported rooms">Επιλέξτε δωμάτια που δεν υποστηρίζονται</Item>
+		<Item Name="Focus on object">Εστίαση στο αντικείμενο</Item>
+		<Item Name="Assign rooms">Εκχωρήστε δωμάτια</Item>
+		<Item Name="Calendar">Ημερολόγιο</Item>
+		<Item Name="Working hours">Ώρες Εργασίας</Item>
+		<Item Name="StuckEmployee">Ένας εργαζόμενος δεν μπορεί να επιστρέψει σπίτι του</Item>
+		<Item Name="NewDLLModVerify">Ένα νέο mod κώδικα: {0}, ανιχνεύθηκε. Αυτά τα mods έχουν τη δυνατότητα να αλλάξουν το σύστημά σας. Δεν πρέπει να φορτώσετε ένα mod κώδικα, αν δεν εμπιστεύεστε την πηγή.
+Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="AllAccessDLLModVerify">Ένα mod κώδικα: {0}, ζητά πλήρη πρόσβαση, συμπεριλαμβανομένης της πρόσβασης στα αρχεία σας και της σύνδεσης στο διαδίκτυο. Δεν πρέπει να φορτώσετε ένα mod κώδικα, αν δεν εμπιστεύεστε την πηγή.
+Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;</Item>
+		<Item Name="ChangedDLLModVerify">Αλλαγές στο mod κώδικα: {0}, ανιχνεύθηκε, εξακολουθείτε να θέλετε να το φορτώσετε;</Item>
+		<Item Name="SteamUploadPrepareError">Δεν μπόρεσε να προετοιμάσει τα αρχεία του mod για μεταφόρτωση (upload)</Item>
+	</Alpha10.7>
+	<Alpha10.8>
+		<Item Name="OutdoorBasementError">Δεν είναι δυνατή η κατασκευή υπαίθριων χώρων κάτω από το έδαφος</Item>
+	</Alpha10.8>
+	<Alpha10.9>
+		<Item Name="Rotate furniture randomly">Τυχαία περιστροφή επίπλου</Item>
+		<Item Name="Get the soundtrack">Αποκτήστε το soundtrack</Item>
+		<Item Name="Redelegate selected">Μετακίνηση επιλεγμένου διεργασιών</Item>
+		<Item Name="IPDealActionSub">Θέλετε να μεταφέρετε αυτή την IP σε μια θυγατρική?</Item>
+		<Item Name="IPDealActionSellOrSub">Θέλετε να πουλήσετε αυτήν την IP στην {0} για {1} ή να τη μεταφέρετε σε μια θυγατρική?</Item>
+		<Item Name="Transfer IP">Μεταφορά IP</Item>
+		<Item Name="ProjectManagementRelease">Η ομάδα διαχείρισης του προγράμματος {0} μόλις κυκλοφόρησε το {2}: {3}</Item>
+		<Item Name="SoftwareSupportWaning">Πέρασε λίγος καιρός από τότε που κυκλοφορήσατε το {0:Vowel:an,a} {0} και οι θαυμαστές σας το παρατηρούν</Item>
+		<Item Name="FurnitureInLimitRoomWarning">Ένας υπάλληλος ανατέθηκε στο {0:Vowel:an,a} {0} σε ένα δωμάτιο που δεν επιτρέπεται στον εργαζόμενο</Item>
+		<Item Name="VacationNotify">Ο {0} πήγε διακοπές</Item>
+		<Item Name="Employee" NamePlural="Employees">{0} [Υπάλληλος|Υπάλληλοι]</Item>
+		<Item Name="ContractEarly">{0} νωρίτερα</Item>
+		<Item Name="ContractLate">{0} αργότερα</Item>
+		<Item Name="FurnitureQueue">{0} αναμένεται/ονται για χρήση</Item>
+		<Item Name="TeamDisbandConfirmation">Είστε βέβαιος/η ότι θέλετε να τη διαλύσετε την {1}:
+{0}?</Item>
+		<Item Name="Snap to grid">Πατήστε στο πλέγμα</Item>
+		<Item Name="EmployeeCourseBookError">Ο/Οι {0:Plural:employees,employee} που επιλέξατε {0:Plural:are,is} έχει/έχουν ήδη προγραμματισμένα μαθήματα</Item>
+		<Item Name="SickNotify">{0:FirstOrCount:employees} {0:Plural:have,has} αρρωστήσει</Item>
+		<Item Name="GeneralOptionTab">Γενικά</Item>
+		<Item Name="Controls">Κουμπιά</Item>
+		<Item Name="Effects">Εφέ</Item>
+		<Item Name="Optimization">Βελτιστοποίηση</Item>
+		<Item Name="Help">Βοήθεια</Item>
+		<Item Name="UISizeConf">Είστε βέβαιος/η ότι θέλετε να διατηρήσετε αυτήν την κλίμακα UI?</Item>
+		<Item Name="ShiftToPlaceMultiple">Κρατήστε το shift για να τοποθετήσετε πολλά αντικείμενα</Item>
+		<Item Name="ShiftToPlaceHint">Απενεργοποιήστε το για να τοποθετήτε πολλά αντικείμενα από προεπιλογή, χρησιμοποιώντας το δεξί κλικ για ακύρωση</Item>
+		<Item Name="EnvEffects">Εφέ Περιβάλλοντος</Item>
+		<Item Name="EnvEffectsHint">Χιόνι, βροχή, βροντή και αστραπή. Δεν επηρεάζει τη θερμοκρασία ή την υφή του εδάφους</Item>
+		<Item Name="Duplicate selected furniture">Δυπλασιασμός επιλεγμένων επίπλων</Item>
+		<Item Name="Ground floor">Ισόγειο</Item>
+		<Item Name="FloorPostfix">{0}. όροφος</Item>
+		<Item Name="AngleSnapDesc2">Γωνία Πρόσκρουσης</Item>
+		<Item Name="DoubleGridSize">Διπλό Μέγεθος Πλέγματος</Item>
+		<Item Name="HalveGridSize">Μείωση Μεγέθους Πλέγματος</Item>
+		<Item Name="ResetGrid">Επαναφορά Πλέγματος</Item>
+		<Item Name="Old grid panel">Παλιός πίνακας πλέγματος</Item>
+		<Item Name="OldGridPanelHint">Εναλλαγή του πίνακα χειρισμού πλέγματος από παλαιότερες εκδόσεις του Software Inc.</Item>
+		<Item Name="Nothing matches filter">Τίποτα δεν αντιστοιχεί στο φίλτρο</Item>
+		<Item Name="StartTutorialTip">Κάντε κλικ για να ξεκινήσετε το tutorial {0}</Item>
+	</Alpha10.9>
+	<Alpha10.10>
+		<Item Name="Piece" NamePlural="Pieces">{0} [Τεμάχιο|Τεμάχια]</Item>
+		<Item Name="Lease" NamePlural="Leases">{0} [Μίσθωση|Μισθώσεις]</Item>
+		<Item Name="Path" NamePlural="Paths">{0} [Μονοπάτι|Μονοπάτια]</Item>
+		<Item Name="Patch notes">Σημειώσεις Patch</Item>
+		<Item Name="OSSaleLimitReached">Αυτό το προϊόν εξαντλήθηκε από πιθανούς πελάτες</Item>
+		<Item Name="RoomOnPath">Δεν μπορείτε να χτίσετε στο μονοπάτι</Item>
+		<Item Name="PathInRoom">Δεν μπορείτε να χτίσετε μέσα από κτίρια</Item>
+		<Item Name="PathOnPath">Δεν μπορείτε να χτίσετε μονοπάτι πάνω από άλλο μονοπάτι</Item>
+		<Item Name="Secondary tasks">Δευτερεύουσες εργασίες</Item>
+		<Item Name="AutoDevWorkItemClass">Καθήκοντα διαχείρισης πρότζεκτ</Item>
+		<Item Name="DesignDocumentClass">Εργασίες Σχεδιασμού</Item>
+		<Item Name="MarketingPlanClass">Εργασίες Μάρκετινγκ</Item>
+		<Item Name="ResearchWorkClass">Ερευνητικές Εργασίες</Item>
+		<Item Name="ReviewWorkClass">Εργασίες Επιθεώρησης</Item>
+		<Item Name="SoftwareAlphaClass">Εργασίες Ανάπτυξης</Item>
+		<Item Name="SoftwarePortClass">Εργασίες Μεταφορών</Item>
+		<Item Name="SupportWorkClass">εργασίες Υποστήριξης</Item>
+		<Item Name="Grass amount">Ποσότητα Γρασιδιού</Item>
+		<Item Name="GrassHint">Ποσότητα των λεπίδων του γρασιδιού ανά τετραγωνικό μέτρο (προεπιλεγμένο μέγεθος πλέγματος)</Item>
+		<Item Name="AutoGfxResultExact">Το επίπεδο ποιότητας {0} έχει επιλεγεί με βάση το αποτέλεσμα της δοκιμής απόδοσης</Item>
+		<Item Name="AutoGfxResultBetween">Ένα επίπεδο ποιότητας μεταξύ {0} και {1} έχει επιλεγεί με βάση το αποτέλεσμα της δοκιμής απόδοσης</Item>
+		<Item Name="RoadsHint">Κατασκευάστε δρόμους, χώρους στάθμευσης και μονοπάτια για να κάνετε τις μετακινήσεις των υπαλλήλων σας πιο γρήγορες</Item>
+		<Item Name="Build path">Δημιουργία Μονοπατιού</Item>
+		<Item Name="PathDesc">Οι εργαζόμενοι περπατούν πιο γρήγορα σε μονοπάτια από ό,τι στο χορτάρι</Item>
+		<Item Name="Build smooth path">Κατασκευή λείου μονοπατιού</Item>
+		<Item Name="Smooth">Λείο</Item>
+		<Item Name="SmoothPathDesc">Το ίδιο με το κανονικό μονοπάτι αλλά με στρογγυλεμένες γωνίες</Item>
+		<Item Name="Remove path">Αφαίρεση μονοπατιού</Item>
+		<Item Name="RemovePathDesc">Αφαιρέστε τμήματα του μονοπατιού κάθε φορά</Item>
+		<Item Name="ActionPath material">Υλικό Συστήματος Μονοπατιού</Item>
+		<Item Name="ActionPath Color">Χρώμα Συστήματος Μονοπατιού</Item>
+		<Item Name="ActionDestroy Path">Κατάργηση Συστήματος Μονοπατιού</Item>
+		<Item Name="UndoCreatePathObject">Κατάργηση {0} {0:Plural:systems,system} μονοπατιού/ών</Item>
+		<Item Name="UndoDestroyPathSegment">Κατασκευή Μονοπατιού</Item>
+		<Item Name="UndoCreatePathSegment">Καταστροφή Μονοπατιού</Item>
+		<Item Name="UndoStylePathObject">Αλλαγή Στυλ Μονοπατιού</Item>
+		<Item Name="UndoDestroyFurniture">Εξαγορά {0:PluralKey:Piece} επίπλων</Item>
+		<Item Name="UndoCreateFurniture">Πώληση {0:PluralKey:Piece} επίπλων</Item>
+		<Item Name="UndoFurnitureColor">Επιχρωμάτωση {0:PluralKey:Piece} επίπλων</Item>
+		<Item Name="UndoReplaceFurniture">Αντικατάσταση {0:PluralKey:Piece} επίπλων</Item>
+		<Item Name="UndoMoveFurniture">Μετακίνηση {0:PluralKey:Piece} επίπλων</Item>
+		<Item Name="UndoDestroySegment">Κατασκευή {0} {0:Plural:segments,segment} τοίχου</Item>
+		<Item Name="UndoCreateSegment">Αφαίρεση {0} {0:Plural:segments,segment} τοίχου</Item>
+		<Item Name="UndoDestroyRoom">Κατασκευή {0:PluralKey:Room}</Item>
+		<Item Name="UndoCreateRoom">Καταστροφή {0:PluralKey:Room}</Item>
+		<Item Name="UndoMergeRooms">Διαχωρισμός {0:PluralKey:Room}</Item>
+		<Item Name="UndoSplitRoom">Συγχώνευση {0:PluralKey:Room}</Item>
+		<Item Name="UndoRoomColor">Επιχρωμάτωση {0:PluralKey:Room}</Item>
+		<Item Name="UndoRoomMaterial">Αλλαγή υλικού του {0:PluralKey:Room}</Item>
+		<Item Name="UndoRentRoom">Λήξη {0:PluralKey:Lease}</Item>
+		<Item Name="UndoUnrentRoom">Εισαγωγή {0:PluralKey:Lease}</Item>
+		<Item Name="UndoCreateRoof">Καταστροφή {0:PluralKey:Roof}</Item>
+		<Item Name="UndoDestroyRoof">Κατασκευή {0:PluralKey:Roof}</Item>
+		<Item Name="UndoRoofStyle">Αλλαγή {0:PluralKey:Roof}</Item>
+		<Item Name="BulldozeMsg">Είστε σίγουρος/η πως θέλετε να ισοπεδώσετε {0} {0:Plural:structures,structure}?</Item>
+		<Item Name="BulldozeMsg2">Ισοπέδωση {0:PluralKey:Room}</Item>
+		<Item Name="BulldozeMsg3">Κατεδάφιση {0:PluralKey:Roof}</Item>
+		<Item Name="BulldozeMsg4">Αφαίρεση {0} {0:Plural:systems,system} μονοπατιού/ών</Item>
+		<Item Name="SellMsg">Είστε σίγουρος/η ότι θέλετε να πουλήσετε {0:PluralKey:Piece} έπιπλα?</Item>
+		<Item Name="SellMsg2">Πώληση {0:PluralKey:Piece} επίπλων</Item>
+		<Item Name="DismissMsg">Είστε σίγουρος/η ότι θέλετε να απολύσετε  {0:PluralKey:Employee}?</Item>
+		<Item Name="DismissMsg2">Απόλυση {0:PluralKey:Employee}</Item>
+		<Item Name="SecondaryRoleTip">Οι εργαζόμενοι θα εργάζονται μόνο σε δευτερεύοντες ρόλους εάν δεν υπάρχουν καθήκοντα για τους κύριους ρόλους τους</Item>
+		<Item Name="SecondaryTaskTip">Οι εργαζόμενοι θα δουλεύουν μόνο σε δευτερεύουσες εργασίες αν δεν είναι διαθέσιμες πρωταρχικές εργασίες</Item>
+		<Item Name="Performance">Επίδωση</Item>
+		<Item Name="UnreachablePath">Αυτό το μονοπάτι είναι αποκλεισμένο</Item>
+	</Alpha10.10>
+</UI>

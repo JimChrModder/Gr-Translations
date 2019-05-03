@@ -1,0 +1,10 @@
+"chat_shortcuts_description_unblock"	"unblocks specified players chat and voice (/unblock player_name)"	"True"
+"chat_shortcuts_description_profile"	"shows profile of specified player (/profile player_name)"	"True"
+"chat_shortcuts_description_r"	"reply to last person who whispered to you (/r message)"	"True"
+"chat_shortcuts_description_pm"	"send private message to specified player (/pm player_name message)"	"True"
+"chat_shortcuts_description_unmute"	"unmutes specified players chat and voice for current session (/unmute player_name)"	"True"
+"chat_shortcuts_description_team"	"chat to players in current team (/team message)"	"True"
+"chat_shortcuts_description_help"	"shows all available chat shortcut commands for current game area (/help)"	"True"
+"chat_shortcuts_description_block"	"blocks specified players chat and voice permanently until unblocked (/block player_name)"	"True"
+"chat_shortcuts_description_mute"	"mutes specified players chat and voice for current session (/mute player_name)"	"True"
+"chat_sh

@@ -1,0 +1,127 @@
+"region_unit_resources_string_CiG_Regional_Roman"	"Ρωμαίοι"	"True"
+"region_unit_resources_string_CiG_Regional_Greek"	"Ελληνες"	"True"
+"region_unit_resources_string_CiG_Regional_German"	"Γερμανοί"	"True"
+"region_unit_resources_string_CiG_Regional_Celtic"	"Κέλτες"	"True"
+"region_unit_resources_string_CiG_Regional_Briton"	"Βρετανοί"	"True"
+"region_unit_resources_string_Auxilia_Thracian"	"Θράκες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Thracia"	"Εντόπιοι Βοηθητικοί Θράκης"	"True"
+"region_unit_resources_string_Auxilia_Syria"	"Εντόπιοι Βοηθητικοί Συρίας"	"True"
+"region_unit_resources_string_Auxilia_Scythian"	"Σκύθες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Sarmatian"	"Σαρμάτες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Saka"	"Σάκες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Sabaean"	"Σαβαίοι Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Roman"	"Ρωμαίοι Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Persian"	"Πέρσες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Parthian"	"Πάρθιοι Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_North_African"	"Βορειοαφρικανοί Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Nabatea_ArabiaMagna_ArabiaFelix"	"Εντόπιοι Βοηθητικοί Ναβαταίας, Μεγάλης Αραβίας, Ευδαίμονος Αραβίας"	"True"
+"region_unit_resources_string_Auxilia_local_Tarraconensis"	"Εντόπιοι Βοηθητικοί Ταρρακωνησίας"	"True"
+"region_unit_resources_string_Auxilia_local_Raetia_et_Noricum"	"Εντόπιοι Βοηθητικοί Ραετίας και Νορικού"	"True"
+"region_unit_resources_string_Auxilia_local_Phazania_Libue_Aithiops"	"Εντόπιοι Βοηθητικοί Φαζανοί, Λίβυοι, Αιθίοπες"	"True"
+"region_unit_resources_string_Auxilia_local_Macedonia"	"Εντόπιοι Βοηθητικοί Μακεδονίας"	"True"
+"region_unit_resources_string_Auxilia_local_Gedrosia_Arachosia_Bactria_Aria"	"Εντόπιοι Βοηθητικοί Γεδρωσίας, Αραχωσίας, Βακτριανής, Αρίας"	"True"
+"region_unit_resources_string_Auxilia_local_Cartaginensis"	"Εντόπιοι Βοηθητικοί Καρθαγένης"	"True"
+"region_unit_resources_string_Auxilia_Italian"	"Ιταλοί Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Illyrian"	"Ιλλύριοι Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Iberian"	"Ίβηρες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Hellenic"	"Ελληνες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Hellas"	"Εντόπιοι Βοηθητικοί Ελλάδος"	"True"
+"region_unit_resources_string_Auxilia_Germanic"	"Γερμανοί Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Gallic"	"Γαλάτες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Galatia_et_Cappadocia"	"Εντόπιοι Βοηθητικοί Γαλατίας & Καππαδοκίας"	"True"
+"region_unit_resources_string_Auxilia_Egyptian"	"Αιγύπτιοι Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Celtic"	"Κέλτες Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Caucasia"	"Εντόπιοι Βοηθητικοί Καυκάσου"	"True"
+"region_unit_resources_string_Auxilia_Briton"	"Βρετανοί Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Bosporus"	"Εντόπιοι Βοηθητικοί Βοσπόρου"	"True"
+"region_unit_resources_string_Auxilia_Bactrian"	"Βάκτριοι Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Assyrian"	"Ασσύριοι Βοηθητικοί"	"True"
+"region_unit_resources_string_Auxilia_Asia"	"Εντόπιοι Βοηθητικοί Ασίας"	"True"
+"region_unit_resources_string_Auxilia_Arabian"	"Άραβες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Arabian_Auxilia"	"Άραβες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Bactrian_Auxilia"	"Βάκτριοι Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Celtic_Auxilia"	"Κέλτες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Eastern_Auxilia"	"Ανατολικοί Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Egyptian_Auxilia"	"Αιγύπτιοι Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Elephant_Auxilia"	"Ελέφαντες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Gallic_Auxilia"	"Γαλάτες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Germanic_Auxilia"	"Γερμανοί Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Hellenic_Auxilia"	"Έλληνες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Iberian_Auxilia"	"Ίβηρες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Illyrian_Auxilia"	"Ιλλύριοι Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Indian_Elephant_Auxilia"	"Ινδικοί Ελέφαντες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Itallian_Auxilia"	"Ιταλοί Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Numidian_Auxilia"	"Νουμιδιανοί Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Persian_Auxilia"	"Πέρσες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Persian_Cataphract_Auxilia"	"Πέρσες Κατάφρακτοι  Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Roman_Auxilia"	"Ρωμαίοι Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Sabaean_Auxilia"	"Σαβαίοι Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Steppe_Auxilia"	"Στεπανοί Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_Thracian_Auxilia"	"Θράκες Βοηθητικοί"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Achia_and_Macedonia"	"Τοποκοί Βοηθητικοί Αχιάς & Μακεδονίας"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Aegyptos"	"Τοποκοί Βοηθητικοί Aegyptos"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Armenia"	"Τοποκοί Βοηθητικοί Armenia"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Asia"	"Τοποκοί Βοηθητικοί Asia"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Britannia"	"Τοποκοί Βοηθητικοί Βρετανίας"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Cappadocia"	"Τοποκοί Βοηθητικοί Καπαδοκίας"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Dacia"	"Τοποκοί Βοηθητικοί Δακίας"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Hispania"	"Τοποκοί Βοηθητικοί Ισπανίας"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Libya"	"Τοποκοί Βοηθητικοί Λιβύης"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Parthia"	"Τοποκοί Βοηθητικοί Παρθίας"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Pontus"	"Τοποκοί Βοηθητικοί Πόντου"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Pretanic_Isles"	"Τοποκοί Βοηθητικοί Πρεανικών Νησιών"	"True"
+"region_unit_resources_string_3c_local_Auxilia_Syria"	"Τοποκοί Βοηθητικοί Συρίας"	"True"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"region_unit_resources_string_inv_local_highland_italian_units"	"Τοποκές Ιταλικές Μονάδες του Λόφου"	"True"
+"region_unit_resources_string_inv_local_aequi_units"	"Τοποκές Αικούοικες Μονάδες"	"True"
+"region_unit_resources_string_inv_local_samnite_units"	"Τοποκές Σαμνιτικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_african_units"	"Τοποκές Αφρικανικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_latin_units"	"Τοποκές Λατινικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_sardi_units"	"Τοποκές Σαρδινικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_umbrian_units"	"Τοποκές Ουμπρίνικες Μονάδες"	"True"
+"region_unit_resources_string_inv_local_gallic_hunters"	"Τοποκοί Γαλάτες Κυνηγοί"	"True"
+"region_unit_resources_string_inv_local_greek_units"	"Τοποκές Ελληνικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_etruscan_units"	"Τοποκές Ετρουσκικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_brutti_units"	"Τοποκές Βρεττικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_gallic_axemen"	"Τοποκοί Πελεκυφόροι Γαλάτες"	"True"
+"region_unit_resources_string_inv_local_ligurian_units"	"Τοποκές Ligurian Μονάδες"	"True"
+"region_unit_resources_string_inv_local_sabine_units"	"Τοποκές Σαβίνικες Μονάδες"	"True"
+"region_unit_resources_string_inv_local_lucanian_units"	"Τοποκές Λευκανικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_lowland_italian_units"	"Τοποκές Ιταλικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_iapygian_units"	"Τοποκές Ιαπυγικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_volsci_units"	"Τοποκές Βολσκικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_gallic_units"	"Τοποκοί Γαλάτες Μονάδες"	"True"
+"region_unit_resources_string_inv_local_veneti_units"	"Τοποκές Βενετικές Μονάδες"	"True"
+"region_unit_resources_string_inv_local_carthago_units"	"Τοποκές Καρχηδόνιες Μονάδες"	"True"
+"region_unit_resources_string_inv_local_campanian_cavalry"	"Τοποκό Καμπάνιο Ιππικό"	"True"
+"region_unit_resources_string_inv_local_gallic_horsemen"	"Τοποκοί Γαλάτες Ιππείς"	"True"
+"region_unit_resources_string_inv_local_sicillian_units"	"Τοποκές Σικελικές Μονάδες"	"True"

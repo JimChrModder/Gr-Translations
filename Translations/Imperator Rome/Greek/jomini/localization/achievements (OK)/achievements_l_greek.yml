@@ -1,0 +1,11 @@
+﻿l_greek:
+ ACHIEVEMENT_UNLOCKED: "Ξεκλειδώθηκε επίτευγμα!"
+ ACHIEVEMENT_LOCKED: "Το επίτευγμα είναι κλειδωμένο"
+ ACHIEVEMENT_NOT_POSSIBLE: "Το επίτευγμα δεν είναι δυνατό στην τρέχουσα εκστρατεία"
+ ACHIEVEMENTS: "Επιτεύγματα"
+ ACHIEVEMENT_FILTER_POSSIBLE: "Εμφάνιση των δυνατόν"
+ ACHIEVEMENT_FILTER_NOT_POSSIBLE: "Εμφάνιση των μη δυνατόν"
+ ACHIEVEMENT_FILTER_UNLOCKED:1 "Εμφάνιση κερδισμένων επιτευγμάτων"
+ ACHIEVEMENT_FILTER_LOCKED:1 "Εμφάνιση υπόλοιπων επιτευγμάτων"
+ ACHIEVEMENT_GROUP_TITLE: "[Group.GetName] - [Group.CalcNumberOfUnlockedAchievements] / [Group.GetNumberOfAchievements]"
+ ACHIEVEMENT_GROUP_TOOLTIP: "#V [Group.CalcNumberOfUnlockedAchievements]#! επίτευγμα(ατα) Ξεκλειδώθηκε(αν) από τα #V [Group.GetNumberOfAchievements]#! στην ομάδα [Group.GetName]"

@@ -1,0 +1,8 @@
+﻿l_greek:
+ CLOSE:0 "#T Κλείσιμο#!"
+ BACK:0 "Πίσω"
+ TOP_BAR_VERSION:1 "Exe Git Έκδοση: $BuildRevision$ \nMP Checksum: $MPChecksum$\n$RandomLogInfo$ $BuildRevisionTime$"
+ TOP_BAR_VERSION_LIVE:0 "Έκδοση: 1.0.0 (Sulla) \n MP Checksum: $MPChecksum$"
+ OK_BUTTON:0 "Οκ"
+ CANCEL_BUTTON:0 "Ακύρωση"
+ 

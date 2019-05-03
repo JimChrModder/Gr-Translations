@@ -1,0 +1,49 @@
+"victory_types_display_name_att_mp_coop"	"Συνεργατική Νίκη"	"True"
+"victory_types_display_name_att_mp_coop_loyalist"	"Συνεργατική Νομιμόφρων Νίκη"	"True"
+"victory_types_display_name_att_mp_coop_separatist"	"Συνεργατική Αυτονομιστική Νίκη"	"True"
+"victory_types_display_name_att_mp_versus"	"Νίκη Μονομαχίας"	"True"
+"victory_types_display_name_att_mp_versus_loyalist"	"Μονομαχία με Νομιμόφρων Νίκη"	"True"
+"victory_types_display_name_att_mp_versus_separatist"	"Μονομαχία με Αυτονομιστική Νίκη"	"True"
+"victory_types_display_name_att_vc_1_historical"	"Ιστορική Νίκη"	"True"
+"victory_types_display_name_att_vc_1_historical_expedition"	"Νίκη Αποστολής"	"True"
+"victory_types_display_name_att_vc_1_historical_separatist"	"Αυτονομιστική Νίκη"	"True"
+"victory_types_display_name_att_vc_1_short"	"Υποδεέστερη Νίκη"	"True"
+"victory_types_display_name_att_vc_2_1_military"	"Στρατιωτική Νίκη"	"True"
+"victory_types_display_name_att_vc_2_2_cultural"	"Πολιτιστική Νίκη"	"True"
+"victory_types_display_name_att_vc_2_imperial"	"Αυτοκρατορικός Θρίαμβος"	"True"
+"victory_types_display_name_att_vc_2_imperial_expedition"	"Νομιμόφρων Θρίαμβος"	"True"
+"victory_types_display_name_att_vc_2_imperial_separatist"	"Θρίασμος Αυτοκράτορα Δυτικής Ρωμαϊκής"	"True"
+"victory_types_display_name_att_vc_3_domination"	"Απόλυτος Θρίαμβος"	"True"
+"victory_types_display_name_cultural"	"Νίκη"	"True"
+"victory_types_display_name_domination"	"Νίκη"	"True"
+"victory_types_display_name_economic"	"Νίκη"	"True"
+"victory_types_display_name_long"	"Νίκη"	"True"
+"victory_types_display_name_military"	"Νίκη"	"True"
+"victory_types_display_name_short"	"Νίκη"	"True"
+
+
+
+
+
+
+
+
+
+
+
+"victory_types_display_name_att_vc_wonder_1"	"Μικρή Νίκη"	"True"
+"victory_types_display_name_ch_vc_3_domination"	"Κυρίαρχη Νίκη"	"True"
+"victory_types_display_name_ch_vc_2_long"	"Μεγάλη Νίκη"	"True"
+"victory_types_display_name_att_vc_1_jewish"	"Εβραϊκή Νίκη"	"True"
+"victory_types_display_name_att_vc_2_jewish"	"Θεία Εβραϊκή Νίκη"	"True"
+"victory_types_display_name_att_vc_wonder_military_2"	"Θεία Στρατιωτική Νίκη"	"True"
+"victory_types_display_name_att_vc_wonder_military_1"	"Στρατιωτική Νίκη"	"True"
+"victory_types_display_name_att_vc_1_christian"	"Χριστιανική Νίκη"	"True"
+"victory_types_display_name_att_vc_2_christian"	"Θεία Χριστιανική Νίκη"	"True"
+"victory_types_display_name_ch_vc_1_short"	"Σύντομη Νίκη"	"True"
+"victory_types_display_name_att_vc_1_pagan"	"Παγανιστική Νίκη"	"True"
+"victory_types_display_name_att_vc_2_pagan"	"Θεία Παγανιστική Νίκη"	"True"
+"victory_types_display_name_att_vc_2_zoroastrism"	"Θεία Ζωροαστριανή Νίκη"	"True"
+"victory_types_display_name_att_vc_1_zoroastrism"	"Ζωροαστριακή Νίκη"	"True"
+"victory_types_display_name_att_vc_wonder_civic_2"	"Θεία Πολιτιστική Νίκη"	"True"
+"victory_types_display_name_att_vc_wonder_civic_1"	"Πολιτιστική Νίκη"	"True"

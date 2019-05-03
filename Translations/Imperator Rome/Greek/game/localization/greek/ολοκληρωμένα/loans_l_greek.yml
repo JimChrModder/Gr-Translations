@@ -1,0 +1,4 @@
+﻿l_greek:
+ #####Loans
+ num_of_loans_tooltip:1 "\t\t\t\t\t\t\t\tΟ/η[SCOPE.sCountry('actor').GetName|Y] έχει λιγότερα από #Y 3#! δάνεια."
+ rule_pop_greater_than_target_loyalty:0 "\t\t\t\t\t\t\t\tΗ δημοτικότητα του χάρακα είναι μεγαλύτερη από την αφοσίωση του [SCOPE.sChar('target').GetName]."

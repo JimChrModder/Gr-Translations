@@ -1,0 +1,5 @@
+﻿l_greek:
+ HAS_DLC_TRIGGER:0 "Έχει DLC: $DLC|Y$"
+ HAS_NOT_DLC_TRIGGER:0 "ΔΕΝ έχει DLC: $DLC|Y$"
+ MISSING_DLCS:0 "Λείπουν DLCs:"
+ AlphaTestDLC:0 "Άλφα Τεστ DLC"
