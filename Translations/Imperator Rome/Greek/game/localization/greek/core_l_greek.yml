@@ -25,7 +25,7 @@
  RELOAD:0 "Reload"
  OPEN_SOURCE:0 "Open source file"
  CANCEL:0 "Cancel"
- LOBBY:0 "Lobby"
+ LOBBY:0 "Lobby "
  START:0 "Start"
  FINISH:0 "Finish"
  DISABLED_BUTTON:0 "Not implemented..."
