@@ -34,7 +34,7 @@
  DATE:0 "Ημερομηνία: $DATE$"
  UNTIL_DATE:0 "μέχρι τις $DATE$"
  CURRENT_DATE:0 "[GetDateString]"
- CURRENT_DATE_TOOLTIP:2 "#T Τρέχουσα Ημερομηνία#!\nΗ ημερομηνία του παιχνιδιού μετράει από την ίδρυση της Ρώμης; Ab Urbe Condita. Για όσους προτιμούν το Γρηγοριανό ημερολόγιο, η τρέχουσα ημερομηνία είναι [GetChristianDateString|Y].[GetPlayerDatesString]\n\n#TF Ο Πυθαγόρας, όταν ρωτήθηκε τί ώρα ήταν, απάντησε ότι ήταν η ψυχή αυτού του κόσμου.#!"
+ CURRENT_DATE_TOOLTIP:2 "#T Τρέχουσα Ημερομηνία#!\nΗ ημερομηνία του παιχνιδιού μετράει από την ίδρυση της Ρώμης· Ab Urbe Condita. Για όσους προτιμούν το Γρηγοριανό ημερολόγιο, η τρέχουσα ημερομηνία είναι [GetChristianDateString|Y].[GetPlayerDatesString]\n\n#TF Ο Πυθαγόρας, όταν ρωτήθηκε τί ώρα ήταν, απάντησε ότι ήταν η ψυχή αυτού του κόσμου.#!"
  CHANGE_GAME_SPEED_HOST:2 "#T Έλεγχος Χρόνου#!\n@trigger_no!Μόνο ο Host μπορεί να αλλάξει την ταχύτητα του παιχνιδιού!"
  INCREASE_GAME_SPEED:1 "[GetCanIncreaseGameSpeedString]"
  DECREASE_GAME_SPEED:1 "[GetCanDecreaseGameSpeedString]"
