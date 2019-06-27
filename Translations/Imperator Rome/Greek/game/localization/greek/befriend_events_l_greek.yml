@@ -25,7 +25,7 @@
  befriend.4.t:0 "The Gladiator"
  befriend.4.desc_1:0 "A previously unknown gladiator has recently risen to great prominence in the arena, drawing huge crowds and by all accounts putting on a peerless show. The man has been causing quite a stir; selling out packed arenas, securing fish sauce sponsorships, and netting gamblers vast sums of money.\n\nSending the fighter's show on a tour to the court of [SCOPE.sChar('friend_target').GetFirstName], before he inevitably gets himself killed, could be an easy way to ingratiate ourselves."
  befriend.4.desc_2:0 "A previously unknown gladiator has recently risen to great prominence in the arena, drawing huge crowds and by all accounts putting on a peerless show.\n\nA well placed box seat could easily win over [SCOPE.sChar('friend_target').GetFirstName]..."
- befriend.4.a:0 "Send the man to serve in his personal bodyguard."
+ befriend.4.a:1 "Send the man to serve in [SCOPE.sChar('friend_target').GetHerHis] personal bodyguard."
  befriend.4.b:0 "Buy and gift him to [SCOPE.sChar('friend_target').GetFirstName]."
  befriend.4.c:0 "Everyone enjoys a good show."
  befriend.4.d:0 "Far too vulgar..."
@@ -63,3 +63,4 @@
  befriend.12.t:0 "Friendship Secured!"
  befriend.12.desc:0 "The [SCOPE.sChar('target').GetEmployer.GetRulerTitle] of [SCOPE.sChar('target').GetEmployer.GetName] has welcomed our friendship request with open arms!\n\nMay both our fine nations continue to flourish in mutual prosperity."
  befriend.12.a:0 "Excellent."
+ befriend_costs_tt:0 "Befriending a character will demand certain costs over the course of the chain."

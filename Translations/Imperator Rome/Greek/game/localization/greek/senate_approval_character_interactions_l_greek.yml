@@ -127,3 +127,6 @@
  target_is_populist_diplo:0 "Target: ruler is Populist."
  got_no_dudes_diplo:0 "Country: no manpower reserves."
  the_signs_are_bad_diplo:0 "Country: no active omen."
+ co_ruler_party_tooltip:0 "This faction has a loyal Co-Ruler in power."
+ disloyal_co_ruler_party_tooltip:0 "This faction has a disloyal Co-Ruler in power."
+ neither_ruler_party_tooltip:0 "Neither of the rulers of the Republic support this faction."

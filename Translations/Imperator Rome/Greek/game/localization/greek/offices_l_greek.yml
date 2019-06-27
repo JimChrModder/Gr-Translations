@@ -117,7 +117,7 @@
  office_clan_chief:0 "Clan Chief"
  #New offices and government positions
  ######Monarchy
- #Ruler
+ #ruler
  despotic_monarchy_ruler:0 "King"
  despotic_monarchy_ruler_female:0 "Queen"
  stratocratic_monarchy_ruler:0 "King"
@@ -133,6 +133,21 @@
  title_crown_prince:1 "Primary Heir"
  plutocratic_monarchy_ruler:0 "King"
  plutocratic_monarchy_ruler_female:0 "Queen"
+ # Consort
+ despotic_monarchy_consort:0 "Consort"
+ despotic_monarchy_consort_female:0 "Queen"
+ stratocratic_monarchy_consort:0 "Consort"
+ stratocratic_monarchy_consort_female:0 "Queen"
+ theocratic_monarchy_consort:0 "Consort"
+ theocratic_monarchy_consort_female:0 "High Queen"
+ aristocratic_monarchy_consort:0 "Consort"
+ aristocratic_monarchy_consort_female:0 "Queen"
+ imperium_consort:0 "Consort"
+ imperium_consort_female:0 "Empress"
+ imperial_cult_consort:0 "Consort"
+ imperial_cult_consort_female:0 "Empress"
+ plutocratic_monarchy_consort:0 "Consort"
+ plutocratic_monarchy_consort_female:0 "Queen"
  #Offices
  office_foreign_minister:0 "Chancellor"
  office_royal_tutor:0 "Royal Tutor"
@@ -143,9 +158,11 @@
  office_steward:0 "Steward"
  office_physician:0 "Physician"
  ######Republic
- #Ruler
+ #consort
  aristocratic_republic_ruler:0 "Archon"
  aristocratic_republic_ruler_female:0 "Archon"
+ aristocratic_republic_co_ruler:0 "Co-Archon"
+ aristocratic_republic_co_ruler_female:0 "Co-Archon"
  oligarchic_republic_ruler:0 "Archon"
  oligarchic_republic_ruler_female:0 "Archon"
  democratic_republic_ruler:0 "Archon"
@@ -164,7 +181,7 @@
  office_plebeian_aedile:0 "Tribune of the People"
  office_republic_physician:0 "Physician"
  ######Tribal
- #Ruler
+ #ruler
  tribal_kingdom_ruler:1 "Tribal Chief"
  tribal_kingdom_ruler_female:1 "Tribal Chief"
  tribal_kingdom_ruler_female_gaelic:0 "Tribal Chief"
@@ -185,7 +202,7 @@
  office_apothecary:0 "Apothecary"
  office_wise_person:0 "Wise One"
  ######Latin Monarchy
- #Ruler
+ #consort
  plutocratic_monarchy_ruler_latin:0 "Rex"
  plutocratic_monarchy_ruler_female_latin:0 "Regina"
  aristocratic_monarchy_ruler_latin:0 "Rex"
@@ -204,7 +221,9 @@
  #Offices
  office_foreign_minister_latin:0 "Cancellarius"
  ######Latin Republic
- #Latin Ruler
+ #Latin ruler
+ aristocratic_republic_co_ruler_latin:0 "Co-Consul"
+ aristocratic_republic_co_ruler_female_latin:0 "Co-Consul"
  aristocratic_republic_ruler_latin:0 "Consul"
  aristocratic_republic_ruler_female_latin:0 "Consul"
  oligarchic_republic_ruler_latin:0 "Consul"
@@ -221,7 +240,7 @@
  office_republic_physician_latin:0 "Vulnerarius"
  office_pontifex_latin:0 "Pontifex Maximus"
  ######Indian/Aryan/Tibetan Monarchy
- #Indian Ruler
+ #Indian ruler
  plutocratic_monarchy_ruler_aryan:0 "Raja"
  plutocratic_monarchy_ruler_female_aryan:0 "Rani"
  despotic_monarchy_ruler_aryan:0 "Raja"
@@ -289,7 +308,7 @@
  office_steward_tibetan:0 "Samnidhatr"
  office_physician_tibetan:0 "Vaidya"
  #####Indian Republic
- #Indian Ruler
+ #Indian ruler
  aristocratic_republic_ruler_indian:0 "Rajan"
  aristocratic_republic_ruler_female_indian:0 "Rani"
  oligarchic_republic_ruler_indian:0 "Rajan"
@@ -347,7 +366,7 @@
  office_republic_physician_tibetan:0 "Vaidya"
  ###Persia
  ###Persia Monarchy
- #Persia Ruler
+ #Persia ruler
  plutocratic_monarchy_ruler_persia:0 "Xsayathiya"
  plutocratic_monarchy_ruler_female_persia:0 "Banbisn"
  despotic_monarchy_ruler_persia:0 "Xsayathiya"
@@ -380,7 +399,7 @@
  office_pontifex_persia:0 "Mobadan Mobad"
  office_plebeian_aedile_persia:0 "Artabid"
  ###Hellenic Monarchy
- #Hellenic Monarchy Ruler
+ #Hellenic Monarchy ruler
  plutocratic_monarchy_ruler_hellenic:0 "Basileus"
  plutocratic_monarchy_ruler_female_hellenic:0 "Basilissa"
  despotic_monarchy_ruler_hellenic:0 "Basileus"
@@ -405,7 +424,7 @@
  office_philosopher_hellenic:0 "Philosophos"
  office_steward_hellenic:0 "Archigrammateus"
  office_physician_hellenic:0 "Archiatros"
- #Hellenic Republic Ruler
+ #Hellenic Republic ruler
  #Hellenic Republic Offices
  office_censor_hellenic:0 "Thesmothete"
  office_praetor_hellenic:0 "Prytanis"
@@ -414,7 +433,7 @@
  office_augur_hellenic:0 "Daduchos"
  office_pontifex_hellenic:0 "Hierophant"
  office_plebeian_aedile_hellenic:0 "Agoranomus"
- #Hellenic Tribal Ruler
+ #Hellenic Tribal ruler
  tribal_kingdom_ruler_hellenic:0 "Anax"
  tribal_kingdom_ruler_female_hellenic:0 "Anassa"
  tribal_federation_ruler_hellenic:0 "Megas Anax"
@@ -430,7 +449,7 @@
  office_wise_person_hellenic:0 "Sophos"
  #####West Levantine
  #West Levantine Monarchy
- #West Levantine Monarchy Ruler
+ #West Levantine Monarchy ruler
  plutocratic_monarchy_ruler_west_levantine:0 "Suffete"
  plutocratic_monarchy_ruler_female_west_levantine:0 "Suffete"
  despotic_monarchy_ruler_west_levantine:0 "Suffete"
@@ -452,9 +471,11 @@
  office_high_priest_monarchy_west_levantine:0 "Kahen"
  office_steward_west_levantine:0 "Shephat"
  office_physician_west_levantine:0 "Rophet"
- #West Levantine Republic Ruler
+ #West Levantine Republic ruler
  aristocratic_republic_ruler_west_levantine:2 "Suffete"
  aristocratic_republic_ruler_female_west_levantine:1 "Suffete"
+ aristocratic_republic_co_ruler_west_levantine:0 "Co-Suffete"
+ aristocratic_republic_co_ruler_female_west_levantine:0 "Co-Suffete"
  oligarchic_republic_ruler_west_levantine:1 "Suffete"
  oligarchic_republic_ruler_female_west_levantine:1 "Suffete"
  democratic_republic_ruler_west_levantine:1 "Suffete"
@@ -470,7 +491,7 @@
  office_republic_physician_west_levantine:0 "Rophet"
  #####North Africa/Egypt
  #Egypt Monarchy
- #Egypt Monarchy Ruler
+ #Egypt Monarchy ruler
  plutocratic_monarchy_ruler_north_african:0 "Ity"
  plutocratic_monarchy_ruler_female_north_african:0 "Ity"
  despotic_monarchy_ruler_north_african:0 "Ity"

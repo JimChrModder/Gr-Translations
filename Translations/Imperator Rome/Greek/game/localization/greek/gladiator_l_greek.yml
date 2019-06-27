@@ -12,7 +12,7 @@
  got_pike:0 "wicked pike"
  got_rock:0 "jagged rock"
  got_chains:0 "length of chain"
- got_bare_hands:0 "strike of their bare hands"
+ got_bare_hands:1 "bare hands"
  got_beheaded:0 "beheaded"
  got_disemboweled:0 "disemboweled"
  got_tore_apart:0 "tore apart"

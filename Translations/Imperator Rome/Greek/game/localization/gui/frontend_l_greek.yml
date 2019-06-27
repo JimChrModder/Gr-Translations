@@ -17,3 +17,8 @@
  LOBBY_LABEL_POPULATION:0 "Πληθυσμός"
  LOBBY_LABEL_DIPLOMACY:0 "Διπλωματία"
  MULTIPLAYER_GUI_SEARCH_FOR_SERVER_PROMPT:0 "Σάρωση για διακομιστές (servers)..."
+ MSGRDK_SIGNIN_FAILED_TITLE:0 "There was a problem"
+ MSGRDK_SIGNIN_FAILED_TEXT:0 "We couldn't sign you in with your Microsoft account. Some game features may be unavailable."
+ MSGRDK_NO_PERMISSION_TITLE:0 "Account permission"
+ MSGRDK_NO_UGC_TEXT:0 "You have no permission to access user generated content. Mods will be disabled."
+

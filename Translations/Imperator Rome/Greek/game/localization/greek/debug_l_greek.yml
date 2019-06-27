@@ -1,5 +1,6 @@
 ﻿l_greek:
  Johan_event.1.t:0 "Johans Test Event Title"
- Johan_event.1.d:0 "Ο/Η [ROOT.Char.GetName] είναι [ROOT.Char.GetAge] χρονών και ζει στην/στο [ROOT.Char.GetCountry.GetName]"
+ Johan_event.1.d:0 "Ο(Η) [ROOT.Char.GetName] είναι [ROOT.Char.GetAge] χρονών και ζει στην(ο) [ROOT.Char.GetCountry.GetName]"
  Johan_event.1.a:0 "Ο Κύβος Ερρίφθη!"
+ animated_text_effect:0 "Ο(Η) [ROOT.GetProvince.GetName] είναι ΒΑΡΕΤΟ(Η)"
  

@@ -20,7 +20,8 @@
  RESEARCH_AT_SPEED:4 "$WHY$\n\nThe above means that our current Research Efficiency is $VAL|%Y$.\n\n#TF The primary factor for Research Points generated is how many Citizens we have compared to the rest of our population.#!"
  RESEARCH_POINTS_DRO:1 "\n\n#TF Research comes primarily from citizens. The happier they are, the more research they will provide. There are also Trade Goods and Omens that can increase Research output.#!"
  TECHCOST_FROM_POPS:0 "#T Technology Cost#!\n#I The cost of $VAL|0$ is calculated based on the following factors.#!\nTotal Population: $POP|Y0$\nYears per Level: #Y X$YEAR|Y0$#!\n"
- TECH_EXPL_YEARS_AHEAD:0 "Ahead of Time: $VAL|+=2%$ (+$AGE$ years)\n"
+ TECH_EXPL_YEARS_AHEAD:0 "Ahead of Time: $VAL|R2%$ (+$AGE|Y$ years)\n\n"
+ TECH_EXPL_YEARS_BEHIND:0 "Behind of Time: $VAL|2G%$ ($AGE|Y$ years)\n"
  RESEARCH_INTO_TABLE:0 "$NAME$ by $VAL|+=2/%$ each month (Total Bonus: #Y $SPEED|2%$#!)"
  RESEARCH_MONTHLY_EXPL:2 "Monthly $VAL|=+3/%$@research! from $RATIO|Y2%$ Efficiency to reach #G 100%#! over $MONTHS|0Y$ months.\nThis gives the following research:\n"
- 
+ TECH_MULY_DUE_TO_TIME:0 "Then #Y multiplied#! by $WHY$"

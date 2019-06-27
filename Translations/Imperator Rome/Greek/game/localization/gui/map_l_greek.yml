@@ -26,5 +26,6 @@
  UNIT_LACKS_ACCESS_TO_TARGET_PROVINCE:0 "#R Cannot move here as the unit lacks access.#!"
  UNIT_CAN_ONLY_DISEMBARK_ADJACENT:0 "#R Cannot move here as it is only possible to disembark into adjacent cities.#!"
  UNIT_CANNOT_RETREAT_INTO_OWN_LOCATION:0 "#R Cannot retreat into the province we're fighting in.#!"
- 
+ UNIT_IS_NOT_ASSIGNED_TO_REGION:0 "#R Cannot move here as the unit is not assigned to this region.#!"
+
  

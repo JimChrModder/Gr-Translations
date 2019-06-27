@@ -1,8 +1,8 @@
 ﻿l_greek:
  WAR_OVERVIEW_SUE_FOR_PEACE:0 "Sue for peace"
  WAR_OVERVIEW_SUE_FOR_PEACE_TOOLTIP:0 "Sue for peace"
- WARGOAL_IS_CONQUEST:0 "#T Wargoal Enforced#!\n"
- WARGOAL_IS_SAFE:0 "#T Wargoal Protected#!\n"
+ WARGOAL_IS_CONQUEST:0 "#T War Goal Enforced#!\n"
+ WARGOAL_IS_SAFE:0 "#T War Goal Protected#!\n"
 
  WAR_OVERVIEW_DATE_TOOLTIP:0 "War started on [WarOverview.GetWar.GetStartDate]"
  WAR_OVERVIEW_WAR_GOAL_TOOLTIP:0 "This war was started by [WarOverview.GetWar.GetOriginalAttacker.GetName] against [WarOverview.GetWar.GetOriginalDefender.GetName].\n[WarOverview.GetWar.GetWarGoal.GetDescription]"

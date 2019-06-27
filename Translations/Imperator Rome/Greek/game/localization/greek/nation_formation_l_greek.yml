@@ -262,7 +262,7 @@
  AKSUM_ADJECTIVE:0 "Aksumite"
  AX2:0 "Aksum"
  AX2_ADJ:0 "Aksumite"
- form_aksum_claims_tooltip:0 "Aksum will gain Claims on the Provinces of #Y Askum#!, and #Y Tana#!."
+ form_aksum_claims_tooltip:1 "Aksum will gain Claims on the Provinces of #Y Aksum#!, and #Y Tana#!."
  #Syria
  formable_not_syria_exists:0 "#Y Syria#! must NOT exist."
  form_syria:0 "Form Syria"

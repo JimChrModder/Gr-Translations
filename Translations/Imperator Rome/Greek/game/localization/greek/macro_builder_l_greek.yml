@@ -3,8 +3,9 @@
  # CONSTRUCT BUILDINGS
  construct_buildings_TOOLTIP:0 "#t Construct Buildings#!"
  construct_buildings:0 "Construct Buildings"
- MACROBUILDER_BUILDING_PRICE:1 "#t Build $NAME$ in [PROVINCE.GetName]#!\nIt will cost [COUNTRY.GetName] $VALUE$ to build a $NAME|Y$ in [PROVINCE.GetName]"
+ MACROBUILDER_BUILDING_PRICE:1 "#t Build $NAME$ in [PROVINCE.GetName]#!\nIt will cost [COUNTRY.GetName] $VALUE$ to build a $NAME|Y$ in [PROVINCE.GetName], and it will give the following benefits:\n$DESC$\n[PROVINCE.GetPopulationInfo]"
  MACRO_BUILDER_BUILD_BUILDING_TOOLTIP:0 "#t Build $NAME$#!\n$DESC$"
+ MACRO_BUILD_BUILD_COST:0 "$VAL|2$@gold!"
  
  # RECRUIT COHORTS
  recruit_units:1 "Recruit Cohorts"
@@ -12,6 +13,11 @@
  MACROBUILDER_UNIT_PRICE:2 "#t Build $NAME$ in [PROVINCE.GetName]#!\nIt will cost [COUNTRY.GetName] $VALUE$ to build $NAME|Y$ in [PROVINCE.GetName]"
  MACRO_BUILDER_BUILD_UNIT_TOOLTIP:0 "#t Recruit $NAME$#!\n$DESC$"
 
+ MACRO_UNIT_BUILD_COST:0 "$VAL|2$@gold!"
+ 
+ # RECRUIT SHIPS
+ recruit_naval_units:2 "Build Ships"
+ recruit_naval_units_TOOLTIP:1 "#t $recruit_naval_units$#!"
  
  # PROMOTE POPS
  promote_pops:0 "Promote Pops"
@@ -37,4 +43,8 @@
  import_tradegood_TOOLTIP:1 "#t $import_tradegood$#!"
  MACRO_BUILDER_TRADE_GOOD_TOOLTIP:0 "#t Import [TRADE_GOOD.GetName]#!\n[TRADE_GOOD.GetLongDescription]"
 
- MACRO_BUILDER_COST:0 "#t Cost#!\n[MacroBuilderProvinceBuildable.GetPrice]"
+ MACRO_BUILDER_COST:0 "#t Cost#!\n[MacroBuilderProvinceBuildable.GetPriceTooltip]"
+ 
+ # SORTING
+ MACRO_BUILDER_SORT_PROVINCE_NAME_TT:0 "#t Sort by Province name#!"
+ MACRO_BUILDER_SORT_BUILD_AMOUNT_TT:0 "#t Sort by Amount you can build#!"

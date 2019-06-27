@@ -1,4 +1,5 @@
 ﻿l_greek:
+ PRICE_ON_WAR_IMPACT_ENTRY:0 "$NAME$\n"
  DECLARE_WAR_ENEMY_ALLY_ALREADY_AT_WAR:0 "Η(Οι) @[COUNTRY.GetFlag]! [COUNTRY.GetName] ΔΕΝ μπορεί/ούν να συμμετέχει(ουν) στον πόλεμο επειδή έχει(ουν) πόλεμο με την(ους) @[DEFENDER.GetFlag]! [DEFENDER.GetName]"
  DECLARE_WAR_ENEMY_TRIBUTARY_JOIN:0 "Η(Οι) @[COUNTRY.GetFlag]! [COUNTRY.GetName] θα συμμετέχει(ουν) στον πόλεμο αφού είναι υποτελής στην(ους) @[DEFENDER.GetFlag]! [DEFENDER.GetName]"
  DECLARE_WAR_ENEMY_DEFENSIVE_LEAGUE_JOIN:0 "Η(Οι) @[COUNTRY.GetFlag]! [COUNTRY.GetName] θα συμμετέχει(ουν) στον πόλεμο αφού έχει(ουν) συνάψει αμυντική συμμαχία με την(ους) @[DEFENDER.GetFlag]! [DEFENDER.GetName]"
@@ -12,5 +13,4 @@
  DECLARE_WAR_CONFIRMATION_WARGOAL:0 "Κηρύξτε Πόλεμο στην(ους) @[DEFENDER.GetFlag]! [DEFENDER.GetName] χρησιμοποιώντας πολεμοστόχους $WARGOAL|Y$"
  DECLARE_WAR_CONFIRMATION_WARLEADER:0 "Η(Οι) @[COUNTRY.GetFlag]! [COUNTRY.GetName] θα γίνει(ουν) πολέμαρχος(οι) του εχθρού"
  DECLARE_WAR_CONFIRMATION_STABHIT:0 "Επιδράσεις σταθερότητας:"
- DECLARE_WAR_CONFIRMATION_WAREXHAUSTION:0 "Εξάντληση Πολέμου: #R $VAL|=-$#!"
  

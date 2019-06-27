@@ -159,8 +159,8 @@
  #Roman Path
  latin_roman_path_1:0 "Principes"
  latin_roman_path_1_desc:0 "Veteran warriors all, the wealthy Principes sported heavy armor, and fought in tight-knit maniples, making excellent line troops."
- latin_roman_path_2:0 "March of the Eagles"
- latin_roman_path_2_desc:0 "Irrespective of victory or defeat, as long as the eagle stands proud, the spirit of Rome imbues all her sons."
+ latin_roman_path_end_bonus:0 "March of the Eagles"
+ latin_roman_path_end_bonus_desc:0 "Irrespective of victory or defeat, as long as the eagle stands proud, the spirit of Rome imbues all her sons."
  latin_roman_path_3:0 "Triarii"
  latin_roman_path_3_desc:0 "It is said that Rome's opponents know the end is near when the Triarii lead the charge. Often used to rout an already exhausted foe, the Triarii were equipped with huge spears known as hasta, capable of punching through light armor."
  latin_roman_path_4:0 "Roman Roads"
@@ -171,8 +171,8 @@
  latin_roman_path_6_desc:0 "Comprised predominantly of young, unproven soldiers, the velites were light troops which fell outside the standard army organisation, instead acting as mobile skirmishers. The Velites are said to have sought glory and recognition by their daredevil acts during battle."
  latin_roman_path_7:0 "The Honor of Service"
  latin_roman_path_7_desc:0 "As Rome grew in stature, military service became a matter of honor for young Roman men. Indeed, even after defeats as humiliating as the Battle of Cannae, in which up to 80,000 of Rome's soldiers were reportedly killed, the efforts of the senate were able to raise enough soldiers to take the places of the fallen."
- latin_roman_path_end_bonus:0 "Triplex Acies"
- latin_roman_path_end_bonus_desc:0 "The triple battle line was a manipular formation, primarily utilizing the Principes, Triarii and Hastati, with the Velites in freeform support. This highly flexible formation relied on the absolute discipline of each soldier, who had to know his place amidst the chaos of battle. In extreme circumstances, the Triplex was said to have reached over a mile long."
+ latin_roman_path_2:0 "Triplex Acies"
+ latin_roman_path_2_desc:0 "The triple battle line was a manipular formation, primarily utilizing the Principes, Triarii and Hastati, with the Velites in freeform support. This highly flexible formation relied on the absolute discipline of each soldier, who had to know his place amidst the chaos of battle. In extreme circumstances, the Triplex was said to have reached over a mile long."
  ######
  #####Egyptian and Arabian Traditions
  ######
@@ -351,7 +351,7 @@
  #####Persian Traditions
  ######
  persian_philosophy:0 "Persian Traditions"
- persian_philosophydesc:2 "The Persian Traditions cover the tactics of the peoples of the Scythian steppe and satellites of the former Achaemenid empire. Life on and around the steppe has forged these peoples into exquisite horsemen who, armed with a bow, can harry and surround their opponents from beyond their reach, while their infantry concentrates on whittling down the worn out formation.\n\nHorse Archers Cost: #G -25.00%#!\nCan unlock the '#Y Cavalry Skirmish#!' Ability\nCan unlock the '#Y Raise Levies#!' Ability\nCan unlock the '#Y Military Colonies#!' Ability\n\n#G Tradition Focuses#!\nStrong #Y Horse Archers#!\nGood #Y Heavy Infantry#!, #Y Light Cavalry#!"
+ persian_philosophydesc:3 "The Persian Traditions cover the tactics of the peoples of the Scythian steppe and satellites of the former Achaemenid empire. Life on and around the steppe has shaped these peoples into exquisite horsemen who, armed with a bow, can harry and surround their opponents from beyond their reach, while their infantry concentrates on whittling down the worn out formation.\n\nHorse Archers Cost: #G -15.00%#!\nCan unlock the '#Y Cavalry Skirmish#!' Ability\nCan unlock the '#Y Raise Levies#!' Ability\nCan unlock the '#Y Military Colonies#!' Ability\n\n#G Tradition Focuses#!\nStrong #Y Horse Archers#!\nGood #Y Heavy Infantry#!, #Y Heavy Cavalry#!"
  persian_philosophy_start_bonus:0 "Scythian Horse Archers"
  persian_philosophy_start_bonus_desc:0 "Strong-backed Scythian horses have been used by the nomadic tribes of the steppe for generations. Unparalleled as skirmishing troops, the chaos they could incur was a major advantage to thsoe lucky enough to be able to raise or hire them."
  #Scythian Path

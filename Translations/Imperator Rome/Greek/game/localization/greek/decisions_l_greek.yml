@@ -59,7 +59,25 @@
 
  fix_volcanic_area_methana:0 "Methana Restoration"
  fix_volcanic_area_methana_desc:0 "Huge swaths of land around Methana was destroyed as the volcano erupted. It is time we set aside the funds to start restoring the land so we can use it more effectively yet again."
+
+ fix_volcanic_area_aragats:0 "Aragats Restoration"
+ fix_volcanic_area_aragats_desc:0 "Huge swaths of land around Aragats was destroyed as the volcano erupted. It is time we set aside the funds to start restoring the land so we can use it more effectively yet again."
+
+ fix_volcanic_area_argaeus_mons:0 "Argaeus Mons Restoration"
+ fix_volcanic_area_argaeus_mons_desc:0 "Huge swaths of land around Argaeus Mons was destroyed as the volcano erupted. It is time we set aside the funds to start restoring the land so we can use it more effectively yet again."
+
+ fix_volcanic_area_argaios_mons:0 "Argaios Mons Restoration"
+ fix_volcanic_area_argaios_mons_desc:0 "Huge swaths of land around Argaios Mons was destroyed as the volcano erupted. It is time we set aside the funds to start restoring the land so we can use it more effectively yet again."
+
+ fix_volcanic_area_ausara:0 "Ausara Restoration"
+ fix_volcanic_area_ausara_desc:0 "Huge swaths of land around Ausara was destroyed as the volcano erupted. It is time we set aside the funds to start restoring the land so we can use it more effectively yet again."
+
+ fix_volcanic_area_bamni:0 "Bamni Restoration"
+ fix_volcanic_area_bamni_desc:0 "Huge swaths of land around Bamni was destroyed as the volcano erupted. It is time we set aside the funds to start restoring the land so we can use it more effectively yet again."
  
+ fix_volcanic_area_qarqar:0 "Qarqar Restoration"
+ fix_volcanic_area_qarqar_desc:0 "Huge swaths of land around Qarqar was destroyed as the volcano erupted. It is time we set aside the funds to start restoring the land so we can use it more effectively yet again."
+
  negotiate_with_slaves:0 "Negotiate with revolting Slaves"
  negotiate_with_slaves_desc:0 "We must end the current unrest among the slaves quickly and at any price. If we allow them to settle in peace, promising them that no harm will come to them and helping them start new lives, we may convince them to lay down their arms."
  allow_slaves_to_settle:0 "All Rebel controlled cities will revert to our control.\nAny revolting slaves will be settled where they stand as Freemen."
@@ -79,11 +97,18 @@
  expand_the_campus_martius:0 "Expanding the Campus Martius"
  expand_the_campus_martius_desc:0 "The Campus Martius plays an essential role in training our troops and inspire them to greatness. By expanding the training site we will have a greater capacity for recruiting and preparing new soldiers for warfare.\n\nIn addition we will build new temples that will make the Campus a place worth remembering. As they train, our men will be able to look to these places for valor and strength."
  embellish_jupiter_optimus_maximus:0 "Embellish the Temple of Jupiter Optimus Maximus"
- embellish_jupiter_optimus_maximus_desc:0 "The Temple of Jupiter Optimus Maximus stands at the center of our faith and city. At the Capitoline Hill it stands as a testament to our rule, and the blessing of the heavens.\n\nEmbellishing and improving the temple further is sure to be a popular move among our people, and what better way to secure the boons of the gods?."
+ embellish_jupiter_optimus_maximus_desc:0 "The Temple of Jupiter Optimus Maximus stands at the center of our faith and city. At the Capitoline Hill it stands as a testament to our rule, and the blessing of the heavens.\n\nEmbellishing and improving the temple further is sure to be a popular move among our people, and what better way to secure the boons of the gods?"
+ 
+ religion_conversion_tooltip:1 "Every Character not following the new faith will lose #R 20#! Loyalty."
+ religion_conversion_family_tooltip:0 "Loyal Members of the ruler's family will convert to the new faith."
+ big_religion_in_capital_tooltip:0 "At least 50% of the free people in the city of [SCOPE.GetRootScope.GetCountry.GetCapital.GetName] (#Y [SCOPE.ScriptValue('majority_of_free_men_in_capital_svalue')|0] #! Non-Slave Pops) must follow this religion."
+ heretic_high_priest_monarchy_tooltip:0 "The [GetOffice('office_high_priest_monarchy').GetCulturalName(SCOPE.GetRootScope.GetCountry)] must follow our new faith."
+ heretic_high_priest_republic_tooltip:0 "The [GetOffice('office_pontifex').GetCulturalName(SCOPE.GetRootScope.GetCountry)] must follow our new faith."
+ heretic_high_priest_tribe_tooltip:0 "The [GetOffice('office_high_priest').GetCulturalName(SCOPE.GetRootScope.GetCountry)] must follow our new faith."
+ ruling_party_support_tooltip:0 "Party must have at least #Y 50% #! Support in Senate."
  
  convert_to_buddhist:0 "Embrace Buddhism"
  convert_to_buddhist_desc:0 "The teachings of Buddha are spreading rapidly in our lands. It is time to embrace his philosophy ourselves and start promoting these words among our subjects."
- religion_conversion_tooltip:0 "#R Every Character will lose 20 loyalty. #!"
  
  convert_to_jainism:0 "Embrace Jainism"
  convert_to_jainism_desc:0 "Jain teachings are spreading rapidly in our land and among the characters of our court. The time has come to embrace these deep philosophies and incorporate them into the very fabric of our state itself."
@@ -166,11 +191,75 @@
  
  persian_claims_tooltip:1 "Persia will gain Claims on the Regions of #Y Persis#!, #Y Media#!, #Y Parthia#!, #Y Ariana#!, #Y Mesopotamia#!, #Y Bactriana#!, #Y Gedrosia#! and #Y Assyria#!."
  
- move_capital_seleukia_pieria:0 "A Mediterranean Capital!"
- move_capital_seleukia_pieria_desc:0 "For too long the rightful heirs of Alexander's empire have been disconnected from the Macedonian heartland which bore the greatest conquest of history and all the fortunes of our people. Fertile Babylonia has served us well, but we must restore our ties with the lost lands to the west and establish a central point of governance on the Mediterranean if we are to succeed in re-claiming the lands of Megas Alexandros."
- move_capital_seleukia_pieria_claims:0 "The Seleucid Empire will gain claims on Palestine and Syria."
- seleukia_pieria_modifier:0 "Seleucid Metropolis"
- desc_seleukia_pieria_modifier:0 "Seleukia Pieria - Seleukia on the Sea - was established as a new capital for the Seleucid Empire, far closer to the Macedonian heartland than the old capital in Babylonia and with access to the trade routes of the Mediterranean through its natural harbor."
+ move_capital_antioch:0 "A Mediterranean Capital!"
+ move_capital_antioch_desc:0 "For too long the rightful heirs of Alexander's empire have been disconnected from the Macedonian heartland which bore the greatest conquest of history and all the fortunes of our people. Fertile Babylonia has served us well, but we must restore our ties with the lost lands to the west and establish a central point of governance on the Mediterranean if we are to succeed in re-claiming the lands of Megas Alexandros."
+ move_capital_antioch_claims:0 "The Seleucid Empire will gain claims on Palestine and Syria."
+ antioch_orontes_modifier:0 "Antioch on the Orontes"
+ desc_antioch_orontes_modifier:1 "Antioch on the Orontes was established as the new capital for the Seleucid Empire, far closer to the Macedonian heartland than the old capital in Babylonia and with access to the trade routes of the Mediterranean through its natural harbor."
  
+ 
+ found_seleukia_pieria:0 "A port for Antioch!"
+ found_seleukia_pieria_desc:0 "With a new focus towards the mediterrenean and the moving of the Seleucid capital to Syria the need for a new great port in Syria has grown ever more urgent. Let us pool our resources to expand the port of Seleuika Pieria and work for the establishment of Seleucid hegemony in the west."
+ seleukia_pieria_modifier:1 "Seleukia on the Sea"
+ desc_seleukia_pieria_modifier:0 "With the establishment of a new capital at Antioch the Seleucid empire required a new mediterrenean port to act as a fleet base for a new Mediterranean fleet as well as an entrepot for trade between east and west."
+
  indo_greek_decision:0 "An Indo-Greek Kingdom"
  indo_greek_decision_desc:0 "The lure of friends, empires, and riches to the East leads many of our people to the realization that fighting over the scraps of Alexander's Empire, may not be a goal worth pursuing. Greater glory lies in tying our destiny to the land beyond the Indus."
+
+ convert_to_kemeticism:0 "Embrace the Kemetic Pantheon"
+ convert_to_kemeticism_desc:0 "The followers of Isis have become a prominent part of our society, and our people are looking to them for guidance in their daily lives. It is time we put our old traditions behind and accept their teachings."
+
+ convert_to_hellenic:0 "Embrace the Hellenic Pantheon"
+ convert_to_hellenic_desc:0 "We have seen temples and shrines to the many deities of the Greek Pantheon being raised in [COUNTRY.GetCapital.GetName] lately, and our citizens turning to their priests and oracles for their wisdom. Maybe it is time we all started looking to them for guidance?"
+
+ convert_to_canaanite:0 "Embrace the Canaanite Pantheon"
+ convert_to_canaanite_desc:0 "Melqart and his followers have been commonplace in [COUNTRY.GetCapital.GetName] since we first met those who worshipped him, but now we have seen a newfound interest in Ba'al, Astarte and the other deities as well. Traditions that was once an important part of our identity are being left behind as foreign exotic rituals are becoming a matter of course. It is time to accept the Canaanite Pantheon as our own."
+
+ convert_to_shamanism:0 "Embrace the Zalmoxian Faith"
+ convert_to_shamanism_desc:0 "The teachings of great Zalmoxis has become more apparent and important among our young these last years. They look to his words on how to live their lives, and even some of our elders have been affected by this shift to the new faith. It is time the rest of us follow his ideas as well."
+
+ convert_to_caucasian_religion:0 "Embrace the Armazic Pantheon"
+ convert_to_caucasian_religion_desc:0 "Be it the stories of the mystical Tir, the truth of Mihr or the greatness of Aramazd, we have heard it all lately. It seems all our old temples and shrines have been replaced by those of the Armazic pantheon, and similarly have our priests and priestesses. "
+
+ convert_to_mesopotamian_religion:0 "Embrace the Chaldean Pantheon"
+ convert_to_mesopotamian_religion_desc:0 "The ancient myths and legends of Ishtar and Gilgamesh have filled our halls and inspired our people. No longer do we listen to the priests of the [COUNTRY.GetReligion.GetName] faith, and their worthless traditions are put aside and replaced by the ancient rituals of the Babylonians, Sumerians and Akkadians."
+
+ convert_to_armenian_religion:0 "Embrace the Khaldic Faith"
+ convert_to_armenian_religion_desc:0 "Our soldiers were the first to pick up the old Khaldic traditions, proving invaluable for morale and discipline as they were sent off to war. Now the rest of our people are looking to the ancient pantheon, picking up the traditions of old once more."
+
+ convert_to_anatolian_religion:0 "Embrace the Cybelene Faith"
+ convert_to_anatolian_religion_desc:0 "The belief in the Mother Goddess has long been an important one next to all the other deities in our faith, but more recently the rest has seen a clear decline of interest. Cybelene, the Mother Goddess, has become the most important figure in our religious traditions and practices."
+
+ convert_to_druidism:0 "Embrace the Druidic Class"
+ convert_to_druidism_desc:0 "Though the Druids have yet to become an official part of our faith, they have long played the informal role as advisors and shown guidance to our people. Maybe it is time to rid ourselves of our old shackles of traditions and faith, and truly welcome them into our society?"
+
+ convert_to_animism:0 "Embrace the Iberic Pantheon"
+ convert_to_animism_desc:0 "It seems the prophets and oracles of Endouellicus has foreseen a great future for our nation if we turn to his worship. The Iberic pantheon is already revered among our people, and our court officials advise us to embrace this new faith."
+
+ convert_to_judaism:0 "Embrace Judaism"
+ convert_to_judaism_desc:0 "We have lately seen a large swathe of our people turn to the worship of only one god, the Judean one. Defying the polytheistic teachings of other faiths, the strength of their belief have convinced many of the lower class to turn their prayers to the Judean god."
+
+ convert_to_zoroastrianism:0 "Embrace Zoroastrianism"
+ convert_to_zoroastrianism_desc:0 "The teachings of Zoroaster has permeated Persian society since he was given the wisdom of Ahura Mazda. The truth and inherent benevolence of the faith quickly spreads throughout [COUNTRY.GetName], and it is time for us to devote ourselves entirely to the one path."
+
+ convert_to_berber_religion:0 "Embrace the Megalithic Traditions"
+ convert_to_berber_religion_desc:0 "Though the people of the Megalithic faith were once inspired and affected by their neighbors, they now in turn have affected us. Our people have started picking up the beliefs of the desert tribes, looking to Nanna Tala and Shaheded as much as they do any local deity."
+
+ convert_to_germanic_religion:0 "Embrace the Tuistic Faith"
+ convert_to_germanic_religion_desc:0 "Our people have started looking to the teachings of the priests of Tuis and the traditions of the Germanic people for guidance in how to live their lives. Though they seemed strange and warlike at first, our people have adepted their customs to our own and familiarized them."
+
+ convert_to_indo_iranian_religion:0 "Embrace the Heptadic Pantheon"
+ convert_to_indo_iranian_religion_desc:0 "The seven deities of the Scythian horsemen have become popular in our lands lately. Particularly the ancient Targitaos have seen large shrines built in his honor, and our people have turned to him as if he was our own forefather, similar to how the Scythians treat the deity."
+
+ convert_to_arabian_pantheon:0 "Embrace the Arabic Pantheon"
+ convert_to_arabian_pantheon_desc:0 "The caravans has brought the Arabic pantheon with them into [COUNTRY.GetName], and now we see our people look to the guidance of the oracle of Ta'lab or asking for Manat to turn the tides of fate in their favor. It is time for us to take up their worship."
+
+ convert_to_eastern_animism:0 "Embrace Ritualistic Traditions"
+ convert_to_eastern_animism_desc:0 "Animism and ancestor worship have become an important part of the [COUNTRY.GetAdjective] religious ceremonies lately, and we have seen old rituals and traditions flourish in addition to our [COUNTRY.GetReligion.GetName] faith. Maybe it is time to put aside some of these newer ideas and revert back to our ancient heritage?"
+
+ convert_to_bon_religion:0 "Embrace the Bon Faith"
+ convert_to_bon_religion_desc:0 "The ideas of the Tibetan Bon have quickly found a home in [COUNTRY.GetName], and our people have taken to prayers quicker than anyone could expect. Maybe it is time for us to put aside our [COUNTRY.GetReligion.GetName] faith and devote ourselves entirely to the Bon rituals?"
+
+ convert_to_matrist_religion:0 "Embrace the Matrist Traditions"
+ convert_to_matrist_religion_desc:0 "The Aestuian Mother Goddess has found a home in [COUNTRY.GetName], and our people are putting aside all our old rituals in favor of those in her honor. It is time we do the same."
+ 
