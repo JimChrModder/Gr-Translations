@@ -1866,10 +1866,10 @@
  TANI_ADJ:0 "Tanian"
 
 # DHE CARTHAGE
- ZSE_NAME:0 "Z'Seli"
- ZSE_ADJECTIVE:0 "Z'Selian"
- VAG_NAME:0 "Qart-hadasht Gadol"
- VAG_ADJECTIVE:0 "Qart-hadasht Gadolian"
- ITA_NAME:0 "'Tali"
- ITA_ADJECTIVE:0 "'Talian"
+ ZSE_NAME:0 "Σελονία"
+ ZSE_ADJECTIVE:0 "Σελονιανή"
+ VAG_NAME:0 "Καρτ-χαδάστ Γάδολ"
+ VAG_ADJECTIVE:0 "Καρτ-χαδάστ Γαδόλικη"
+ ITA_NAME:0 "Τάλι"
+ ITA_ADJECTIVE:0 "Ταλιανοική"
 
