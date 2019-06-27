@@ -57,6 +57,7 @@
   SETTING_GUI_SCALING_TOOLTIP:0 "Controls the scaling of the UI. Useful for higher screen resolutions." 
   # System
   SETTING_MOUSE_PANNING: "Mouse panning"
+  SETTING_MOUSE_PANNING_TOOLTIP:0 "Determines if the Camera can be panned by moving the mouse to the edge of the screen."
   SETTING_SCROLL_SPEED: "Scroll speed"
   SETTING_CAMERA_ROTATION_SPEED: "Camera rotation speed"
   SETTING_ZOOM_SPEED: "Zoom speed"
