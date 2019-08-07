@@ -1,4 +1,4 @@
-﻿l_greek:
+l_greek:
  ### Pharos Lighthouse ###
  dhe_pharos_tooltip:0 "The building of the lighthouse begins."
  dhe_pharos_lighthouse.2.t:0 "Drought Complications"
@@ -141,22 +141,22 @@
  dhe_earthquake.7.t:0 "Memories of the Earthquake"
  dhe_earthquake.7.desc:0 "Several years have passed since the destructive earthquake swallowed large parts of [SCOPE.sP('randomized_country_province').GetName] brutally, and left our nation in ruin. The dark memories of those days still linger deep in our cultural memory, even today the earthquake came up as a topic as politics was discussed, proving once more what an impact it has had on us. When will we leave this catastrophe behind us?"
  dhe_earthquake.7.a:0 "What a tragedy it was..."
- earthquake_historical.tt:0 "Up to #Y 80%#! of the population in #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
- earthquake_major.tt:0 "Up to #Y 40%#! of the population in #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
- earthquake_medium.tt:0 "Up to #Y 20%#! of the population in #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
- earthquake_minor.tt:0 "Up to #Y 10%#! of the population in #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
+ earthquake_historical.tt:0 "Up to #Y 80%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
+ earthquake_major.tt:0 "Up to #Y 40%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
+ earthquake_medium.tt:0 "Up to #Y 20%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
+ earthquake_minor.tt:0 "Up to #Y 10%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the earthquake."
 
  ### Volcanic Eruptions ###
  dhe_volcano.1.t:0 "Volcanic Destruction"
  dhe_volcano.1.desc:0 "A large rumbling sound is the only warning our people receive before [ROOT.GetCountry.Custom('get_nearby_volcano')] erupts, spouting large amounts of ash and lava all across [SCOPE.sP('volcano_city').GetName] and the nearby provinces. Most of those living in the area have little to no time to prepare themselves for the danger, and there is a large number of casualties and destruction across the area.\n\n[SCOPE.sP('volcano_city').GetName] gets entirely buried by the volcanic ash and lava from [ROOT.GetCountry.Custom('get_nearby_volcano')], leaving the area almost uninhabitable. Some people have started wondering if this is some sort of punishment sent by the gods, if we have offended or insulted them in one way or another."
  dhe_volcano.1.a:0 "We must take care of the few that remains."
  dhe_volcano.2.t:0 "Volcanic Destruction"
- dhe_volcano.2.desc:0 "A large rumbling sound is the only warning our people receive before [ROOT.GetCountry.Custom('get_nearby_volcano')] erupts, spouting large amounts of ash and lava all across the nearby city of [SCOPE.sP('volcano_city').GetName] in [SCOPE.sP('volcano_city').GetOwner.GetName]. Several of our cities in the vicinity of the volcano is ruined and damaged by the eruption, and we are given a report of a huge number of casualties.\n\nWith [SCOPE.sP('volcano_city').GetName] almost entirely buried by volcanic ash and lava, some have started wondering if this is a punishment sent by the gods to punish [SCOPE.sP('volcano_city').GetOwner.GetName]."
+ dhe_volcano.2.desc:0 "A large rumbling sound is the only warning our people receive before [ROOT.GetCountry.Custom('get_nearby_volcano')] erupts, spouting large amounts of ash and lava all across the nearby city of [SCOPE.sP('volcano_city').GetName] in [SCOPE.sP('volcano_city').GetOwner.GetName]. Several of our cities in the vicinity of the volcano are ruined and damaged by the eruption, and we are given a report of a huge number of casualties.\n\nWith [SCOPE.sP('volcano_city').GetName] almost entirely buried by volcanic ash and lava, some have started wondering if this is a punishment sent by the gods to discipline [SCOPE.sP('volcano_city').GetOwner.GetName]."
  dhe_volcano.2.a:0 "We need to help these survivors."
- volcano_historical.tt:0 "Up to #Y 80%#! of the population in #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
- volcano_major.tt:0 "Up to #Y 40%#! of the population #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
- volcano_medium.tt:0 "Up to #Y 20%#! of the population #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
- volcano_minor.tt:0 "Up to #Y 10%#! of the population #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
+ volcano_historical.tt:0 "Up to #Y 80%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
+ volcano_major.tt:0 "Up to #Y 40%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
+ volcano_medium.tt:0 "Up to #Y 20%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
+ volcano_minor.tt:0 "Up to #Y 10%#! of the population of #Y [THIS.GetProvince.GetName]#! is killed by the volcanic eruption."
 
  ### Cult of Fortune ###
  cult_of_fortune_tooltip:0 "The cult of fortune settles down in [SCOPE.sP('randomized_country_province').GetName]."
